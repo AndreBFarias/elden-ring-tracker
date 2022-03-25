@@ -1,0 +1,12 @@
+[
+  {"name": "Stormveil Castle", "type": "legacy_dungeon", "region": "surface", "pos_x": 2400.0, "pos_y": 3300.0},
+  {"name": "Raya Lucaria Academy", "type": "legacy_dungeon", "region": "surface", "pos_x": 2000.0, "pos_y": 2500.0},
+  {"name": "Volcano Manor", "type": "legacy_dungeon", "region": "surface", "pos_x": 1300.0, "pos_y": 2100.0},
+  {"name": "Leyndell, Royal Capital", "type": "legacy_dungeon", "region": "surface", "pos_x": 3200.0, "pos_y": 2300.0},
+  {"name": "Miquella's Haligtree", "type": "legacy_dungeon", "region": "surface", "pos_x": 900.0, "pos_y": 600.0},
+  {"name": "Limgrave Tunnels", "type": "tunnel", "region": "surface", "pos_x": 3000.0, "pos_y": 4500.0},
+  {"name": "Murkwater Cave", "type": "cave", "region": "surface", "pos_x": 2600.0, "pos_y": 4000.0},
+  {"name": "Stormfoot Catacombs", "type": "catacomb", "region": "surface", "pos_x": 2400.0, "pos_y": 4400.0},
+  {"name": "Waypoint Ruins", "type": "minor_dungeon", "region": "surface", "pos_x": 3100.0, "pos_y": 4400.0},
+  {"name": "Weeping Evergaol", "type": "evergaol", "region": "surface", "pos_x": 2700.0, "pos_y": 5400.0}
+]

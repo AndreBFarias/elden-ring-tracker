@@ -1,0 +1,37 @@
+# Caches
+__pycache__/
+*.py[cod]
+node_modules/
+venv/
+.venv/
+
+# Logs e dados
+logs/
+*.log
+
+# Secrets
+.env
+*.key
+*.pem
+.git-credentials
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Projeto-especificas
+data/raw_saves
+data/tracker.db
+.streamlit/secrets.toml
+assets/cache/
+assets/icons/
+
+# Imagens upscaled (geradas, grandes demais para git)
+assets/map_tiles/*_upscaled.*
+# Pesos de modelos de ML
+assets/models/

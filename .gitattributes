@@ -1,0 +1,2 @@
+assets/map_tiles/*.png filter=lfs diff=lfs merge=lfs -text
+assets/map_tiles/*.webp filter=lfs diff=lfs merge=lfs -text
