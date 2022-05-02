@@ -16,18 +16,20 @@ LOG_DIR = PROJECT_ROOT / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 logger = logging.getLogger("elden_tracker.upscale")
-logger.setLevel(logging.DEBUG)
+if not logger.handlers:
+    logger.setLevel(logging.DEBUG)
+    _handler = RotatingFileHandler(
+        LOG_DIR / "tracker.log",
+        maxBytes=5 * 1024 * 1024,
+        backupCount=3,
+        encoding="utf-8",
+    )
+    _handler.setFormatter(
+        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    )
+    logger.addHandler(_handler)
 
-_handler = RotatingFileHandler(
-    LOG_DIR / "tracker.log",
-    maxBytes=5 * 1024 * 1024,
-    backupCount=3,
-    encoding="utf-8",
-)
-_handler.setFormatter(
-    logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-)
-logger.addHandler(_handler)
+TARGET_SIZE = (3040, 3165)
 
 REGION_CONFIG = {
     "underground": {
@@ -39,26 +41,13 @@ REGION_CONFIG = {
             "/v0.1.0/RealESRGAN_x4plus.pth"
         ),
         "scale": 4,
-    },
-    "dlc": {
-        "input": "dlc.png",
-        "output": "dlc_upscaled.png",
-        "model_name": "RealESRGAN_x2plus.pth",
-        "model_url": (
-            "https://github.com/xinntao/Real-ESRGAN/releases/download"
-            "/v0.2.1/RealESRGAN_x2plus.pth"
-        ),
-        "scale": 2,
+        "target_size": TARGET_SIZE,
     },
     "surface": {
         "input": "base.png",
         "output": "surface_upscaled.png",
-        "model_name": "RealESRGAN_x2plus.pth",
-        "model_url": (
-            "https://github.com/xinntao/Real-ESRGAN/releases/download"
-            "/v0.2.1/RealESRGAN_x2plus.pth"
-        ),
-        "scale": 2,
+        "resize_only": True,
+        "target_size": TARGET_SIZE,
     },
 }
 
@@ -90,7 +79,8 @@ def _download_model(name: str, url: str) -> Path:
                     logger.info("  %.1f%% (%d / %d bytes)", pct, downloaded, total)
         tmp.rename(dest)
         logger.info("Download concluido: %s (%.1f MB)", name, dest.stat().st_size / 1024 / 1024)
-    except Exception:
+    except Exception as exc:
+        logger.error("Falha ao baixar modelo: %s", exc)
         if tmp.exists():
             tmp.unlink()
         raise
@@ -214,20 +204,22 @@ def _upscale_image(
     tile_size: int,
     overlap: int,
     device: str,
+    target_size: tuple[int, int] | None = None,
 ) -> None:
     logger.info("Abrindo imagem: %s", input_path)
-    img = Image.open(str(input_path))
-    has_alpha = img.mode == "RGBA"
+    with Image.open(str(input_path)) as img:
+        has_alpha = img.mode == "RGBA"
 
-    if has_alpha:
-        logger.info("Imagem RGBA detectada - separando canal alpha")
-        alpha = img.split()[3]
-        rgb = img.convert("RGB")
-    else:
-        rgb = img.convert("RGB")
-        alpha = None
+        if has_alpha:
+            logger.info("Imagem RGBA detectada - separando canal alpha")
+            alpha = img.split()[3].copy()
+            rgb = img.convert("RGB")
+        else:
+            rgb = img.convert("RGB")
+            alpha = None
 
-    rgb_np = np.array(rgb)
+        rgb_np = np.array(rgb)
+
     logger.info("Dimensoes de entrada: %dx%d", rgb_np.shape[1], rgb_np.shape[0])
 
     result_np = _upscale_tiled(model, rgb_np, scale, tile_size, overlap, device)
@@ -241,16 +233,35 @@ def _upscale_image(
         result_img.putalpha(alpha_up)
         logger.info("Canal alpha recomposto via NEAREST")
 
+    if target_size:
+        logger.info("Redimensionando para %dx%d via LANCZOS", target_size[0], target_size[1])
+        result_img = result_img.resize(target_size, Image.LANCZOS)
+
     result_img.save(str(output_path), "PNG", optimize=True)
+    size_mb = output_path.stat().st_size / 1024 / 1024
+    logger.info("Salvo: %s (%.1f MB)", output_path, size_mb)
+
+
+def _resize_image(
+    input_path: Path,
+    output_path: Path,
+    target_size: tuple[int, int],
+) -> None:
+    Image.MAX_IMAGE_PIXELS = None
+    logger.info("Redimensionando %s para %dx%d via LANCZOS", input_path.name, target_size[0], target_size[1])
+    with Image.open(str(input_path)) as img:
+        logger.info("Dimensoes de entrada: %dx%d", img.width, img.height)
+        result = img.resize(target_size, Image.LANCZOS)
+    result.save(str(output_path), "PNG", optimize=True)
     size_mb = output_path.stat().st_size / 1024 / 1024
     logger.info("Salvo: %s (%.1f MB)", output_path, size_mb)
 
 
 def _lanczos_fallback(input_path: Path, output_path: Path, scale: int) -> None:
     logger.info("Fallback LANCZOS: %s (escala %dx)", input_path.name, scale)
-    img = Image.open(str(input_path))
-    new_size = (img.width * scale, img.height * scale)
-    result = img.resize(new_size, Image.LANCZOS)
+    with Image.open(str(input_path)) as img:
+        new_size = (img.width * scale, img.height * scale)
+        result = img.resize(new_size, Image.LANCZOS)
     result.save(str(output_path), "PNG", optimize=True)
     size_mb = output_path.stat().st_size / 1024 / 1024
     logger.info("Fallback salvo: %s (%.1f MB)", output_path, size_mb)
@@ -274,18 +285,18 @@ def main() -> None:
         "--tile-size",
         type=int,
         default=512,
-        help="Tamanho dos tiles para inferencia (padrao: 512)",
+        help="Tamanho dos tiles para inferência (padrão: 512)",
     )
     parser.add_argument(
         "--overlap",
         type=int,
         default=32,
-        help="Sobreposicao entre tiles em pixels (padrao: 32)",
+        help="Sobreposição entre tiles em pixels (padrão: 32)",
     )
     parser.add_argument(
         "--force",
         action="store_true",
-        help="Reprocessar mesmo se a imagem upscaled ja existe",
+        help="Reprocessar mesmo se a imagem upscaled já existe",
     )
     args = parser.parse_args()
 
@@ -306,9 +317,9 @@ def main() -> None:
                 vram = torch.cuda.get_device_properties(0).total_memory / 1024 / 1024 / 1024
                 logger.info("GPU detectada: %s (%.2f GB VRAM)", gpu_name, vram)
             else:
-                logger.warning("CUDA nao disponivel, usando CPU (sera lento)")
+                logger.warning("CUDA não disponível, usando CPU (será lento)")
         except ImportError:
-            logger.warning("PyTorch nao instalado, usando fallback LANCZOS")
+            logger.warning("PyTorch não instalado, usando fallback LANCZOS")
             args.fallback = True
 
     loaded_models: dict[str, object] = {}
@@ -319,21 +330,23 @@ def main() -> None:
         output_path = MAP_TILES_DIR / config["output"]
 
         if output_path.exists() and not args.force:
-            logger.info("Imagem upscaled ja existe: %s (use --force para reprocessar)", output_path)
+            logger.info("Imagem upscaled já existe: %s (use --force para reprocessar)", output_path)
             continue
 
         if not input_path.exists():
-            logger.error("Imagem de entrada nao encontrada: %s", input_path)
+            logger.error("Imagem de entrada não encontrada: %s", input_path)
             continue
 
-        logger.info("=== Processando regiao: %s ===", region_name)
+        logger.info("=== Processando região: %s ===", region_name)
         logger.info("Entrada: %s", input_path)
-        logger.info("Saida: %s", output_path)
-        logger.info("Escala: %dx", config["scale"])
+        logger.info("Saída: %s", output_path)
 
-        if args.fallback:
+        if config.get("resize_only"):
+            _resize_image(input_path, output_path, config["target_size"])
+        elif args.fallback:
             _lanczos_fallback(input_path, output_path, config["scale"])
         else:
+            logger.info("Escala: %dx", config["scale"])
             model_name = config["model_name"]
             if model_name not in loaded_models:
                 model_path = _download_model(model_name, config["model_url"])
@@ -348,17 +361,18 @@ def main() -> None:
                 args.tile_size,
                 args.overlap,
                 device,
+                target_size=config.get("target_size"),
             )
 
         if device == "cuda":
             import torch
             torch.cuda.empty_cache()
 
-    logger.info("=== Upscale concluido ===")
+    logger.info("=== Upscale concluído ===")
 
 
 if __name__ == "__main__":
     main()
 
 
-# "A perfeicao nao e alcancada quando nao ha mais nada a acrescentar, mas quando nao ha mais nada a retirar." -- Antoine de Saint-Exupery
+# "A perfeição não é alcançada quando não há mais nada a acrescentar, mas quando não há mais nada a retirar." -- Antoine de Saint-Exupéry

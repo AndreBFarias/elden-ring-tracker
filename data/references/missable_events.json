@@ -1,0 +1,202 @@
+[
+  {
+    "event_id": "volcano_manor_contracts",
+    "name": "Contratos de Volcano Manor",
+    "description": "Completar todos os contratos de assassinato para Tanith antes de matar Rykard.",
+    "loss_condition": "Derrotar Rykard, Lord of Blasphemy antes de completar os contratos",
+    "related_npc": "Tanith",
+    "severity": "critical",
+    "region": "surface",
+    "loss_boss_flags": [9122]
+  },
+  {
+    "event_id": "goldmask_questline",
+    "name": "Questline de Goldmask",
+    "description": "Completar a questline de Goldmask/Corhyn para obter a Mending Rune of Perfect Order.",
+    "loss_condition": "Queimar a Erdtree antes de completar a questline",
+    "related_npc": "Goldmask",
+    "severity": "critical",
+    "region": "surface",
+    "loss_boss_flags": [9131]
+  },
+  {
+    "event_id": "fia_questline",
+    "name": "Questline de Fia",
+    "description": "Completar a questline de Fia para obter a Mending Rune of the Death-Prince.",
+    "loss_condition": "Queimar a Erdtree antes de entregar todos os Deathroot e completar os passos",
+    "related_npc": "Fia",
+    "severity": "critical",
+    "region": "underground",
+    "loss_boss_flags": [9131]
+  },
+  {
+    "event_id": "dung_eater_questline",
+    "name": "Questline do Dung Eater",
+    "description": "Completar a questline do Dung Eater para obter a Mending Rune of the Fell Curse.",
+    "loss_condition": "Queimar a Erdtree antes de coletar todos os Seedbed Curse necessarios",
+    "related_npc": "Dung Eater",
+    "severity": "critical",
+    "region": "surface",
+    "loss_boss_flags": [9131]
+  },
+  {
+    "event_id": "hyetta_three_fingers",
+    "name": "Questline de Hyetta / Tres Dedos",
+    "description": "Seguir Hyetta ate os Three Fingers para desbloquear o final Lord of Frenzied Flame.",
+    "loss_condition": "Matar Hyetta ou avancar demais sem entregar as Shabriri Grapes",
+    "related_npc": "Hyetta",
+    "severity": "critical",
+    "region": "surface",
+    "loss_boss_flags": [9131]
+  },
+  {
+    "event_id": "ranni_questline",
+    "name": "Questline de Ranni",
+    "description": "Completar a longa questline de Ranni para obter o final Age of the Stars.",
+    "loss_condition": "Nao iniciar antes de queimar a Erdtree; requer multiplas etapas em ordem",
+    "related_npc": "Ranni",
+    "severity": "critical",
+    "region": "underground",
+    "loss_boss_flags": [9131]
+  },
+  {
+    "event_id": "millicent_questline",
+    "name": "Questline de Millicent",
+    "description": "Acompanhar Millicent desde Caelid ate o Haligtree para obter a Rotten Winged Sword Insignia.",
+    "loss_condition": "Nao entregar a Unalloyed Gold Needle em Caelid ou perder janela de invocacao",
+    "related_npc": "Millicent",
+    "severity": "moderate",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "nepheli_kenneth_gostoc",
+    "name": "Questline de Nepheli/Kenneth/Gostoc",
+    "description": "Completar as questlines interligadas para que Nepheli se torne senhora de Stormveil.",
+    "loss_condition": "Derrotar Morgott antes de completar os passos necessarios",
+    "related_npc": "Nepheli Loux",
+    "severity": "moderate",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "sellen_questline",
+    "name": "Questline de Sellen",
+    "description": "Completar a questline de Sellen para obter feiticos raros e a Witch's Glintstone Crown.",
+    "loss_condition": "Matar Sellen ou nao encontrar seu corpo real antes de eventos chave",
+    "related_npc": "Sellen",
+    "severity": "moderate",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "alexander_questline",
+    "name": "Questline de Alexander (Warrior Jar)",
+    "description": "Acompanhar Alexander desde Limgrave ate o Crumbling Farum Azula.",
+    "loss_condition": "Nao interagir com Alexander em cada localizacao antes de avancar",
+    "related_npc": "Iron Fist Alexander",
+    "severity": "moderate",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "patches_questline",
+    "name": "Questline de Patches",
+    "description": "Poupar Patches e seguir sua questline atraves de multiplas localidades.",
+    "loss_condition": "Matar Patches quando ele se rende em Murkwater Cave",
+    "related_npc": "Patches",
+    "severity": "minor",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "diallos_jar_bairn",
+    "name": "Questline de Diallos/Jar-Bairn",
+    "description": "Completar a questline de Diallos ate Jarburg para resolver o destino de Jar-Bairn.",
+    "loss_condition": "Nao visitar Jarburg entre os eventos chave da main quest",
+    "related_npc": "Diallos",
+    "severity": "minor",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "bernahl_questline",
+    "name": "Questline de Bernahl (Recusant)",
+    "description": "Completar os contratos de Bernahl em Volcano Manor para obter a Devourer's Scepter.",
+    "loss_condition": "Derrotar Rykard antes de completar os contratos de Bernahl",
+    "related_npc": "Knight Bernahl",
+    "severity": "moderate",
+    "region": "surface",
+    "loss_boss_flags": [9122]
+  },
+  {
+    "event_id": "yura_shabiri_questline",
+    "name": "Questline de Yura/Shabiri",
+    "description": "Seguir Yura pelos duelos e encontrar Shabiri no Mountaintops of the Giants.",
+    "loss_condition": "Nao ajudar Yura nos duelos antes de avancar nas regioes",
+    "related_npc": "Bloody Finger Hunter Yura",
+    "severity": "minor",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "rogier_questline",
+    "name": "Questline de Rogier",
+    "description": "Completar a investigacao de Rogier sobre a Noite das Facas Negras.",
+    "loss_condition": "Nao falar com Rogier em Stormveil antes de derrotar Godrick",
+    "related_npc": "Rogier",
+    "severity": "minor",
+    "region": "surface",
+    "loss_boss_flags": [9101]
+  },
+  {
+    "event_id": "boc_questline",
+    "name": "Questline de Boc",
+    "description": "Ajudar Boc o Costureiro e decidir seu destino.",
+    "loss_condition": "Dar a Larval Tear para Boc (causa sua morte)",
+    "related_npc": "Boc the Seamster",
+    "severity": "minor",
+    "region": "surface",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "dlc_thiollier",
+    "name": "Questline de Thiollier (DLC)",
+    "description": "Completar a questline de Thiollier relacionada a St. Trina.",
+    "loss_condition": "Nao entregar o veneno antes do confronto final",
+    "related_npc": "Thiollier",
+    "severity": "critical",
+    "region": "dlc",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "dlc_ansbach",
+    "name": "Questline de Ansbach (DLC)",
+    "description": "Completar a questline de Ansbach para obter seu equipamento e assistencia no boss final.",
+    "loss_condition": "Derrotar Radahn Consort antes de completar os passos de Ansbach",
+    "related_npc": "Ansbach",
+    "severity": "critical",
+    "region": "dlc",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "dlc_hornsent",
+    "name": "Questline do Hornsent (DLC)",
+    "description": "Seguir o Hornsent e tomar a decisao de trair ou ajudar.",
+    "loss_condition": "Avancar demais na Shadow Keep sem resolver o destino do Hornsent",
+    "related_npc": "Hornsent",
+    "severity": "moderate",
+    "region": "dlc",
+    "loss_boss_flags": []
+  },
+  {
+    "event_id": "dlc_igon",
+    "name": "Questline de Igon (DLC)",
+    "description": "Encontrar Igon e invocar sua ajuda contra Bayle the Dread.",
+    "loss_condition": "Derrotar Bayle sem ter encontrado Igon previamente",
+    "related_npc": "Igon",
+    "severity": "moderate",
+    "region": "dlc",
+    "loss_boss_flags": [9163]
+  }
+]

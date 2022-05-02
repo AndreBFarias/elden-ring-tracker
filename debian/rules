@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+INSTALL_DIR = /opt/elden-ring-tracker
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -d $(DESTDIR)$(INSTALL_DIR)
+	cp -r src $(DESTDIR)$(INSTALL_DIR)/
+	cp -r data $(DESTDIR)$(INSTALL_DIR)/
+	cp -r assets $(DESTDIR)$(INSTALL_DIR)/
+	cp -r scripts $(DESTDIR)$(INSTALL_DIR)/
+	cp requirements.txt $(DESTDIR)$(INSTALL_DIR)/
+	cp .python-version $(DESTDIR)$(INSTALL_DIR)/
+	cp pyproject.toml $(DESTDIR)$(INSTALL_DIR)/
+	cp setup.sh $(DESTDIR)$(INSTALL_DIR)/
+	cp run.sh $(DESTDIR)$(INSTALL_DIR)/
+	cp Makefile $(DESTDIR)$(INSTALL_DIR)/
+	cp elden-ring-tracker.desktop $(DESTDIR)$(INSTALL_DIR)/
+	install -d $(DESTDIR)/usr/share/applications
+	cp elden-ring-tracker.desktop $(DESTDIR)/usr/share/applications/
+	install -d $(DESTDIR)/usr/share/pixmaps
+	cp assets/icons/icon.png $(DESTDIR)/usr/share/pixmaps/elden-ring-tracker.png

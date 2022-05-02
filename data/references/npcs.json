@@ -1,0 +1,1782 @@
+[
+  {
+    "name": "Count Ymir",
+    "lat": -131.97135412693024,
+    "lng": 138.41796875,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Dragon Communion Priestess",
+    "lat": -168.8515625,
+    "lng": 131.2461010132687,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Dryleaf Dane",
+    "lat": -134.984375,
+    "lng": 127.9964893015445,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Fire Knight Queelign (NPC)",
+    "lat": -118.53125,
+    "lng": 130.4022880586273,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Freyja",
+    "lat": -148.390625,
+    "lng": 110.59005651960337,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Ghost",
+    "lat": -157.28125,
+    "lng": 114.83961098862183,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Ghost",
+    "lat": -154.125,
+    "lng": 115.52727092282032,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hornsent",
+    "lat": -148.703125,
+    "lng": 110.30875511218241,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hornsent",
+    "lat": -115.03932297229767,
+    "lng": 126.31676031214977,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hornsent (2nd Location)",
+    "lat": -134.65885412693024,
+    "lng": 122.40234375,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hornsent Grandam - Belurat Tower Settlement",
+    "lat": -143.375,
+    "lng": 100.87135950018457,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Igon",
+    "lat": -163.453125,
+    "lng": 146.41235531141479,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Igon - Ruined Forge Lava Intake",
+    "lat": -148.12760412693024,
+    "lng": 120.93359375,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Jolan",
+    "lat": -131.72343754768372,
+    "lng": 138.21471675633055,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Moore - Belurat Tower Settlement",
+    "lat": -147.4375,
+    "lng": 102.0741430668525,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Needle Knight Leda (2nd Location)",
+    "lat": -135.29947912693024,
+    "lng": 122.11328125,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Redmane Freyja",
+    "lat": -116.421875,
+    "lng": 128.3947768632334,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sir Ansbach",
+    "lat": -115.92578125,
+    "lng": 129.33223189050196,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sir Ansbach - Belurat Tower Settlement",
+    "lat": -147.5546875,
+    "lng": 102.34763894633042,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sir Ansbach - Enir-Ilim",
+    "lat": -139.56132817268372,
+    "lng": 97.92588490894222,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "St. Trina - Stone Coffin Fissure",
+    "lat": -187.328125,
+    "lng": 125.12905984677067,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Thiollier",
+    "lat": -145.921875,
+    "lng": 123.87829221691646,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Thiollier (2nd Location)  - Stone Coffin Fissure",
+    "lat": -187.70572912693024,
+    "lng": 125.12109375,
+    "region": "dlc",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Ancient Dragon-Man - Ruined Forge Lava Intake",
+    "lat": -150.61197912693024,
+    "lng": 119.65234375,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Dryleaf Dane - Enir-Ilim",
+    "lat": -140.90507817268372,
+    "lng": 96.62911007022524,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Fire Knight Queelign",
+    "lat": -127.3671875,
+    "lng": 116.76196579121734,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Fire Knight Queelign - Belurat Tower Settlement",
+    "lat": -141.04166662693024,
+    "lng": 102.69140625,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Greater Potentate",
+    "lat": -138.08738554910502,
+    "lng": 132.25775378532182,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Greater Potentate",
+    "lat": -137.41666662693024,
+    "lng": 134.26953125,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Greater Potentate",
+    "lat": -136.71354162693024,
+    "lng": 134.25390625,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hornsent",
+    "lat": -125.41289067268372,
+    "lng": 97.2775368386592,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Logur, the Beast Claw",
+    "lat": -162.7890625,
+    "lng": 116.05818017093462,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Madding Hand (NPC)",
+    "lat": -151.6640625,
+    "lng": 145.35578719041308,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Moonrithyll, Carian Knight",
+    "lat": -139.2578125,
+    "lng": 118.94193603203254,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Moore (Enemy) - Enir-Ilim",
+    "lat": -141.33476567268372,
+    "lng": 95.98068648151454,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Needle Knight Leda - Enir-Ilim",
+    "lat": -141.3046875,
+    "lng": 94.8087377336209,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Redmane Freyja - Enir-Ilim",
+    "lat": -140.92070317268372,
+    "lng": 95.8478807384265,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Swordhand of Night Anna",
+    "lat": -128.80312502384186,
+    "lng": 137.81260550015926,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Swordhand of Night Jolan",
+    "lat": -131.8515625,
+    "lng": 138.7889829431825,
+    "region": "dlc",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Brother Corhyn",
+    "lat": -104,
+    "lng": 116,
+    "region": "extra",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Albus",
+    "lat": -160.546875,
+    "lng": 52.830715,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bernahl (First Location)",
+    "lat": -179.475,
+    "lng": 100.580677,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bernahl (Second Location)",
+    "lat": -88.132813,
+    "lng": 64.516373,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blackguard  (Second Location)",
+    "lat": -93.179,
+    "lng": 113.933,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blackguard Big Boggart",
+    "lat": -151.88,
+    "lng": 67.387,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blaidd (1st location)",
+    "lat": -189.739063,
+    "lng": 118.792343,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blaidd (2nd Location)",
+    "lat": -203.34,
+    "lng": 114.33,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blaidd (Ranni's Quest - Second Location)",
+    "lat": -192.02344,
+    "lng": 159.22308,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blaidd (Spectral)",
+    "lat": -106.120313,
+    "lng": 49.237202,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Hunter Yura (First Location)",
+    "lat": -198.039062,
+    "lng": 108.340774,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Hunter Yura (Fourth Location)",
+    "lat": -92.773437,
+    "lng": 82.566653,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Hunter Yura (Second Location)",
+    "lat": -182.164062,
+    "lng": 110.970145,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Hunter Yura (Third Location)",
+    "lat": -131.0,
+    "lng": 56.26,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Boc the Seamster (Fifth Location)",
+    "lat": -100.307075,
+    "lng": 85.852585,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Boc the Seamster (First Location)",
+    "lat": -188.351562,
+    "lng": 107.571681,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Boc the Seamster (Fourth Location)",
+    "lat": -122.351562,
+    "lng": 61.637186,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Boc the Seamster (Second Location)",
+    "lat": -194.5,
+    "lng": 96.684138,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Boc the Seamster (Sixth Location)",
+    "lat": -99.965625,
+    "lng": 118.906617,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Boc the Seamster (Third Location)",
+    "lat": -171.125,
+    "lng": 81.71467,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Brother Corhyn (First Location)",
+    "lat": -97.017187,
+    "lng": 85.484137,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Brother Corhyn (Fourth Location)",
+    "lat": -70.05469,
+    "lng": 154.99677,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Brother Corhyn (Third Location)",
+    "lat": -108.015,
+    "lng": 113.26228,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "D, Hunter of the Dead",
+    "lat": -175.21875,
+    "lng": 113.59036,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "D, Hunter of the Dead (Second Location)",
+    "lat": -175.796,
+    "lng": 117.133,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Diallos",
+    "lat": -143.0156,
+    "lng": 68.55965,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Diallos - Jarburg",
+    "lat": -145.068,
+    "lng": 83.07,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Dung Eater (Subterranean Shunning-Grounds)",
+    "lat": -100.429688,
+    "lng": 115.067746,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Edgar (First Location)",
+    "lat": -226.307812,
+    "lng": 109.792663,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Finger Reader (Academy Bridge)",
+    "lat": -144.5625,
+    "lng": 62.801209,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Finger Reader (Altus Plateau)",
+    "lat": -90.61,
+    "lng": 91.42,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Finger Reader (Caelid)",
+    "lat": -174.71875,
+    "lng": 136.97743,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Finger Reader (Collapsed Bridge)",
+    "lat": -174.90625,
+    "lng": 92.055471,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Finger Reader (Grand Lift of Rold)",
+    "lat": -92.45,
+    "lng": 142.19,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Finger Reader (Leyndell Capital City)",
+    "lat": -96.285938,
+    "lng": 104.177196,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Frustrated Spirit",
+    "lat": -172.046875,
+    "lng": 99.555399,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Gatekeeper Gostoc",
+    "lat": -181.578125,
+    "lng": 89.153153,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Goldmask",
+    "lat": -81.029687,
+    "lng": 90.426378,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Goldmask (Second Location)",
+    "lat": -108.273,
+    "lng": 113.75499,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Gowry",
+    "lat": -180.14375,
+    "lng": 149.06808,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Gurranq, Beast Clergyman",
+    "lat": -149.664062,
+    "lng": 154.8252,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hermit Merchant",
+    "lat": -87.92,
+    "lng": 107.11,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hyetta (First Location)",
+    "lat": -170.664062,
+    "lng": 82.347445,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hyetta (Fourth location)",
+    "lat": -114.96,
+    "lng": 64.56,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hyetta (Second Location)",
+    "lat": -160.725,
+    "lng": 77.858532,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Hyetta (Third Location)",
+    "lat": -149.59,
+    "lng": 78.18,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Irina (First Location)",
+    "lat": -207.28125,
+    "lng": 117.402738,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Iron Fist Alexander (Fifth Location)",
+    "lat": -147.031,
+    "lng": 81.906,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Iron Fist Alexander (First Location)",
+    "lat": -175.859375,
+    "lng": 107.059972,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Iron Fist Alexander (Fourth Location)",
+    "lat": -183.375,
+    "lng": 161.75,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Iron Fist Alexander (Second Location)",
+    "lat": -173.067188,
+    "lng": 125.779343,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Iron Fist Alexander (Sixth Location)",
+    "lat": -90.796,
+    "lng": 58.695,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Iron Fist Alexander (Third Location)",
+    "lat": -193.10156,
+    "lng": 158.67719,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Isolated Merchant",
+    "lat": -215.546875,
+    "lng": 94.177495,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Isolated Merchant (Raya Lucaria)",
+    "lat": -137.61,
+    "lng": 60.08,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Isolated Merchant Dragonbarrow",
+    "lat": -164.625,
+    "lng": 135.948082,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Jar Bairn",
+    "lat": -145.367187,
+    "lng": 83.191748,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Kenneth Haight (First Location)",
+    "lat": -182.46875,
+    "lng": 117.305543,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Kenneth Haight (Second Location)",
+    "lat": -193.515625,
+    "lng": 126.072678,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Latenna",
+    "lat": -164.57,
+    "lng": 67.65,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Merchant Kal",
+    "lat": -191.1875,
+    "lng": 100.041878,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Millicent (First Location)",
+    "lat": -177.6875,
+    "lng": 150.70431,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Millicent (Fourth Location)",
+    "lat": -76.82,
+    "lng": 99.95,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Millicent (Second Location)",
+    "lat": -181.29687,
+    "lng": 149.12959,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Millicent (Third Location)",
+    "lat": -97.914062,
+    "lng": 75.558451,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Miriel, Pastor of Vows",
+    "lat": -132.070312,
+    "lng": 69.543584,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nepheli Loux (First Location)",
+    "lat": -177.0625,
+    "lng": 87.08699,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nepheli Loux (Second Location)",
+    "lat": -160.312499,
+    "lng": 51.437183,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant Caelid South",
+    "lat": -187.975001,
+    "lng": 143.226132,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant Castle Morne Rampart",
+    "lat": -215.457813,
+    "lng": 115.302844,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant East Limgrave",
+    "lat": -192.109375,
+    "lng": 120.629633,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant Liurnia of the Lakes",
+    "lat": -166.823437,
+    "lng": 77.24144,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant Mountaintops East",
+    "lat": -71.385938,
+    "lng": 155.706062,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant Mt. Gelmir",
+    "lat": -80.8125,
+    "lng": 70.236035,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant North Limgrave",
+    "lat": -176.367187,
+    "lng": 111.488702,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant North Liurnia of the Lakes",
+    "lat": -113.40625,
+    "lng": 64.55834,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant West Altus Plateau",
+    "lat": -90.5625,
+    "lng": 90.852973,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nomadic Merchant West Limgrave",
+    "lat": -196.5,
+    "lng": 97.660389,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Patches (First Location)",
+    "lat": -155.734375,
+    "lng": 67.36839,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Patches (Second Location)",
+    "lat": -83.84,
+    "lng": 72.576,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Patches (Third Location)",
+    "lat": -86.359375,
+    "lng": 64.480452,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Pidia, Carian Servant",
+    "lat": -107.4,
+    "lng": 55.6,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Primeval Sorcerer Azur",
+    "lat": -89.71875,
+    "lng": 70.272964,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Renna",
+    "lat": -191.34375,
+    "lng": 98.260311,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Roderika",
+    "lat": -180.710937,
+    "lng": 95.715303,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Rya (First Location)",
+    "lat": -155.906,
+    "lng": 71.47457,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Rya (Second Location A)",
+    "lat": -99.328,
+    "lng": 75.724,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Rya (Second Location B)",
+    "lat": -107.328,
+    "lng": 78.131,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Rya (Second Location)",
+    "lat": -87.734375,
+    "lng": 64.524189,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Seluvis",
+    "lat": -109.334375,
+    "lng": 53.46347,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Seluvis (Spectral)",
+    "lat": -107.117187,
+    "lng": 49.705856,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Shabriri",
+    "lat": -85.69,
+    "lng": 146.57,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Smithing Master Iji (Spectral)",
+    "lat": -106.478125,
+    "lng": 48.644931,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sorcerer Rogier (First Location)",
+    "lat": -177.660938,
+    "lng": 85.012938,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sorceress Sellen (First Location)",
+    "lat": -193.273437,
+    "lng": 114.989218,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sorceress Sellen (Second Location)",
+    "lat": -213.140625,
+    "lng": 94.962104,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sorceress Sellen (Third Location)",
+    "lat": -105.8,
+    "lng": 51.5,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Tanith",
+    "lat": -86.085,
+    "lng": 64.855,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "The Great-Jar",
+    "lat": -159.92969,
+    "lng": 131.75394,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Thops",
+    "lat": -172.570312,
+    "lng": 81.261571,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Thops (Deceased)",
+    "lat": -137.929687,
+    "lng": 58.451599,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Wandering Merchant Caelid Highway North",
+    "lat": -181.64062,
+    "lng": 136.86799,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "War Counselor Iji",
+    "lat": -114.507812,
+    "lng": 52.44817,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "White-Faced Varre (First Location)",
+    "lat": -194.5,
+    "lng": 100.519948,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "White-Faced Varre (Second Location)",
+    "lat": -146.460937,
+    "lng": 55.940097,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Witch-Hunter Jerren (First Location)",
+    "lat": -191.546875,
+    "lng": 158.437206,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Witch-Hunter Jerren (Second Location)",
+    "lat": -213.023437,
+    "lng": 95.320247,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Witch-Hunter Jerren (Third Location)",
+    "lat": -133.989347,
+    "lng": 55.704126,
+    "region": "surface",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Anastasia, Tarnished-Eater A",
+    "lat": -169.421875,
+    "lng": 123.180173,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Anastasia, Tarnished-Eater B",
+    "lat": -82.70156,
+    "lng": 74.13504,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Nerijus",
+    "lat": -187.29,
+    "lng": 110.082,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Okina",
+    "lat": -89.329861,
+    "lng": 157.920985,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Bloody Finger Ravenmount Assassin",
+    "lat": -131.945312,
+    "lng": 55.672362,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Chief Guardian Arghanthy",
+    "lat": -75.254687,
+    "lng": 161.792274,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Dung Eater (Royal Capital Moat)",
+    "lat": -93.653126,
+    "lng": 115.069298,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Edgar the Revenger",
+    "lat": -143.1375,
+    "lng": 46.430793,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Eleonora, Violet Bloody Finger",
+    "lat": -92.45,
+    "lng": 82.9958,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Festering Fingerprint Vyke",
+    "lat": -115.898437,
+    "lng": 72.033519,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Great Horned Tragoth",
+    "lat": -103.851562,
+    "lng": 68.598363,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Inquisitor Ghiza",
+    "lat": -86.564063,
+    "lng": 64.02746,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Juno Hoslow, Knight of Blood",
+    "lat": -67.542188,
+    "lng": 152.182308,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Maleigh Marais, Shaded Castle Castellan",
+    "lat": -80.71875,
+    "lng": 76.65118,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Millicent (NPC Invader)",
+    "lat": -181.21,
+    "lng": 141.52,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Moongrum, Carian Knight",
+    "lat": -134.789062,
+    "lng": 57.610232,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Old Knight Istvan",
+    "lat": -174.140625,
+    "lng": 99.039358,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Preceptor Miriam",
+    "lat": -142.96875,
+    "lng": 81.002393,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Recusant Bernahl",
+    "lat": -120.359375,
+    "lng": 218.681407,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Recusant Henricus",
+    "lat": -172.71875,
+    "lng": 99.477462,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Rileigh the Idle",
+    "lat": -90.203125,
+    "lng": 80.573071,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Sanguine Noble",
+    "lat": -71.06,
+    "lng": 132.13,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Vargram the Raging Wolf",
+    "lat": -104.12,
+    "lng": 111.92,
+    "region": "surface",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Blaidd (Ranni's Quest - First Location)",
+    "lat": -184.97187,
+    "lng": 136.09082,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "D's Twin Brother",
+    "lat": -171.898,
+    "lng": 136.56653,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Imprisoned Merchant",
+    "lat": -184.157812,
+    "lng": 147.893318,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Nameless White Mask",
+    "lat": -183.28125,
+    "lng": 153.26207,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Palm Reader",
+    "lat": -102.95,
+    "lng": 113.47,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Wandering Merchant Ainsel River",
+    "lat": -127.6875,
+    "lng": 67.278441,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Wandering Merchant Siofra River",
+    "lat": -178.648437,
+    "lng": 134.895772,
+    "region": "underground",
+    "category": "npc",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  },
+  {
+    "name": "Baleful Shadow",
+    "lat": -125.74,
+    "lng": 60.63,
+    "region": "underground",
+    "category": "npc_invader",
+    "npc_id": null,
+    "questline": null,
+    "missable": false
+  }
+]

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Elden Ring Tracker
+Comment=Dashboard interativo para rastrear progresso em Elden Ring
+Exec=run.sh
+Icon=com.github.andrefarias.EldenRingTracker
+Terminal=false
+Categories=Game;Utility;
+Keywords=elden;ring;tracker;souls;
+StartupNotify=false

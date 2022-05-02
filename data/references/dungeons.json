@@ -1,12 +1,2450 @@
 [
-  {"name": "Stormveil Castle", "type": "legacy_dungeon", "region": "surface", "pos_x": 2400.0, "pos_y": 3300.0},
-  {"name": "Raya Lucaria Academy", "type": "legacy_dungeon", "region": "surface", "pos_x": 2000.0, "pos_y": 2500.0},
-  {"name": "Volcano Manor", "type": "legacy_dungeon", "region": "surface", "pos_x": 1300.0, "pos_y": 2100.0},
-  {"name": "Leyndell, Royal Capital", "type": "legacy_dungeon", "region": "surface", "pos_x": 3200.0, "pos_y": 2300.0},
-  {"name": "Miquella's Haligtree", "type": "legacy_dungeon", "region": "surface", "pos_x": 900.0, "pos_y": 600.0},
-  {"name": "Limgrave Tunnels", "type": "tunnel", "region": "surface", "pos_x": 3000.0, "pos_y": 4500.0},
-  {"name": "Murkwater Cave", "type": "cave", "region": "surface", "pos_x": 2600.0, "pos_y": 4000.0},
-  {"name": "Stormfoot Catacombs", "type": "catacomb", "region": "surface", "pos_x": 2400.0, "pos_y": 4400.0},
-  {"name": "Waypoint Ruins", "type": "minor_dungeon", "region": "surface", "pos_x": 3100.0, "pos_y": 4400.0},
-  {"name": "Weeping Evergaol", "type": "evergaol", "region": "surface", "pos_x": 2700.0, "pos_y": 5400.0}
+  {
+    "name": "Abandoned Ailing Village",
+    "lat": -138.8046875,
+    "lng": 110.22877516107658,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Abandoned Church",
+    "lat": -156.3984375,
+    "lng": 150.10564867597333,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Albinauric's Shack",
+    "lat": -109.875,
+    "lng": 125.81661759161945,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Artist's Shack (Gravesite Plain)",
+    "lat": -161.546875,
+    "lng": 111.42567129523853,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Belurat Gaol",
+    "lat": -139.8046875,
+    "lng": 103.66817723565161,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Belurat Tower Settlement",
+    "lat": -144.64732243012725,
+    "lng": 100.30876279182405,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Bonny Gaol",
+    "lat": -144.484375,
+    "lng": 133.79236328481997,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Bonny Village",
+    "lat": -137.8671875,
+    "lng": 133.55877938790897,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Castle Ensis",
+    "lat": -136.81456230882867,
+    "lng": 119.80161440195708,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Cathedral of Manus Metyr",
+    "lat": -130.28125,
+    "lng": 138.54360277485836,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Benediction",
+    "lat": -163.34375,
+    "lng": 110.7537848713672,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Consolation",
+    "lat": -157.45785375625806,
+    "lng": 120.70072420802593,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of the Crusade",
+    "lat": -127.3828125,
+    "lng": 117.12922040646134,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Darklight Catacombs",
+    "lat": -141.015625,
+    "lng": 139.58248392090113,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Dragon's Pit",
+    "lat": -155.6171875,
+    "lng": 120.57428586524401,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Eastern Nameless Mausoleum",
+    "lat": -135.6796875,
+    "lng": 140.05911210816123,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Elder's Hovel",
+    "lat": -147.90625,
+    "lng": 131.51851024150065,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ellac Greatbridge",
+    "lat": -142.765625,
+    "lng": 112.9419503118717,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enir-Ilim",
+    "lat": -133.7109375,
+    "lng": 98.89464263274539,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Finger Ruins of Dheo",
+    "lat": -125.93517534267096,
+    "lng": 154.22091560276036,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Finger Ruins of Miyr",
+    "lat": -127.88621826572229,
+    "lng": 138.16648879123898,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Finger Ruins of Rhia",
+    "lat": -161.8984375,
+    "lng": 136.70723259573205,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Finger-Weaver's Hovel",
+    "lat": -171.1328125,
+    "lng": 127.05877938790897,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fog Rift Catacombs",
+    "lat": -127.7890625,
+    "lng": 114.284516513206,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fog Rift Fort",
+    "lat": -133.86197912693024,
+    "lng": 115.65234375,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fort of Reprimand",
+    "lat": -145.3828125,
+    "lng": 130.0036806285414,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Grand Altar of Dragon Communion",
+    "lat": -168.3828125,
+    "lng": 130.77806202590935,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Lamenter's Gaol",
+    "lat": -161.518481986893,
+    "lng": 112.70067386922388,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Midra's Manse",
+    "lat": -159.88856995660083,
+    "lng": 127.96805735410194,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Moorth Ruins",
+    "lat": -135.8984375,
+    "lng": 129.61424371115885,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Northern Nameless Mausoleum",
+    "lat": -132.5331584478784,
+    "lng": 112.75255709294758,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Prospect Town",
+    "lat": -157.75,
+    "lng": 104.10482044530251,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Rabbath's Rise",
+    "lat": -122.29166662693024,
+    "lng": 143.42578125,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Remembrance Duplication Coffin (Finger Ruins of Dheo)",
+    "lat": -112.546875,
+    "lng": 151.66065890033815,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Remembrance Duplication Coffin (Finger Ruins of Rhia)",
+    "lat": -168.7421875,
+    "lng": 140.94145051750138,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Remembrance Duplication Coffin (Manus Metyr)",
+    "lat": -132.484375,
+    "lng": 137.027564638819,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Rivermouth Cave",
+    "lat": -134.48260148175302,
+    "lng": 108.75256595502395,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ruined Forge Lava Intake",
+    "lat": -147.8359375,
+    "lng": 119.76211001759276,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ruined Forge of Starfall Past",
+    "lat": -140.234375,
+    "lng": 124.09777477266496,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ruins of Unte",
+    "lat": -122.83208802696073,
+    "lng": 133.68053011522085,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Run-Down Traveler's Rest",
+    "lat": -143.4765625,
+    "lng": 111.1900810809267,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Scadutree Chalice",
+    "lat": -105.17774693915602,
+    "lng": 128.86061641011185,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Scorched Ruins",
+    "lat": -155.578125,
+    "lng": 114.88155587415463,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Scorpion River Catacombs",
+    "lat": -124.0546875,
+    "lng": 97.31621299468827,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Shadow Keep",
+    "lat": -118.84231368702888,
+    "lng": 127.52128310203618,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Shaman Village",
+    "lat": -118.80289666756386,
+    "lng": 141.2385163482255,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Southern Nameless Mausoleum",
+    "lat": -175.09216632297876,
+    "lng": 110.45215425605276,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stone Coffin Fissure",
+    "lat": -188.48932772793128,
+    "lng": 118.91627163838359,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Suppressing Pillar",
+    "lat": -155.8359375,
+    "lng": 122.82469712461159,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Taylew's Ruined Forge",
+    "lat": -116.31932093620364,
+    "lng": 121.81211360515383,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Teleportation Coffin",
+    "lat": -121.10416662693024,
+    "lng": 127.94921875,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Temple Town Ruins",
+    "lat": -131.453125,
+    "lng": 107.86729888274539,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Village of Flies",
+    "lat": -140.0703125,
+    "lng": 134.27772502170535,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Waygate",
+    "lat": -135.2265625,
+    "lng": 119.10923262567664,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Western Nameless Mausoleum",
+    "lat": -154.265625,
+    "lng": 107.58959385281484,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Whipping Hut",
+    "lat": -137.3359375,
+    "lng": 137.41097734075123,
+    "region": "dlc",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Auriza Hero's Grave",
+    "lat": -97.578125,
+    "lng": 121.926501,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Auriza Side Tomb",
+    "lat": -93.960937,
+    "lng": 122.481104,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Divine Tower of East Altus",
+    "lat": -110.4375,
+    "lng": 135.793948,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hermit Merchant's Shack",
+    "lat": -88.367187,
+    "lng": 106.434799,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Leyndell, Ashen Capital",
+    "lat": -99.125,
+    "lng": 111.574037,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree",
+    "lat": -90.015625,
+    "lng": 115.62895,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Subterranean Shunning-Grounds",
+    "lat": -101,
+    "lng": 115,
+    "region": "extra",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Abandoned Cave",
+    "lat": -174.25,
+    "lng": 141.34,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Academy Crystal Cave",
+    "lat": -134.909375,
+    "lng": 52.045877,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Academy Gate Town",
+    "lat": -143.335937,
+    "lng": 67.70741,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ailing Village",
+    "lat": -212.8125,
+    "lng": 110.93214,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ainsel River Well",
+    "lat": -130.110938,
+    "lng": 78.354236,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Albinauric Rise",
+    "lat": -71.590625,
+    "lng": 147.910385,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Altus Tunnel",
+    "lat": -93.49,
+    "lng": 93.82,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Apostate Derelict",
+    "lat": -58.32,
+    "lng": 133.1,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Artist's Shack",
+    "lat": -140.773437,
+    "lng": 78.372289,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Artist's Shack (Limgrave)",
+    "lat": -181.68,
+    "lng": 113.93,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Auriza Hero's Grave",
+    "lat": -97.690625,
+    "lng": 121.21238,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Auriza Side Tomb",
+    "lat": -94.543,
+    "lng": 122.5,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Bellum Church",
+    "lat": -115.257812,
+    "lng": 64.188543,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Bestial Sanctum",
+    "lat": -150.54687,
+    "lng": 156.29925,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Black Knife Catacombs",
+    "lat": -117.148437,
+    "lng": 80.909102,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Boilprawn Shack",
+    "lat": -151.515,
+    "lng": 66.84,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Bridge of Sacrifice",
+    "lat": -204.75,
+    "lng": 116.44782,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Caelem Ruins",
+    "lat": -171.626563,
+    "lng": 135.118232,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Caelid Catacombs",
+    "lat": -192.15,
+    "lng": 141.12,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Caelid Waypoint Ruins",
+    "lat": -183.482814,
+    "lng": 133.19739,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Callu Baptismal Church",
+    "lat": -214.40625,
+    "lng": 111.262281,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Caria Manor",
+    "lat": -107.210937,
+    "lng": 57.830831,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Carian Study Hall",
+    "lat": -143.328125,
+    "lng": 81.817762,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Castle Morne",
+    "lat": -224.898437,
+    "lng": 110.691781,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Castle Sol",
+    "lat": -61.921875,
+    "lng": 157.257479,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Cathedral of Dragon Communion",
+    "lat": -191.74,
+    "lng": 139.08,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Cathedral of Manus Celes",
+    "lat": -157.140625,
+    "lng": 55.292812,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Cave of the Forlorn",
+    "lat": -69.14,
+    "lng": 149.3952,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Chapel of Anticipation",
+    "lat": -179.921875,
+    "lng": 78.883837,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Chelona's Rise",
+    "lat": -168.451563,
+    "lng": 45.168583,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Dragon Communion",
+    "lat": -201.242187,
+    "lng": 93.144813,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Elleh",
+    "lat": -192.078125,
+    "lng": 99.395265,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Inhibition",
+    "lat": -114.15625,
+    "lng": 71.8825,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Irith",
+    "lat": -173.140625,
+    "lng": 81.753729,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Pilgrimage",
+    "lat": -203.414062,
+    "lng": 104.654229,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Repose",
+    "lat": -90.208,
+    "lng": 155.64,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of Vows",
+    "lat": -131.53125,
+    "lng": 68.773762,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Church of the Plague",
+    "lat": -178.42187,
+    "lng": 150.72784,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Cliffbottom Catacombs",
+    "lat": -161.757812,
+    "lng": 84.551273,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Coastal Cave",
+    "lat": -194.789062,
+    "lng": 96.230931,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Consecrated Snowfield Catacombs",
+    "lat": -77.8125,
+    "lng": 148.63388,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Converted Fringe Tower",
+    "lat": -118.60937,
+    "lng": 82.02136,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Converted Tower",
+    "lat": -152.390625,
+    "lng": 49.191995,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Corpse-Stench Shack",
+    "lat": -82.07031,
+    "lng": 73.77088,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Craftsman's Shack",
+    "lat": -95.688,
+    "lng": 66.258,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Crumbling Farum Azula",
+    "lat": -126.875,
+    "lng": 218.079582,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Cuckoo's Evergaol",
+    "lat": -139.085937,
+    "lng": 44.416863,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Deathtouched Catacombs",
+    "lat": -174.71875,
+    "lng": 105.106501,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Deep Ainsel Well",
+    "lat": -162.19375,
+    "lng": 50.885515,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Deep Siofra Well",
+    "lat": -169.14375,
+    "lng": 141.942969,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Demi-human Forest Ruins",
+    "lat": -207.921875,
+    "lng": 108.200935,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Divine Tower of Caelid",
+    "lat": -163.832813,
+    "lng": 146.690235,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Divine Tower of East Altus",
+    "lat": -109.68,
+    "lng": 134.781,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Divine Tower of Limgrave",
+    "lat": -167.789062,
+    "lng": 113.980777,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Divine Tower of Liurnia",
+    "lat": -141.585937,
+    "lng": 92.153736,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Divine Tower of West Altus",
+    "lat": -114.390625,
+    "lng": 106.257777,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Dominula, Windmill Village",
+    "lat": -79.820312,
+    "lng": 98.973197,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Dragon-Burnt Ruins",
+    "lat": -194.390625,
+    "lng": 106.661413,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Dragonbarrow Cave",
+    "lat": -166.15625,
+    "lng": 157.538651,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Earthbore Cave",
+    "lat": -207.140625,
+    "lng": 110.929856,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "East Windmill Pasture",
+    "lat": -75.03,
+    "lng": 92.05,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Elphael, Brace of the Haligtree",
+    "lat": -37.79,
+    "lng": 147.1,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enemy Caravan (Aluts Plateau)",
+    "lat": -81.97,
+    "lng": 88.22,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enemy Caravan (Dragonbarrow)",
+    "lat": -168.93,
+    "lng": 133.04,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enemy Caravan (Limgrave)",
+    "lat": -192.7,
+    "lng": 112.54,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enemy Caravan (West Liurnia of the Lakes)",
+    "lat": -124.023437,
+    "lng": 48.261822,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enemy Caravan 1 (Consecrated Snowfield)",
+    "lat": -77.12,
+    "lng": 145.54,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Enemy Caravan 2 (Consecrated Snowfield)",
+    "lat": -76.74,
+    "lng": 139.83,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "First Church of Marika",
+    "lat": -74.21,
+    "lng": 174.57,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Flame Peak",
+    "lat": -90.933041,
+    "lng": 163.646566,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Forest Lookout Tower",
+    "lat": -208.070312,
+    "lng": 113.597761,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Forge of the Giants",
+    "lat": -89.234375,
+    "lng": 173.223795,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Forlorn Hound Evergaol",
+    "lat": -202.796875,
+    "lng": 113.191478,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Forsaken Ruins",
+    "lat": -171.65625,
+    "lng": 129.940183,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fort Faroth",
+    "lat": -172.955695,
+    "lng": 155.477667,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fort Gael",
+    "lat": -182.03125,
+    "lng": 129.113068,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fort Haight",
+    "lat": -194.304687,
+    "lng": 125.418491,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fort Laiedd",
+    "lat": -85.25,
+    "lng": 57.06,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fourth Church of Marika",
+    "lat": -210.789062,
+    "lng": 96.699528,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Frenzied Flame Village",
+    "lat": -119.529687,
+    "lng": 74.800986,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Frenzy-Flaming Tower",
+    "lat": -115.59,
+    "lng": 76.13,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Fringefolk Hero's Grave",
+    "lat": -196.882812,
+    "lng": 101.777823,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Gael Tunnel",
+    "lat": -174.53,
+    "lng": 128.18,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Gaol Cave",
+    "lat": -180.84,
+    "lng": 131.64,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Gatefront Ruins",
+    "lat": -186.59375,
+    "lng": 103.133963,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Gelmir Hero's Grave",
+    "lat": -87.728125,
+    "lng": 72.018504,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Giant-Conquering Hero's Grave",
+    "lat": -85.38125,
+    "lng": 148.533811,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Giants' Mountaintop Catacombs",
+    "lat": -85.40625,
+    "lng": 150.833603,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Golden Lineage Evergaol",
+    "lat": -109.05469,
+    "lng": 80.79178,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Gowry's Shack",
+    "lat": -180.475,
+    "lng": 148.747833,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Grand Lift of Dectus",
+    "lat": -107.643196,
+    "lng": 77.269611,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Grand Lift of Rold",
+    "lat": -89.08,
+    "lng": 143.8,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Groveside Cave",
+    "lat": -188.625,
+    "lng": 99.496922,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Guardians' Garrison",
+    "lat": -74.4,
+    "lng": 161.6,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Heretical Rise",
+    "lat": -65.34375,
+    "lng": 165.120391,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hermit Merchant's Shack",
+    "lat": -88.523,
+    "lng": 106.92,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hermit Village",
+    "lat": -92.734375,
+    "lng": 69.711659,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hermit's Shack",
+    "lat": -93.929687,
+    "lng": 60.846706,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hidden Path to the Haligtree",
+    "lat": -84.89,
+    "lng": 141.81,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Highroad Cave",
+    "lat": -173.015625,
+    "lng": 108.883607,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Highway Lookout Tower",
+    "lat": -153.484375,
+    "lng": 79.095783,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Highway Lookout Tower",
+    "lat": -83.26,
+    "lng": 101.76,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Impaler's Catacombs",
+    "lat": -207.890625,
+    "lng": 118.760731,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Isolated Divine Tower",
+    "lat": -133.68,
+    "lng": 156.126,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Isolated Merchant's Shack (Dragonbarrow)",
+    "lat": -165.114062,
+    "lng": 136.248541,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Isolated Merchant's Shack (Weeping Peninsula)",
+    "lat": -216.351562,
+    "lng": 94.958167,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Jarburg",
+    "lat": -144.89,
+    "lng": 83.71,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Kingsrealm Ruins",
+    "lat": -117.078125,
+    "lng": 52.915288,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Lakeside Crystal Cave",
+    "lat": -162.742187,
+    "lng": 66.660563,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Laskyar Ruins",
+    "lat": -159.4125,
+    "lng": 72.385616,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Lenne's Rise",
+    "lat": -163.59,
+    "lng": 165.3,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Leyndell Catacombs",
+    "lat": -102.54031,
+    "lng": 115.51269,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Leyndell, Royal Capital",
+    "lat": -102.796875,
+    "lng": 114.587958,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Limgrave Tunnels",
+    "lat": -188.28125,
+    "lng": 104.514482,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Lord Contender's Evergaol",
+    "lat": -72.171875,
+    "lng": 167.967194,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Lunar Estate Ruins",
+    "lat": -161.053125,
+    "lng": 57.718619,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Lux Ruins",
+    "lat": -100.6875,
+    "lng": 75.279,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Malefactor's Evergaol",
+    "lat": -165.33125,
+    "lng": 76.054285,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Altus Plateau)",
+    "lat": -88.29687,
+    "lng": 93.08687,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Caelid)",
+    "lat": -167.484375,
+    "lng": 130.242492,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Capital Outskirts)",
+    "lat": -86.71875,
+    "lng": 115.04107,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Consecrated Snowfield)",
+    "lat": -67.25156,
+    "lng": 147.6686,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Dragonbarrow)",
+    "lat": -167.75,
+    "lng": 157.81,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Liurnia Northeast)",
+    "lat": -121.35625,
+    "lng": 76.503103,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Liurnia Southwest)",
+    "lat": -148.10625,
+    "lng": 45.942854,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Mistwood)",
+    "lat": -189.203125,
+    "lng": 121.832608,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Mountaintops East)",
+    "lat": -68.260938,
+    "lng": 161.736922,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Mt. Gelmir)",
+    "lat": -83.79375,
+    "lng": 69.99787,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree (Weeping Peninsula)",
+    "lat": -213.960937,
+    "lng": 105.864682,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree Catacombs",
+    "lat": -165.545313,
+    "lng": 130.111818,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Minor Erdtree Church",
+    "lat": -108.476562,
+    "lng": 104.496409,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Miquella's Haligtree",
+    "lat": -48.0,
+    "lng": 148.01,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Mirage Rise",
+    "lat": -90.035937,
+    "lng": 84.715878,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Mistwood Ruins",
+    "lat": -190.484375,
+    "lng": 118.714178,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Moonfolk Ruins",
+    "lat": -157.51562,
+    "lng": 51.56093,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Morne Tunnel",
+    "lat": -214.054,
+    "lng": 108.91,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Murkwater Catacombs",
+    "lat": -179.78,
+    "lng": 109.59,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Murkwater Cave",
+    "lat": -186.34,
+    "lng": 109.36,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Old Altus Tunnel",
+    "lat": -91.171875,
+    "lng": 78.604109,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ordina, Liturgical Town",
+    "lat": -63.49,
+    "lng": 139.45,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Oridys's Rise",
+    "lat": -214.273437,
+    "lng": 118.160201,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Perfumer's Grotto",
+    "lat": -100.6,
+    "lng": 95.62,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Perfumer's Ruins",
+    "lat": -97.15625,
+    "lng": 62.774129,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Purified Ruins",
+    "lat": -160.653125,
+    "lng": 80.072098,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ranni's Rise",
+    "lat": -106.421875,
+    "lng": 50.012044,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Raya Lucaria Academy",
+    "lat": -137.942,
+    "lng": 55.205,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Raya Lucaria Crystal Tunnel",
+    "lat": -125.376562,
+    "lng": 66.915018,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Redmane Castle",
+    "lat": -195.78125,
+    "lng": 157.812084,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Renna's Rise",
+    "lat": -102.3125,
+    "lng": 53.604315,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Revenger's Shack",
+    "lat": -143.303125,
+    "lng": 45.732365,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ringleader's Evergaol",
+    "lat": -154.946875,
+    "lng": 44.407354,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Road's End Catacombs",
+    "lat": -151.34,
+    "lng": 45.168,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Rose Church",
+    "lat": -147.017187,
+    "lng": 55.598321,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Royal Grave Evergaol",
+    "lat": -106.46875,
+    "lng": 66.208511,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Ruin-Strewn Precipice",
+    "lat": -104.257812,
+    "lng": 74.833117,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sage's Cave",
+    "lat": -95.867187,
+    "lng": 72.231256,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sainted Hero's Grave",
+    "lat": -94.49,
+    "lng": 89.53,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sealed Tunnel",
+    "lat": -105.75,
+    "lng": 105.660584,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Second Church of Marika",
+    "lat": -93.257812,
+    "lng": 83.195147,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Seethewater Cave",
+    "lat": -84.703125,
+    "lng": 69.644515,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sellia Crystal Tunnel",
+    "lat": -172.515625,
+    "lng": 144.836114,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sellia Evergaol",
+    "lat": -175.21,
+    "lng": 142.562,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sellia Gateway",
+    "lat": -182.93125,
+    "lng": 147.737103,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sellia Hideaway",
+    "lat": -174.64,
+    "lng": 154.11,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Sellia, Town of Sorcery",
+    "lat": -176.740625,
+    "lng": 148.115022,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Seluvis's Rise",
+    "lat": -109.192188,
+    "lng": 53.01976,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Shack of the Lofty",
+    "lat": -67.459375,
+    "lng": 151.549638,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Shack of the Rotting",
+    "lat": -171.204688,
+    "lng": 127.763854,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Siofra River Well",
+    "lat": -187.554687,
+    "lng": 122.183791,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Slumbering Wolf's Shack",
+    "lat": -164.45,
+    "lng": 66.81,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Smoldering Church",
+    "lat": -169.328125,
+    "lng": 124.477279,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Spiritcaller Cave",
+    "lat": -66.61,
+    "lng": 168.37,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stargazer's Ruins",
+    "lat": -68.515625,
+    "lng": 155.201911,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stillwater Cave",
+    "lat": -169.90625,
+    "lng": 82.805064,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stormcaller Church",
+    "lat": -98.49219,
+    "lng": 89.15699,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stormfoot Catacombs",
+    "lat": -188.390625,
+    "lng": 96.16469,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stormgate",
+    "lat": -185.03125,
+    "lng": 101.121229,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stormhill Evergaol",
+    "lat": -186.46875,
+    "lng": 99.56644,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stormhill Shack",
+    "lat": -181.195312,
+    "lng": 95.699559,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stormveil Castle",
+    "lat": -181.279688,
+    "lng": 88.721627,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Stranded Graveyard",
+    "lat": -195.76,
+    "lng": 103.0,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Street of Sages Ruins",
+    "lat": -179.01,
+    "lng": 139.9,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Subterranean Shunning-Grounds",
+    "lat": -101.53125,
+    "lng": 115.752706,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Summonwater Village",
+    "lat": -174.21875,
+    "lng": 118.227006,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Swamp Lookout Tower",
+    "lat": -180.585,
+    "lng": 146.116,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Temple Quarter",
+    "lat": -143.0625,
+    "lng": 52.746866,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Testu's Rise",
+    "lat": -123.726562,
+    "lng": 55.370114,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "The Four Belfries",
+    "lat": -127.8125,
+    "lng": 46.934052,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "The Shaded Castle",
+    "lat": -81.914062,
+    "lng": 81.87705,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Third Church of Marika",
+    "lat": -180.125,
+    "lng": 123.402802,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Tombsward Catacombs",
+    "lat": -210.140625,
+    "lng": 104.958164,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Tombsward Cave",
+    "lat": -212.34062,
+    "lng": 98.53833,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Tombsward Ruins",
+    "lat": -209.0625,
+    "lng": 100.88663,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Tower of Return",
+    "lat": -220.070312,
+    "lng": 99.917936,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Unsightly Catacombs",
+    "lat": -97.75,
+    "lng": 61.398984,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Village of the Albinaurics",
+    "lat": -159.085937,
+    "lng": 52.637066,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Volcano Cave",
+    "lat": -77.34375,
+    "lng": 68.77679,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Volcano Manor",
+    "lat": -85.75,
+    "lng": 64.283372,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Consecrated Snowfield)",
+    "lat": -59.831251,
+    "lng": 133.112383,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Liurnia of the Lakes Central)",
+    "lat": -126.45,
+    "lng": 64.75,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Liurnia of the Lakes East)",
+    "lat": -120.02,
+    "lng": 72.3,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Liurnia of the Lakes)",
+    "lat": -124.42,
+    "lng": 72.16,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Mountaintops of the Giants)",
+    "lat": -61.35,
+    "lng": 155.55,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Weeping Peninsula)",
+    "lat": -210.59,
+    "lng": 102.06,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "War-Dead Catacombs",
+    "lat": -167.44,
+    "lng": 163.41,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Warmaster's Shack",
+    "lat": -179.7,
+    "lng": 101.5,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Waypoint Ruins",
+    "lat": -192.03125,
+    "lng": 113.935002,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Weeping Evergaol",
+    "lat": -210.0625,
+    "lng": 98.446034,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "West Windmill Pasture",
+    "lat": -77.742187,
+    "lng": 86.561366,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Windmill Village Pasture",
+    "lat": -78.14,
+    "lng": 95.71,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Witchbane Ruins",
+    "lat": -212.90625,
+    "lng": 96.246485,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Woodfolk Ruins",
+    "lat": -87.75,
+    "lng": 95.331539,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Writheblood Ruins",
+    "lat": -85.992187,
+    "lng": 87.228239,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Wyndham Catacombs",
+    "lat": -92.521875,
+    "lng": 73.721478,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Wyndham Ruins",
+    "lat": -93.871875,
+    "lng": 75.226403,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Yelough Anix Ruins",
+    "lat": -74.815625,
+    "lng": 132.993458,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Yelough Anix Tunnel",
+    "lat": -77.59375,
+    "lng": 133.02805,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Zamor Ruins",
+    "lat": -89.987501,
+    "lng": 145.891674,
+    "region": "surface",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Grand Cloister",
+    "lat": -140.234375,
+    "lng": 54.65953,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds",
+    "lat": -186.828125,
+    "lng": 133.840227,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds",
+    "lat": -177.53438,
+    "lng": 132.07928,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (1)",
+    "lat": -185.109375,
+    "lng": 131.824941,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (2)",
+    "lat": -181.807812,
+    "lng": 129.941307,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (3)",
+    "lat": -181.896875,
+    "lng": 135.342489,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (4)",
+    "lat": -183.67,
+    "lng": 140.23,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (5)",
+    "lat": -179.95,
+    "lng": 139.5,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (6)",
+    "lat": -178.31,
+    "lng": 136.91,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (7)",
+    "lat": -175.44,
+    "lng": 140.0,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (8)",
+    "lat": -175.31,
+    "lng": 138.17,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (a)",
+    "lat": -179.625,
+    "lng": 132.781009,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (b)",
+    "lat": -180.359375,
+    "lng": 131.067153,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (c)",
+    "lat": -178.9375,
+    "lng": 129.445743,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (d)",
+    "lat": -177.523437,
+    "lng": 127.398852,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (e)",
+    "lat": -174.132812,
+    "lng": 127.906287,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Hallowhorn Grounds Altar (f)",
+    "lat": -176.625,
+    "lng": 130.524048,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Mohgwyn Dynasty Mausoleum",
+    "lat": -182.68125,
+    "lng": 147.74513,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Night's Sacred Ground",
+    "lat": -181.867187,
+    "lng": 128.731253,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Nokron, Eternal City",
+    "lat": -184.1875,
+    "lng": 122.235959,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Nokstella, Eternal City",
+    "lat": -121.59531,
+    "lng": 65.43712,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Siofra Aqueduct",
+    "lat": -172.03125,
+    "lng": 135.544211,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Uhl Palace Ruins",
+    "lat": -130.59375,
+    "lng": 71.790136,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Uhl Palace Ruins",
+    "lat": -124.015625,
+    "lng": 74.660638,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  },
+  {
+    "name": "Walking Mausoleum (Deeproot Depths)",
+    "lat": -93.04,
+    "lng": 112.44,
+    "region": "underground",
+    "category": "dungeon",
+    "type": "dungeon"
+  }
 ]

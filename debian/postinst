@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+
+INSTALL_DIR="/opt/elden-ring-tracker"
+
+if [ "$1" = "configure" ]; then
+    cd "$INSTALL_DIR"
+
+    if [ ! -d ".venv" ]; then
+        /usr/bin/python3 -m venv .venv
+        .venv/bin/pip install --upgrade pip
+        .venv/bin/pip install -r requirements.txt
+    fi
+
+    .venv/bin/python3 -c "import sqlite3" 2>/dev/null \
+        || echo "AVISO: Módulo sqlite3 indisponível no Python do sistema."
+
+    mkdir -p logs data/references
+
+    if command -v update-desktop-database > /dev/null 2>&1; then
+        update-desktop-database /usr/share/applications 2>/dev/null || true
+    fi
+fi
