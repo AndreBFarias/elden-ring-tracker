@@ -1,30 +1,16 @@
-import logging
 import os
-import signal
 import shutil
+import signal
 import subprocess
 import sys
 import webbrowser
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
+from log import get_logger
 
-logger = logging.getLogger("elden_tracker.tray")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+logger = get_logger("tray")
 
 DASHBOARD_URL = "http://localhost:8501"
 ICON_PATH = PROJECT_ROOT / "assets" / "icons" / "icon.png"
@@ -58,7 +44,9 @@ def _start_streamlit() -> None:
         logger.error("run.sh não encontrado: %s", run_script)
         return
 
-    log_file = LOG_DIR / "streamlit.log"
+    log_dir = PROJECT_ROOT / "logs"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    log_file = log_dir / "streamlit.log"
     with open(str(log_file), "a", encoding="utf-8") as lf:
         _streamlit_process = subprocess.Popen(
             ["bash", str(run_script)],

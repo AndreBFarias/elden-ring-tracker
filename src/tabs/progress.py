@@ -1,28 +1,10 @@
-import logging
-from logging.handlers import RotatingFileHandler
-from pathlib import Path
-
 import streamlit as st
 
+from log import get_logger
 from map_config import CATEGORIES, CATEGORY_GROUPS
 from progress_tracker import get_overall_stats, get_progress
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-LOG_DIR = PROJECT_ROOT / "logs"
-
-logger = logging.getLogger("elden_tracker.pages.progress")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("pages.progress")
 
 ITEMS_PER_PAGE = 50
 

@@ -2,13 +2,12 @@ import functools
 import html as html_escape
 import http.server
 import json
-import logging
 import threading
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from string import Template
 from typing import Optional
 
+from log import get_logger
 from map_config import (
     ASSETS_DIR,
     CATEGORIES,
@@ -21,23 +20,7 @@ from map_config import (
     MapRegion,
 )
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
-
-logger = logging.getLogger("elden_tracker.map_renderer")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("map_renderer")
 
 
 class _SilentHandler(http.server.SimpleHTTPRequestHandler):

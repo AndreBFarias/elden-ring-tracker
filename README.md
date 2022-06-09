@@ -40,22 +40,26 @@ dentro de um dashboard Streamlit.
 
 ## Instalação
 
-```bash
-# Setup inicial (venv + dependências + link simbólico para saves)
-bash setup.sh
+### Local (desenvolvimento)
 
-# Iniciar dashboard
-bash run.sh
+```bash
+bash setup.sh    # venv + dependências + link simbólico para saves
+bash run.sh      # iniciar dashboard
 ```
 
-### Upscale neural (opcional)
+### Sistema (instalação em /opt)
 
 ```bash
-# Instala PyTorch + CUDA, spandrel e executa o upscale
-bash install_upscale.sh
+sudo bash install.sh             # instala em /opt/elden-ring-tracker
+sudo bash install.sh --uninstall # remove completamente
+```
 
-# Opções: --fallback (LANCZOS), --tile-size 256, --force, --regions underground dlc
-bash install_upscale.sh --fallback
+### Pacotes
+
+```bash
+make deb        # gera pacote .deb
+make appimage   # gera AppImage
+make flatpak    # gera Flatpak
 ```
 
 ## Estrutura
@@ -93,7 +97,7 @@ bash install_upscale.sh --fallback
 ├── debian/                    # Esqueleto para pacote .deb
 ├── setup.sh                   # Setup do ambiente
 ├── run.sh                     # Verificação + inicialização (--tray)
-└── install_upscale.sh         # Setup do upscale neural
+└── install.sh                 # Instalação/desinstalação do sistema
 ```
 
 ## Uso
@@ -115,6 +119,12 @@ Nas abas superiores:
 - **Progresso**: Tracking por categoria com checklist manual
 - **Eventos Perdíveis**: 20 eventos críticos com status e severidade
 - **Conquistas**: 42 conquistas Steam com resolução offline
+
+## Aviso Legal
+
+Este é um projeto não oficial, sem afiliação com a FromSoftware Inc. ou Bandai Namco
+Entertainment Inc. "Elden Ring" é marca registrada de seus respectivos proprietários.
+Consulte [LEGAL.md](LEGAL.md) para detalhes completos.
 
 ## Licença
 

@@ -8,7 +8,7 @@ export PYTHONPATH="$APPDIR/opt/elden-ring-tracker/src"
 cd "$APPDIR/opt/elden-ring-tracker"
 
 if [ ! -d ".venv" ]; then
-    "$APPDIR/usr/bin/python3" -m venv .venv
+    /usr/bin/python3 -m venv .venv
     .venv/bin/pip install --upgrade pip
     .venv/bin/pip install -r requirements.txt
 fi

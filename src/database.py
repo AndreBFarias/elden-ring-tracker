@@ -1,27 +1,12 @@
-import logging
 import sqlite3
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from typing import Optional
 
+from log import get_logger
+
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "tracker.db"
-LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
 
-LOG_DIR.mkdir(parents=True, exist_ok=True)
-
-logger = logging.getLogger("elden_tracker.database")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("database")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS player_stats (

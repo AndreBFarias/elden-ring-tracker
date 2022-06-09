@@ -1,29 +1,12 @@
-import logging
 import sys
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from log import get_logger
 from map_config import CATEGORIES, ICONS_DIR, CategoryConfig
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
-
-logger = logging.getLogger("elden_tracker.icons")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("icons")
 
 FONT_CANDIDATES = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",

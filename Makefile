@@ -1,4 +1,4 @@
-.PHONY: setup run run-tray lint format clean db-reset tiles-check tiles-download deb appimage
+.PHONY: setup run run-tray lint format clean db-reset tiles-check tiles-download deb appimage flatpak all-packages clean-packages
 
 setup:
 	bash setup.sh
@@ -41,3 +41,13 @@ deb:
 
 appimage:
 	bash packaging/appimage/build-appimage.sh
+
+flatpak:
+	flatpak-builder --force-clean build-flatpak packaging/flatpak/com.github.andrefarias.EldenRingTracker.yml
+
+all-packages: deb appimage flatpak
+
+clean-packages:
+	rm -rf build-flatpak .flatpak-builder flatpak-repo
+	rm -f *.deb *.AppImage *.flatpak
+	@echo "Artefatos de build removidos."

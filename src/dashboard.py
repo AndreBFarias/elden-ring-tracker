@@ -1,8 +1,6 @@
 import functools
 import json
-import logging
 import sys
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
 import streamlit as st
@@ -20,27 +18,13 @@ from database import (
     initialize_db,
     start_session,
 )
+from log import get_logger
 from map_config import CATEGORIES, CATEGORY_GROUPS, ICONS_DIR, REFERENCES_DIR, REGIONS
 from map_renderer import build_map, pixel_to_fextra
 from progress_tracker import get_progress
 from save_parser import find_save_file, parse_slot, sync_to_db
 
-LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
-
-logger = logging.getLogger("elden_tracker.dashboard")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("dashboard")
 
 CUSTOM_CSS = """
 <style>
