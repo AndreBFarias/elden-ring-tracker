@@ -1,6 +1,5 @@
 import argparse
 import logging
-import sys
 import urllib.request
 from pathlib import Path
 

@@ -222,9 +222,9 @@ def render(slot_index: int, region: str = "") -> None:
     overall = get_overall_stats(slot_index, region=region)
 
     st.markdown(
-        f'<p style="font-family:monospace;color:#bd93f9;text-transform:uppercase;'
-        f'letter-spacing:0.1em;font-size:0.85rem;border-bottom:1px solid #44475a;'
-        f'padding-bottom:0.25rem;">Progresso Geral</p>',
+        '<p style="font-family:monospace;color:#bd93f9;text-transform:uppercase;'
+        'letter-spacing:0.1em;font-size:0.85rem;border-bottom:1px solid #44475a;'
+        'padding-bottom:0.25rem;">Progresso Geral</p>',
         unsafe_allow_html=True,
     )
 

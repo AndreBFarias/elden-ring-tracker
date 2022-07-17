@@ -3,20 +3,16 @@ import html as html_escape
 import http.server
 import json
 import threading
-from pathlib import Path
 from string import Template
-from typing import Optional
 
 from log import get_logger
 from map_config import (
     ASSETS_DIR,
     CATEGORIES,
     FEXTRALIFE_TILE_URL,
-    ITEM_CATEGORIES,
     MAP_TILES_DIR,
     REFERENCES_DIR,
     REGIONS,
-    CategoryConfig,
     MapRegion,
 )
 
@@ -31,8 +27,8 @@ class _SilentHandler(http.server.SimpleHTTPRequestHandler):
         pass
 
 
-_tile_server: Optional[http.server.HTTPServer] = None
-_tile_server_port: Optional[int] = None
+_tile_server: http.server.HTTPServer | None = None
+_tile_server_port: int | None = None
 _tile_server_lock = threading.Lock()
 
 
@@ -156,7 +152,7 @@ def _build_marker(
     entry: dict,
     defeated_flags: set[int],
     discovered_flags: set[int],
-) -> Optional[dict]:
+) -> dict | None:
     category = entry.get("category", "")
     cat_config = CATEGORIES.get(category)
     if not cat_config:
@@ -379,10 +375,10 @@ DEFAULT_CENTERS = {
 
 def build_map(
     region_name: str,
-    defeated_boss_flags: Optional[set[int]] = None,
-    discovered_grace_flags: Optional[set[int]] = None,
-    player_pos: Optional[tuple[float, float]] = None,
-    layer_visibility: Optional[dict[str, bool]] = None,
+    defeated_boss_flags: set[int] | None = None,
+    discovered_grace_flags: set[int] | None = None,
+    player_pos: tuple[float, float] | None = None,
+    layer_visibility: dict[str, bool] | None = None,
     search_query: str = "",
     map_height: int = 700,
     progress_mode: str = "total",
