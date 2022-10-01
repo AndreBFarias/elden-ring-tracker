@@ -15,6 +15,9 @@ finish-args:
 modules:
   - name: python3-deps
     buildsystem: simple
+    build-options:
+      build-args:
+        - --share=network
     build-commands:
       - pip3 install --no-build-isolation --prefix=/app -r requirements.txt
     sources:
