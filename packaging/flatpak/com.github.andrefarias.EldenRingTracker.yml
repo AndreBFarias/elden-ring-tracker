@@ -2,7 +2,7 @@ app-id: com.github.andrefarias.EldenRingTracker
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-command: run.sh
+command: /app/opt/elden-ring-tracker/run.sh
 
 finish-args:
   - --share=ipc
