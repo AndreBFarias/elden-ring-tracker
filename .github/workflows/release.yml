@@ -58,8 +58,7 @@ jobs:
 
       - name: Build Flatpak
         run: |
-          flatpak-builder --user --force-clean build-flatpak packaging/flatpak/com.github.andrefarias.EldenRingTracker.yml
-          flatpak-builder --user --repo=flatpak-repo build-flatpak packaging/flatpak/com.github.andrefarias.EldenRingTracker.yml
+          flatpak-builder --user --force-clean --repo=flatpak-repo build-flatpak packaging/flatpak/com.github.andrefarias.EldenRingTracker.yml
           flatpak build-bundle flatpak-repo elden-ring-tracker.flatpak com.github.andrefarias.EldenRingTracker
 
       - uses: actions/upload-artifact@v4
