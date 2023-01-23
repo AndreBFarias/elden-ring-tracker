@@ -52,9 +52,12 @@ jobs:
       - name: Instalar flatpak-builder
         run: |
           sudo apt-get update
-          sudo apt-get install -y flatpak flatpak-builder
+          sudo apt-get install -y flatpak flatpak-builder imagemagick
           sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
           sudo flatpak install -y flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08
+
+      - name: Redimensionar ícone para 256x256
+        run: convert assets/icons/icon.png -resize 256x256! assets/icons/icon.png
 
       - name: Build Flatpak
         run: |
