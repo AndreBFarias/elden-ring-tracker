@@ -21,7 +21,7 @@ require_root() {
     fi
 }
 
-uninstall() {
+do_uninstall() {
     require_root
     printf "\n=== Elden Ring Tracker - Desinstalação ===\n\n"
 
@@ -53,7 +53,7 @@ uninstall() {
     exit 0
 }
 
-install() {
+do_install() {
     require_root
     printf "\n=== Elden Ring Tracker - Instalação ===\n\n"
 
@@ -126,10 +126,10 @@ DESKTOP
 
 case "${1:-}" in
     --uninstall)
-        uninstall
+        do_uninstall
         ;;
     *)
-        install
+        do_install
         ;;
 esac
 
