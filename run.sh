@@ -160,16 +160,24 @@ printf "Iniciando dashboard...\n\n"
 LOCAL_IP=$(hostname -I | awk '{print $1}')
 info "Acesso local: http://${LOCAL_IP}:8501"
 
-TRAY_MODE="${1:-}"
+HEADLESS=false
+TRAY=false
 
-if [ "$TRAY_MODE" = "--tray" ]; then
+for arg in "$@"; do
+    case "$arg" in
+        --tray)     TRAY=true ;;
+        --headless) HEADLESS=true ;;
+    esac
+done
+
+if [ "$TRAY" = true ]; then
     info "Iniciando em modo system tray..."
     $PYTHON src/tray.py
 else
     streamlit run src/dashboard.py \
         --server.address 0.0.0.0 \
         --server.port 8501 \
-        --server.headless false \
+        --server.headless "$HEADLESS" \
         --browser.gatherUsageStats false
 fi
 
