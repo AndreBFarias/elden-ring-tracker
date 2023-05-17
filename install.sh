@@ -38,7 +38,9 @@ do_uninstall() {
     rm -f "$DESKTOP_FILE" && ok "Desktop entry removido"
     rm -f "$PIXMAP_FILE" && ok "Ícone removido"
 
-    AUTOSTART_FILE="$HOME/.config/autostart/elden-ring-tracker.desktop"
+    REAL_USER="${SUDO_USER:-$USER}"
+    REAL_HOME=$(eval echo "~$REAL_USER")
+    AUTOSTART_FILE="$REAL_HOME/.config/autostart/elden-ring-tracker.desktop"
     if [ -f "$AUTOSTART_FILE" ]; then
         rm -f "$AUTOSTART_FILE"
         ok "Autostart removido"
