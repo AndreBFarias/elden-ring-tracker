@@ -1,5 +1,4 @@
 import os
-import shutil
 import signal
 import subprocess
 import threading
@@ -16,18 +15,25 @@ logger = get_logger("tray")
 
 DASHBOARD_URL = "http://localhost:8501"
 ICON_PATH = PROJECT_ROOT / "assets" / "icons" / "icon.png"
-DESKTOP_FILE = "elden-ring-tracker.desktop"
-AUTOSTART_DIR = Path.home() / ".config" / "autostart"
 
 _streamlit_process: subprocess.Popen | None = None
 
 
 def _load_icon():
-    from PIL import Image
+    from PIL import Image, ImageDraw
+
+    size = 64
     if ICON_PATH.exists():
-        return Image.open(str(ICON_PATH)).resize((64, 64))
-    img = Image.new("RGBA", (64, 64), (40, 42, 54, 255))
-    return img
+        base = Image.open(str(ICON_PATH)).resize((size, size)).convert("RGBA")
+    else:
+        base = Image.new("RGBA", (size, size), (40, 42, 54, 255))
+
+    mask = Image.new("L", (size, size), 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, size - 1, size - 1), fill=255)
+
+    circular = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    circular.paste(base, mask=mask)
+    return circular
 
 
 def _open_dashboard(*_args) -> None:
@@ -49,12 +55,12 @@ def _wait_and_open_browser() -> None:
 def _start_streamlit() -> None:
     global _streamlit_process
     if _streamlit_process and _streamlit_process.poll() is None:
-        logger.info("Streamlit já em execução (PID %d)", _streamlit_process.pid)
+        logger.info("Streamlit ja em execucao (PID %d)", _streamlit_process.pid)
         return
 
     run_script = PROJECT_ROOT / "run.sh"
     if not run_script.exists():
-        logger.error("run.sh não encontrado: %s", run_script)
+        logger.error("run.sh nao encontrado: %s", run_script)
         return
 
     log_dir = LOG_DIR
@@ -83,38 +89,20 @@ def _stop_streamlit() -> None:
                 os.killpg(os.getpgid(_streamlit_process.pid), signal.SIGKILL)
             except ProcessLookupError:
                 pass
-            logger.warning("Streamlit forçado a encerrar (SIGKILL)")
+            logger.warning("Streamlit forcado a encerrar (SIGKILL)")
     _streamlit_process = None
 
 
-def _pin_autostart(*_args) -> None:
-    AUTOSTART_DIR.mkdir(parents=True, exist_ok=True)
-    src = PROJECT_ROOT / DESKTOP_FILE
-    if not src.exists():
-        logger.warning("Arquivo .desktop não encontrado: %s", src)
-        return
-    dst = AUTOSTART_DIR / DESKTOP_FILE
-    shutil.copy2(str(src), str(dst))
-    logger.info("Fixado em autostart: %s", dst)
-
-
-def _unpin_autostart(*_args) -> None:
-    dst = AUTOSTART_DIR / DESKTOP_FILE
-    if dst.exists():
-        dst.unlink()
-        logger.info("Removido do autostart: %s", dst)
-    else:
-        logger.info("Não estava fixado em autostart")
+def _restart_streamlit(*_args) -> None:
+    logger.info("Reiniciando streamlit")
+    _stop_streamlit()
+    _start_streamlit()
 
 
 def _quit_app(icon, *_args) -> None:
-    logger.info("Encerrando aplicação")
+    logger.info("Encerrando aplicacao")
     _stop_streamlit()
     icon.stop()
-
-
-def _on_left_click(icon, *_args) -> None:
-    _open_dashboard()
 
 
 def run_tray() -> None:
@@ -128,11 +116,9 @@ def run_tray() -> None:
     icon_image = _load_icon()
     menu = pystray.Menu(
         pystray.MenuItem("Abrir Dashboard", _open_dashboard, default=True),
+        pystray.MenuItem("Reiniciar", _restart_streamlit),
         pystray.Menu.SEPARATOR,
-        pystray.MenuItem("Fixar no Autostart", _pin_autostart),
-        pystray.MenuItem("Remover do Autostart", _unpin_autostart),
-        pystray.Menu.SEPARATOR,
-        pystray.MenuItem("Desativar", _quit_app),
+        pystray.MenuItem("Fechar", _quit_app),
     )
 
     icon = pystray.Icon(
@@ -158,4 +144,4 @@ if __name__ == "__main__":
     run_tray()
 
 
-# "A liberdade é o oxigênio da alma." -- Moshe Dayan
+# "A liberdade e o oxigenio da alma." -- Moshe Dayan

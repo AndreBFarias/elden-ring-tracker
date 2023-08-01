@@ -87,8 +87,8 @@ do_install() {
     ok "Arquivos copiados para $INSTALL_DIR"
 
     if [ ! -d "$INSTALL_DIR/.venv" ]; then
-        /usr/bin/python3 -m venv "$INSTALL_DIR/.venv"
-        ok "Virtual env criado"
+        /usr/bin/python3 -m venv --system-site-packages "$INSTALL_DIR/.venv"
+        ok "Virtual env criado (com acesso a pacotes de sistema)"
     fi
     "$INSTALL_DIR/.venv/bin/pip" install --upgrade pip -q
     "$INSTALL_DIR/.venv/bin/pip" install -r "$INSTALL_DIR/requirements.txt" -q

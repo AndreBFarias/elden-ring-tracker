@@ -23,7 +23,7 @@ printf "\n=== Elden Ring Tracker - Verificação e Inicialização ===\n\n"
 # ---------------------------------------------------------------------------
 if [ ! -d ".venv" ]; then
     warn "Virtual env não encontrado, criando..."
-    /usr/bin/python3 -m venv .venv || fail "Não foi possível criar .venv"
+    /usr/bin/python3 -m venv --system-site-packages .venv || fail "Não foi possível criar .venv"
 fi
 source .venv/bin/activate
 PYTHON="$SCRIPT_DIR/.venv/bin/python3"
