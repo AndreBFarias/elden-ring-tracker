@@ -21,7 +21,7 @@ from log import get_logger
 from map_config import CATEGORIES, CATEGORY_GROUPS, ICONS_DIR, REFERENCES_DIR, REGIONS
 from map_renderer import build_map, pixel_to_fextra
 from progress_tracker import get_progress
-from save_parser import find_save_file, parse_slot, sync_to_db
+from save_parser import find_save_file, get_save_path, parse_slot, set_save_path, sync_to_db
 
 logger = get_logger("dashboard")
 
@@ -261,6 +261,27 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
         )
 
         st.markdown("### SINCRONIZAR")
+
+        current_save = get_save_path()
+        found_save = find_save_file()
+        if current_save:
+            display_path = current_save
+        elif found_save:
+            display_path = str(found_save)
+        else:
+            display_path = ""
+
+        new_path = st.text_input(
+            "Caminho do save (ER0000.sl2)",
+            value=display_path,
+            placeholder="Ex: ~/.steam/steam/steamapps/compatdata/1245620/...",
+            help="Caminho completo para ER0000.sl2 ou pasta que o contém",
+        )
+        if new_path != current_save:
+            expanded = str(Path(new_path).expanduser()) if new_path else ""
+            set_save_path(expanded)
+            st.rerun()
+
         syncing = st.session_state.get("_syncing", False)
         if st.button("Sincronizar Save", use_container_width=True, disabled=syncing):
             st.session_state["_syncing"] = True
@@ -279,7 +300,7 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
                 st.session_state["_sync_success"] = True
                 st.rerun()
             else:
-                st.warning("Save não encontrado. Verifique o caminho do Steam/Proton.")
+                st.warning("Save não encontrado. Verifique o caminho acima.")
                 st.session_state["_syncing"] = False
 
         if st.session_state.pop("_sync_success", False):

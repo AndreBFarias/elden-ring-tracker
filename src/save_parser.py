@@ -1,7 +1,8 @@
+import json
 import struct
 from pathlib import Path
 
-from log import get_logger
+from log import CONFIG_PATH, get_logger
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 logger = get_logger("save_parser")
@@ -12,7 +13,7 @@ CHECKSUM_SIZE = 0x10
 SLOT_DATA_SIZE = 0x280000
 SLOT_STRIDE = CHECKSUM_SIZE + SLOT_DATA_SIZE
 
-SAVE_SEARCH_PATHS = [
+DEFAULT_SEARCH_PATHS = [
     PROJECT_ROOT / "assets" / "save" / "ER0000.sl2",
     Path.home() / ".steam" / "debian-installation" / "steamapps" / "compatdata"
     / "1245620" / "pfx" / "drive_c" / "users" / "steamuser" / "AppData"
@@ -21,6 +22,34 @@ SAVE_SEARCH_PATHS = [
     / "1245620" / "pfx" / "drive_c" / "users" / "steamuser" / "AppData"
     / "Roaming" / "EldenRing",
 ]
+
+
+def load_config() -> dict:
+    if CONFIG_PATH.exists():
+        try:
+            with open(str(CONFIG_PATH), encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {}
+
+
+def save_config(config: dict) -> None:
+    CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(str(CONFIG_PATH), "w", encoding="utf-8") as f:
+        json.dump(config, f, indent=2, ensure_ascii=False)
+    logger.info("Configuração salva: %s", CONFIG_PATH)
+
+
+def get_save_path() -> str:
+    config = load_config()
+    return config.get("save_path", "")
+
+
+def set_save_path(path: str) -> None:
+    config = load_config()
+    config["save_path"] = path
+    save_config(config)
 
 PGD_STAT_OFFSETS = {
     "vigor": 0x34,
@@ -49,7 +78,19 @@ GENERAL_SECTION_SLOT_SPACING = 588
 
 
 def find_save_file() -> Path | None:
-    for search_path in SAVE_SEARCH_PATHS:
+    configured = get_save_path()
+    if configured:
+        p = Path(configured)
+        if p.is_file():
+            logger.info("Save encontrado (configurado): %s", p)
+            return p
+        if p.is_dir():
+            for sl2 in p.rglob("ER0000.sl2"):
+                logger.info("Save encontrado (configurado): %s", sl2)
+                return sl2
+        logger.warning("Path configurado invalido: %s", configured)
+
+    for search_path in DEFAULT_SEARCH_PATHS:
         if search_path.is_file() and search_path.name == "ER0000.sl2":
             logger.info("Save encontrado: %s", search_path)
             return search_path
