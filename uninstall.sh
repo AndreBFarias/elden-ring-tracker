@@ -41,6 +41,20 @@ if [ -f "$AUTOSTART_FILE" ]; then
     ok "Autostart removido"
 fi
 
+DATA_DIR="$REAL_HOME/.local/share/elden-ring-tracker"
+if [ -d "$DATA_DIR" ]; then
+    printf "\nDados do usuário encontrados em: %s\n" "$DATA_DIR"
+    printf "  (contém: logs, banco de dados, configuração)\n"
+    printf "Deseja remover? [s/N]: "
+    read -r REMOVE_DATA
+    if [ "$REMOVE_DATA" = "s" ] || [ "$REMOVE_DATA" = "S" ]; then
+        rm -rf "$DATA_DIR"
+        ok "Dados do usuário removidos: $DATA_DIR"
+    else
+        warn "Dados do usuário mantidos: $DATA_DIR"
+    fi
+fi
+
 if command -v update-desktop-database > /dev/null 2>&1; then
     update-desktop-database /usr/share/applications 2>/dev/null || true
     ok "Desktop database atualizado"
