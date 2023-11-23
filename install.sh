@@ -108,7 +108,6 @@ do_install() {
     "$INSTALL_DIR/.venv/bin/pip" install -r "$INSTALL_DIR/requirements.txt" -q
     ok "Dependências instaladas"
 
-    mkdir -p "$INSTALL_DIR/logs"
     mkdir -p "$INSTALL_DIR/assets/icons"
     ok "Diretórios auxiliares criados"
 
@@ -116,18 +115,7 @@ do_install() {
     cp "$SCRIPT_DIR/assets/icons/icon.png" "$INSTALL_DIR/assets/icons/icon.png"
     ok "Ícone instalado"
 
-    cat > "$DESKTOP_FILE" << DESKTOP
-[Desktop Entry]
-Type=Application
-Name=Elden Ring Tracker
-Comment=Dashboard interativo para rastrear progresso em Elden Ring
-Exec=$INSTALL_DIR/.venv/bin/python3 $INSTALL_DIR/src/tray.py
-Icon=elden-ring-tracker
-Terminal=false
-Categories=Game;Utility;
-Keywords=elden;ring;tracker;souls;
-StartupNotify=false
-DESKTOP
+    install -Dm644 "$SCRIPT_DIR/elden-ring-tracker.desktop" "$DESKTOP_FILE"
     ok "Desktop entry instalado"
 
     if command -v update-desktop-database > /dev/null 2>&1; then
