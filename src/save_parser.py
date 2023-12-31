@@ -307,7 +307,7 @@ def _find_event_flags(slot_data: bytes) -> int | None:
         )
         return best_offset
 
-    logger.warning("Event flags nao localizados no slot")
+    logger.warning("Event flags não localizados no slot")
     return None
 
 

@@ -422,7 +422,7 @@ def _backup_file(filepath: Path) -> None:
 def enrich_bosses() -> int:
     path = REFERENCES_DIR / "bosses.json"
     if not path.exists():
-        logger.error("bosses.json nao encontrado")
+        logger.error("bosses.json não encontrado")
         return 0
 
     _backup_file(path)
@@ -458,7 +458,7 @@ def enrich_bosses() -> int:
 def enrich_graces() -> int:
     path = REFERENCES_DIR / "graces.json"
     if not path.exists():
-        logger.error("graces.json nao encontrado")
+        logger.error("graces.json não encontrado")
         return 0
 
     _backup_file(path)
@@ -485,7 +485,7 @@ def enrich_graces() -> int:
 def enrich_npcs() -> int:
     path = REFERENCES_DIR / "npcs.json"
     if not path.exists():
-        logger.error("npcs.json nao encontrado")
+        logger.error("npcs.json não encontrado")
         return 0
 
     _backup_file(path)
@@ -508,7 +508,7 @@ def enrich_npcs() -> int:
 def enrich_dungeons() -> int:
     path = REFERENCES_DIR / "dungeons.json"
     if not path.exists():
-        logger.error("dungeons.json nao encontrado")
+        logger.error("dungeons.json não encontrado")
         return 0
 
     _backup_file(path)
