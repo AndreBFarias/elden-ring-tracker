@@ -38,8 +38,9 @@ def _get_completed_items_manual(slot_index: int) -> set[str]:
     from database import get_collected_items, get_manual_progress
 
     completed: set[str] = set()
-    for entity_type in ("item", "weapon", "armor", "shield", "talisman", "spell",
-                         "ash_of_war", "consumable", "material", "key_item"):
+    for entity_type in ("weapon", "armor", "shield", "talisman", "spell",
+                         "ash_of_war", "consumable", "material", "upgrade_material",
+                         "flask_upgrade", "map_fragment", "key_item"):
         rows = get_manual_progress(slot_index, entity_type)
         completed.update(row["entity_name"] for row in rows if row["completed"])
 

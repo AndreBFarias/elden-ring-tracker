@@ -80,7 +80,7 @@ GENERAL_SECTION_SLOT_SPACING = 588
 def find_save_file() -> Path | None:
     configured = get_save_path()
     if configured:
-        p = Path(configured)
+        p = Path(configured.strip())
         if p.is_file():
             logger.info("Save encontrado (configurado): %s", p)
             return p
