@@ -23,11 +23,15 @@ dentro de um dashboard Streamlit.
 |---|---|
 | Mapa interativo | Quatro regiões (Superfície, Subterrâneo, DLC, Extra) com zoom e pan via Leaflet |
 | Camadas toggláveis | Bosses, Graças, Dungeons, NPCs, itens e posição do jogador com ícones customizados |
-| Auto-tracking expandido | Detecção automática de bosses, graças, crystal tears, ashes of war, mapas, cookbooks e inventário |
+| Auto-tracking expandido | Detecção automática de bosses, graças, crystal tears, ashes of war, mapas, cookbooks, materiais de melhoria e inventário |
 | Progresso detalhado | Tracking por categoria com abas Pendentes/Concluídos e checklist manual |
 | Scan de inventário | Parsing binário do inventário para detectar armas, armaduras, escudos, talismãs e feitiços |
 | Eventos perdíveis | 20 eventos críticos com severidade, status e condição de perda |
 | Conquistas Steam | 42 conquistas offline com resolução automática e barra de progresso |
+| Rastreamento de NPCs | 138 NPCs com checklist manual na aba Progresso |
+| Histórico de snapshots | Aba Sessões com nível, runas e atributos por sincronização |
+| Indicador de NG+ | Ciclo do personagem exibido nos metrics do dashboard |
+| Diagnóstico de flags | Script CLI `scripts/diagnose_flags.py` para listar event flags ativos com nomes |
 | System tray | Integração desktop via pystray com autostart e controle de processo |
 | Leitura de save | Parsing de ER0000.sl2 (BND4) com extração de stats, posição e event flags |
 | Banco SQLite | Histórico de stats, kills, descobertas, itens coletados e progresso por slot |
@@ -83,13 +87,15 @@ make flatpak    # gera Flatpak
 │   └── tabs/
 │       ├── progress.py        # Aba de progresso detalhado
 │       ├── missable.py        # Aba de eventos perdiveis
-│       └── achievements.py    # Aba de conquistas Steam
+│       ├── achievements.py    # Aba de conquistas Steam
+│       └── sessions.py        # Aba de histórico de sessões
 ├── data/
 │   └── references/            # JSONs de bosses, graças, dungeons, conquistas
 ├── assets/
 │   ├── icons/                 # Ícones do mapa e app
 │   └── map_tiles/             # Tiles dos mapas
 ├── scripts/
+│   ├── diagnose_flags.py      # CLI para listar event flags ativos com nomes
 │   ├── enrich_references.py   # Enriquecimento de JSONs com flags
 │   ├── install_desktop.sh     # Instalador de .desktop
 │   ├── download_tiles.py      # Download de tiles do Fextralife
@@ -120,6 +126,15 @@ Nas abas superiores:
 - **Progresso**: Tracking por categoria com checklist manual
 - **Eventos Perdíveis**: 20 eventos críticos com status e severidade
 - **Conquistas**: 42 conquistas Steam com resolução offline
+- **Sessões**: Histórico de snapshots de stats por sincronização
+
+### Diagnóstico de flags
+
+```bash
+python3 scripts/diagnose_flags.py --save /caminho/ER0000.sl2 --slot 0 --category boss
+```
+
+Opções: `--category all | boss | grace`, `--slot 0-9`
 
 ## Aviso Legal
 

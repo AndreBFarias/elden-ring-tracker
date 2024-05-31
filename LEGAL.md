@@ -8,9 +8,10 @@ quaisquer de suas subsidiárias e afiliadas.
 
 ## Marcas Registradas
 
-"Elden Ring" é marca registrada da FromSoftware Inc. e/ou Bandai Namco
-Entertainment Inc. Todas as marcas registradas pertencem a seus respectivos
-proprietários.
+"Elden Ring" e "Shadow of the Erdtree" são marcas registradas da FromSoftware Inc.
+e/ou Bandai Namco Entertainment Inc. Todas as marcas registradas pertencem a seus
+respectivos proprietários. Este projeto rastreia conteúdo do jogo base e da expansão
+"Shadow of the Erdtree" sem qualquer afiliação oficial com seus criadores.
 
 ## Direitos Autorais
 
