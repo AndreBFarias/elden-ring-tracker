@@ -1,54 +1,470 @@
 {
-  "9100": {"name": "Margit, the Fell Omen", "region": "stormhill", "is_main": true, "type": "field"},
-  "9101": {"name": "Godrick the Grafted", "region": "stormveil", "is_main": true, "type": "legacy"},
-  "9103": {"name": "Grafted Scion", "region": "stormveil", "is_main": false, "type": "legacy"},
-  "9104": {"name": "Morgott, the Omen King", "region": "leyndell", "is_main": true, "type": "legacy"},
-  "9105": {"name": "Godfrey, First Elden Lord (Golden Shade)", "region": "leyndell", "is_main": false, "type": "legacy"},
-  "9106": {"name": "Sir Gideon Ofnir, the All-Knowing", "region": "leyndell_ash", "is_main": false, "type": "legacy"},
-  "9107": {"name": "Hoarah Loux, Warrior", "region": "leyndell_ash", "is_main": true, "type": "legacy"},
-  "9108": {"name": "Astel, Naturalborn of the Void", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9109": {"name": "Dragonkin Soldier of Nokstella", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9110": {"name": "Valiant Gargoyles", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9111": {"name": "Lichdragon Fortissax", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9112": {"name": "Mohg, Lord of Blood", "region": "underground", "is_main": true, "type": "dungeon"},
-  "9114": {"name": "Godskin Duo", "region": "farum_azula", "is_main": true, "type": "legacy"},
-  "9115": {"name": "Dragonlord Placidusax", "region": "farum_azula", "is_main": false, "type": "dungeon"},
-  "9116": {"name": "Maliketh, the Black Blade", "region": "farum_azula", "is_main": true, "type": "legacy"},
-  "9117": {"name": "Red Wolf of Radagon", "region": "raya_lucaria", "is_main": false, "type": "legacy"},
-  "9118": {"name": "Rennala, Queen of the Full Moon", "region": "raya_lucaria", "is_main": true, "type": "legacy"},
-  "9119": {"name": "Loretta, Knight of the Haligtree", "region": "haligtree", "is_main": false, "type": "legacy"},
-  "9120": {"name": "Malenia, Blade of Miquella", "region": "haligtree", "is_main": true, "type": "dungeon"},
-  "9121": {"name": "Godskin Noble (Volcano Manor)", "region": "volcano_manor", "is_main": false, "type": "legacy"},
-  "9122": {"name": "Rykard, Lord of Blasphemy", "region": "volcano_manor", "is_main": true, "type": "legacy"},
-  "9123": {"name": "Elden Beast", "region": "leyndell_ash", "is_main": true, "type": "legacy"},
-  "9125": {"name": "Mohg, the Omen", "region": "leyndell", "is_main": false, "type": "dungeon"},
-  "9126": {"name": "Magma Wyrm Makar", "region": "liurnia", "is_main": false, "type": "dungeon"},
-  "9128": {"name": "Ulcerated Tree Spirit (Limgrave)", "region": "limgrave", "is_main": false, "type": "dungeon"},
-  "9129": {"name": "Abductor Virgins", "region": "volcano_manor", "is_main": false, "type": "dungeon"},
-  "9130": {"name": "Starscourge Radahn", "region": "caelid", "is_main": true, "type": "field"},
-  "9131": {"name": "Fire Giant", "region": "mountaintops", "is_main": true, "type": "field"},
-  "9132": {"name": "Ancestor Spirit", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9133": {"name": "Regal Ancestor Spirit", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9134": {"name": "Mimic Tear", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9135": {"name": "Fia's Champions", "region": "underground", "is_main": false, "type": "dungeon"},
-  "9140": {"name": "Divine Beast Dancing Lion", "region": "dlc", "is_main": true, "type": "dlc"},
-  "9143": {"name": "Promised Consort Radahn", "region": "dlc", "is_main": true, "type": "dlc"},
-  "9144": {"name": "Golden Hippopotamus", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9146": {"name": "Messmer the Impaler", "region": "dlc", "is_main": true, "type": "dlc"},
-  "9148": {"name": "Putrescent Knight", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9155": {"name": "Metyr, Mother of Fingers", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9156": {"name": "Midra, Lord of Frenzied Flame", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9160": {"name": "Romina, Saint of the Bud", "region": "dlc", "is_main": true, "type": "dlc"},
-  "9161": {"name": "Jori, Elder Inquisitor", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9162": {"name": "Scadutree Avatar", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9163": {"name": "Bayle, the Dread", "region": "dlc", "is_main": true, "type": "dlc"},
-  "9164": {"name": "Commander Gaius", "region": "dlc", "is_main": false, "type": "dlc"},
-  "9173": {"name": "Godskin Apostle (Dragonbarrow)", "region": "dragonbarrow", "is_main": false, "type": "dungeon"},
-  "9174": {"name": "Fell Twins", "region": "capital_outskirts", "is_main": false, "type": "dungeon"},
-  "9180": {"name": "Leonine Misbegotten", "region": "weeping_peninsula", "is_main": false, "type": "dungeon"},
-  "9181": {"name": "Royal Knight Loretta", "region": "liurnia", "is_main": false, "type": "dungeon"},
-  "9182": {"name": "Elemer of the Briar", "region": "altus", "is_main": false, "type": "dungeon"},
-  "9183": {"name": "Crucible Knight & Misbegotten Warrior", "region": "caelid", "is_main": false, "type": "dungeon"},
-  "9184": {"name": "Commander Niall", "region": "mountaintops", "is_main": false, "type": "dungeon"},
-  "9190": {"name": "Rellana, Twin Moon Knight", "region": "dlc", "is_main": true, "type": "dlc"}
+  "9100": {
+    "name": "Margit, the Fell Omen",
+    "region": "stormhill",
+    "is_main": true,
+    "type": "field"
+  },
+  "9101": {
+    "name": "Godrick the Grafted",
+    "region": "stormveil",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9103": {
+    "name": "Grafted Scion",
+    "region": "stormveil",
+    "is_main": false,
+    "type": "legacy"
+  },
+  "9104": {
+    "name": "Morgott, the Omen King",
+    "region": "leyndell",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9105": {
+    "name": "Godfrey, First Elden Lord (Golden Shade)",
+    "region": "leyndell",
+    "is_main": false,
+    "type": "legacy"
+  },
+  "9106": {
+    "name": "Sir Gideon Ofnir, the All-Knowing",
+    "region": "leyndell_ash",
+    "is_main": false,
+    "type": "legacy"
+  },
+  "9107": {
+    "name": "Hoarah Loux, Warrior",
+    "region": "leyndell_ash",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9108": {
+    "name": "Astel, Naturalborn of the Void",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9109": {
+    "name": "Dragonkin Soldier of Nokstella",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9110": {
+    "name": "Valiant Gargoyles",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9111": {
+    "name": "Lichdragon Fortissax",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9112": {
+    "name": "Mohg, Lord of Blood",
+    "region": "underground",
+    "is_main": true,
+    "type": "dungeon"
+  },
+  "9114": {
+    "name": "Godskin Duo",
+    "region": "farum_azula",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9115": {
+    "name": "Dragonlord Placidusax",
+    "region": "farum_azula",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9116": {
+    "name": "Maliketh, the Black Blade",
+    "region": "farum_azula",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9117": {
+    "name": "Red Wolf of Radagon",
+    "region": "raya_lucaria",
+    "is_main": false,
+    "type": "legacy"
+  },
+  "9118": {
+    "name": "Rennala, Queen of the Full Moon",
+    "region": "raya_lucaria",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9119": {
+    "name": "Loretta, Knight of the Haligtree",
+    "region": "haligtree",
+    "is_main": false,
+    "type": "legacy"
+  },
+  "9120": {
+    "name": "Malenia, Blade of Miquella",
+    "region": "haligtree",
+    "is_main": true,
+    "type": "dungeon"
+  },
+  "9121": {
+    "name": "Godskin Noble (Volcano Manor)",
+    "region": "volcano_manor",
+    "is_main": false,
+    "type": "legacy"
+  },
+  "9122": {
+    "name": "Rykard, Lord of Blasphemy",
+    "region": "volcano_manor",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9123": {
+    "name": "Elden Beast",
+    "region": "leyndell_ash",
+    "is_main": true,
+    "type": "legacy"
+  },
+  "9125": {
+    "name": "Mohg, the Omen",
+    "region": "leyndell",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9126": {
+    "name": "Magma Wyrm Makar",
+    "region": "liurnia",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9128": {
+    "name": "Ulcerated Tree Spirit (Limgrave)",
+    "region": "limgrave",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9129": {
+    "name": "Abductor Virgins",
+    "region": "volcano_manor",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9130": {
+    "name": "Starscourge Radahn",
+    "region": "caelid",
+    "is_main": true,
+    "type": "field"
+  },
+  "9131": {
+    "name": "Fire Giant",
+    "region": "mountaintops",
+    "is_main": true,
+    "type": "field"
+  },
+  "9132": {
+    "name": "Ancestor Spirit",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9133": {
+    "name": "Regal Ancestor Spirit",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9134": {
+    "name": "Mimic Tear",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9135": {
+    "name": "Fia's Champions",
+    "region": "underground",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9140": {
+    "name": "Divine Beast Dancing Lion",
+    "region": "dlc",
+    "is_main": true,
+    "type": "dlc"
+  },
+  "9143": {
+    "name": "Promised Consort Radahn",
+    "region": "dlc",
+    "is_main": true,
+    "type": "dlc"
+  },
+  "9144": {
+    "name": "Golden Hippopotamus",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9146": {
+    "name": "Messmer the Impaler",
+    "region": "dlc",
+    "is_main": true,
+    "type": "dlc"
+  },
+  "9148": {
+    "name": "Putrescent Knight",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9155": {
+    "name": "Metyr, Mother of Fingers",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9156": {
+    "name": "Midra, Lord of Frenzied Flame",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9160": {
+    "name": "Romina, Saint of the Bud",
+    "region": "dlc",
+    "is_main": true,
+    "type": "dlc"
+  },
+  "9161": {
+    "name": "Jori, Elder Inquisitor",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9162": {
+    "name": "Scadutree Avatar",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9163": {
+    "name": "Bayle, the Dread",
+    "region": "dlc",
+    "is_main": true,
+    "type": "dlc"
+  },
+  "9164": {
+    "name": "Commander Gaius",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dlc"
+  },
+  "9173": {
+    "name": "Godskin Apostle (Dragonbarrow)",
+    "region": "dragonbarrow",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9174": {
+    "name": "Fell Twins",
+    "region": "capital_outskirts",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9180": {
+    "name": "Leonine Misbegotten",
+    "region": "weeping_peninsula",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9181": {
+    "name": "Royal Knight Loretta",
+    "region": "liurnia",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9182": {
+    "name": "Elemer of the Briar",
+    "region": "altus",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9183": {
+    "name": "Crucible Knight & Misbegotten Warrior",
+    "region": "caelid",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9184": {
+    "name": "Commander Niall",
+    "region": "mountaintops",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "9190": {
+    "name": "Rellana, Twin Moon Knight",
+    "region": "dlc",
+    "is_main": true,
+    "type": "dlc"
+  },
+  "40000800": {
+    "name": "Death Knight (Fog Rift Catacombs)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "40010800": {
+    "name": "Death Knight (Scorpion River Catacombs)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "41000800": {
+    "name": "Demi-Human Swordmaster Onze",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "41010800": {
+    "name": "Curseblade Labirith (Bonny Gaol)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "41020800": {
+    "name": "Lamenter (Lamenter's Gaol)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "43000800": {
+    "name": "Chief Bloodfiend (Rivermouth Cave)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "43010800": {
+    "name": "Ancient Dragon-Man (Dragon's Pit)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "1033420800": {
+    "name": "Alecto, Black Knife Ringleader",
+    "region": "liurnia",
+    "is_main": false,
+    "type": "field"
+  },
+  "1037510800": {
+    "name": "Ancient Dragon Lansseax",
+    "region": "altus",
+    "is_main": false,
+    "type": "field"
+  },
+  "1038410800": {
+    "name": "Adan, Thief of Fire",
+    "region": "liurnia",
+    "is_main": false,
+    "type": "field"
+  },
+  "2044470800": {
+    "name": "Rugalea the Great Red Bear",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2045440800": {
+    "name": "Ghostflame Dragon (Gravesite Plain)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2046380800": {
+    "name": "Dancer of Ranah",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2046400800": {
+    "name": "Demi-Human Queen Marigga",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2046410800": {
+    "name": "Knight of the Solitary Gaol",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2046450800": {
+    "name": "Red Bear",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2047390800": {
+    "name": "Death Rite Bird (Cerulean Coast)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2047450800": {
+    "name": "Black Knight Garrew",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2048380850": {
+    "name": "Ghostflame Dragon (Scadu Altus)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2049410800": {
+    "name": "Jagged Peak Drake",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2049430850": {
+    "name": "Black Knight Edreed",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2049450800": {
+    "name": "Ralva the Great Red Bear",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2051440800": {
+    "name": "Rakshasa",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2052430800": {
+    "name": "Jori, Elder Inquisitor (Darklight Catacombs)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "dungeon"
+  },
+  "2052480800": {
+    "name": "Fallingstar Beast (DLC)",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  },
+  "2054390850": {
+    "name": "Ancient Dragon Senessax",
+    "region": "dlc",
+    "is_main": false,
+    "type": "field"
+  }
 }
