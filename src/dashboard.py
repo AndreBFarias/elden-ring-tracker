@@ -427,7 +427,7 @@ def _render_metrics(slot_index: int, region: str = "") -> None:
             c1.metric("Nível", "--")
             c2.metric("Runas", "--")
 
-        ng_value = stats.get("ng_plus", 0) if stats else 0
+        ng_value = stats["ng_plus"] if stats else 0
         ng_label = f"NG+{ng_value}" if ng_value > 0 else "NG"
         c3.metric("Ciclo", ng_label)
 

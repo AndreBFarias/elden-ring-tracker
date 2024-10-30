@@ -199,7 +199,23 @@ def parse_inventory(
                 continue
 
             type_name, item_id = _classify_handle(handle)
-            if not type_name or type_name not in result:
+            if not type_name:
+                continue
+
+            if type_name == "goods":
+                if 4000 <= item_id < 8000:
+                    actual_cat = "spell"
+                elif item_id < 4000:
+                    actual_cat = "consumable"
+                else:
+                    actual_cat = "material"
+                if actual_cat in result:
+                    name = _resolve_name(type_name, item_id, db)
+                    if name:
+                        result[actual_cat].add(name)
+                continue
+
+            if type_name not in result:
                 continue
 
             name = _resolve_name(type_name, item_id, db)
