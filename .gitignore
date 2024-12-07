@@ -44,6 +44,9 @@ data/references/backup/
 # Pesos de modelos de ML
 assets/models/
 
+# Worktrees
+.worktrees/
+
 # Build artifacts
 packaging/appimage/build/
 build-flatpak/
