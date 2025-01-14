@@ -53,7 +53,10 @@
     "lng": 133.79236328481997,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      41010800
+    ]
   },
   {
     "name": "Bonny Village",
@@ -109,7 +112,10 @@
     "lng": 139.58248392090113,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      2052430800
+    ]
   },
   {
     "name": "Dragon's Pit",
@@ -117,7 +123,10 @@
     "lng": 120.57428586524401,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      43010800
+    ]
   },
   {
     "name": "Eastern Nameless Mausoleum",
@@ -189,7 +198,10 @@
     "lng": 114.284516513206,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      40000800
+    ]
   },
   {
     "name": "Fog Rift Fort",
@@ -221,7 +233,10 @@
     "lng": 112.70067386922388,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      41020800
+    ]
   },
   {
     "name": "Midra's Manse",
@@ -293,7 +308,10 @@
     "lng": 108.75256595502395,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      43000800
+    ]
   },
   {
     "name": "Ruined Forge Lava Intake",
@@ -309,7 +327,10 @@
     "lng": 124.09777477266496,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      41000800
+    ]
   },
   {
     "name": "Ruins of Unte",
@@ -349,7 +370,10 @@
     "lng": 97.31621299468827,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      40010800
+    ]
   },
   {
     "name": "Shadow Keep",
@@ -453,7 +477,10 @@
     "lng": 121.926501,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30100800
+    ]
   },
   {
     "name": "Auriza Side Tomb",
@@ -501,7 +528,10 @@
     "lng": 115,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9125
+    ]
   },
   {
     "name": "Abandoned Cave",
@@ -509,7 +539,10 @@
     "lng": 141.34,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31200800
+    ]
   },
   {
     "name": "Academy Crystal Cave",
@@ -517,7 +550,10 @@
     "lng": 52.045877,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31060800
+    ]
   },
   {
     "name": "Academy Gate Town",
@@ -557,7 +593,10 @@
     "lng": 93.82,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32050800
+    ]
   },
   {
     "name": "Apostate Derelict",
@@ -589,7 +628,10 @@
     "lng": 121.21238,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30100800
+    ]
   },
   {
     "name": "Auriza Side Tomb",
@@ -621,7 +663,11 @@
     "lng": 80.909102,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30050800,
+      30050850
+    ]
   },
   {
     "name": "Boilprawn Shack",
@@ -653,7 +699,10 @@
     "lng": 141.12,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30150800
+    ]
   },
   {
     "name": "Caelid Waypoint Ruins",
@@ -677,7 +726,10 @@
     "lng": 57.830831,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9181
+    ]
   },
   {
     "name": "Carian Study Hall",
@@ -693,7 +745,10 @@
     "lng": 110.691781,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9180
+    ]
   },
   {
     "name": "Castle Sol",
@@ -701,7 +756,10 @@
     "lng": 157.257479,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9184
+    ]
   },
   {
     "name": "Cathedral of Dragon Communion",
@@ -725,7 +783,10 @@
     "lng": 149.3952,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31120800
+    ]
   },
   {
     "name": "Chapel of Anticipation",
@@ -813,7 +874,10 @@
     "lng": 84.551273,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30060800
+    ]
   },
   {
     "name": "Coastal Cave",
@@ -821,7 +885,10 @@
     "lng": 96.230931,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31150800
+    ]
   },
   {
     "name": "Consecrated Snowfield Catacombs",
@@ -829,7 +896,10 @@
     "lng": 148.63388,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30190800
+    ]
   },
   {
     "name": "Converted Fringe Tower",
@@ -869,7 +939,10 @@
     "lng": 218.079582,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9115
+    ]
   },
   {
     "name": "Cuckoo's Evergaol",
@@ -917,7 +990,10 @@
     "lng": 146.690235,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      34130800
+    ]
   },
   {
     "name": "Divine Tower of East Altus",
@@ -973,7 +1049,10 @@
     "lng": 157.538651,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31100800
+    ]
   },
   {
     "name": "Earthbore Cave",
@@ -981,7 +1060,10 @@
     "lng": 110.929856,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31010800
+    ]
   },
   {
     "name": "East Windmill Pasture",
@@ -997,7 +1079,10 @@
     "lng": 147.1,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9120
+    ]
   },
   {
     "name": "Enemy Caravan (Aluts Plateau)",
@@ -1157,7 +1242,11 @@
     "lng": 101.777823,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      18000800,
+      18000850
+    ]
   },
   {
     "name": "Gael Tunnel",
@@ -1165,7 +1254,10 @@
     "lng": 128.18,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32070800
+    ]
   },
   {
     "name": "Gaol Cave",
@@ -1173,7 +1265,10 @@
     "lng": 131.64,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31210800
+    ]
   },
   {
     "name": "Gatefront Ruins",
@@ -1189,7 +1284,10 @@
     "lng": 72.018504,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30090800
+    ]
   },
   {
     "name": "Giant-Conquering Hero's Grave",
@@ -1197,7 +1295,10 @@
     "lng": 148.533811,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30170800
+    ]
   },
   {
     "name": "Giants' Mountaintop Catacombs",
@@ -1205,7 +1306,10 @@
     "lng": 150.833603,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30180800
+    ]
   },
   {
     "name": "Golden Lineage Evergaol",
@@ -1245,7 +1349,10 @@
     "lng": 99.496922,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31030800
+    ]
   },
   {
     "name": "Guardians' Garrison",
@@ -1293,7 +1400,10 @@
     "lng": 141.81,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30200810
+    ]
   },
   {
     "name": "Highroad Cave",
@@ -1301,7 +1411,10 @@
     "lng": 108.883607,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31170800
+    ]
   },
   {
     "name": "Highway Lookout Tower",
@@ -1325,7 +1438,10 @@
     "lng": 118.760731,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30010800
+    ]
   },
   {
     "name": "Isolated Divine Tower",
@@ -1373,7 +1489,10 @@
     "lng": 66.660563,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31050800
+    ]
   },
   {
     "name": "Laskyar Ruins",
@@ -1397,7 +1516,10 @@
     "lng": 115.51269,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      35000850
+    ]
   },
   {
     "name": "Leyndell, Royal Capital",
@@ -1413,7 +1535,10 @@
     "lng": 104.514482,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32010800
+    ]
   },
   {
     "name": "Lord Contender's Evergaol",
@@ -1541,7 +1666,10 @@
     "lng": 130.111818,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30140800
+    ]
   },
   {
     "name": "Minor Erdtree Church",
@@ -1589,7 +1717,10 @@
     "lng": 108.91,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32000800
+    ]
   },
   {
     "name": "Murkwater Catacombs",
@@ -1597,7 +1728,10 @@
     "lng": 109.59,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30040800
+    ]
   },
   {
     "name": "Murkwater Cave",
@@ -1605,7 +1739,10 @@
     "lng": 109.36,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31000800
+    ]
   },
   {
     "name": "Old Altus Tunnel",
@@ -1613,7 +1750,10 @@
     "lng": 78.604109,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32040800
+    ]
   },
   {
     "name": "Ordina, Liturgical Town",
@@ -1637,7 +1777,10 @@
     "lng": 95.62,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31180800
+    ]
   },
   {
     "name": "Perfumer's Ruins",
@@ -1677,7 +1820,10 @@
     "lng": 66.915018,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32020800
+    ]
   },
   {
     "name": "Redmane Castle",
@@ -1685,7 +1831,10 @@
     "lng": 157.812084,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9183
+    ]
   },
   {
     "name": "Renna's Rise",
@@ -1741,7 +1890,10 @@
     "lng": 74.833117,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9126
+    ]
   },
   {
     "name": "Sage's Cave",
@@ -1749,7 +1901,11 @@
     "lng": 72.231256,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31190800,
+      31190850
+    ]
   },
   {
     "name": "Sainted Hero's Grave",
@@ -1757,7 +1913,10 @@
     "lng": 89.53,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30080800
+    ]
   },
   {
     "name": "Sealed Tunnel",
@@ -1781,7 +1940,10 @@
     "lng": 69.644515,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31070800
+    ]
   },
   {
     "name": "Sellia Crystal Tunnel",
@@ -1813,7 +1975,10 @@
     "lng": 154.11,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31110800
+    ]
   },
   {
     "name": "Sellia, Town of Sorcery",
@@ -1877,7 +2042,10 @@
     "lng": 168.37,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30030800
+    ]
   },
   {
     "name": "Stargazer's Ruins",
@@ -1893,7 +2061,10 @@
     "lng": 82.805064,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31040800
+    ]
   },
   {
     "name": "Stormcaller Church",
@@ -1909,7 +2080,10 @@
     "lng": 96.16469,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30020800
+    ]
   },
   {
     "name": "Stormgate",
@@ -1965,7 +2139,10 @@
     "lng": 115.752706,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9125
+    ]
   },
   {
     "name": "Summonwater Village",
@@ -2013,7 +2190,10 @@
     "lng": 81.87705,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9182
+    ]
   },
   {
     "name": "Third Church of Marika",
@@ -2029,7 +2209,10 @@
     "lng": 104.958164,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30000800
+    ]
   },
   {
     "name": "Tombsward Cave",
@@ -2037,7 +2220,10 @@
     "lng": 98.53833,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31020800
+    ]
   },
   {
     "name": "Tombsward Ruins",
@@ -2077,7 +2263,10 @@
     "lng": 68.77679,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      31090800
+    ]
   },
   {
     "name": "Volcano Manor",
@@ -2085,7 +2274,10 @@
     "lng": 64.283372,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9129
+    ]
   },
   {
     "name": "Walking Mausoleum (Consecrated Snowfield)",
@@ -2141,7 +2333,10 @@
     "lng": 163.41,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30160800
+    ]
   },
   {
     "name": "Warmaster's Shack",
@@ -2213,7 +2408,10 @@
     "lng": 73.721478,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      30070800
+    ]
   },
   {
     "name": "Wyndham Ruins",
@@ -2237,7 +2435,10 @@
     "lng": 133.02805,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      32110800
+    ]
   },
   {
     "name": "Zamor Ruins",
@@ -2389,7 +2590,11 @@
     "lng": 147.74513,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9112,
+      9174
+    ]
   },
   {
     "name": "Night's Sacred Ground",
@@ -2405,7 +2610,12 @@
     "lng": 122.235959,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9110,
+      9133,
+      9134
+    ]
   },
   {
     "name": "Nokstella, Eternal City",
@@ -2413,7 +2623,10 @@
     "lng": 65.43712,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "boss_flags": [
+      9109
+    ]
   },
   {
     "name": "Siofra Aqueduct",

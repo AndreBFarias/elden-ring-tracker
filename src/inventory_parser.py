@@ -24,7 +24,10 @@ TYPE_NAMES = {
     TYPE_ASH: "ash_of_war",
 }
 
-TRACKED_CATEGORIES = {"weapon", "armor", "shield", "talisman", "spell", "consumable", "material"}
+TRACKED_CATEGORIES = {
+    "weapon", "armor", "shield", "talisman", "spell",
+    "consumable", "material", "upgrade_material",
+}
 
 WEAPON_REINFORCE_STEP = 10000
 SHIELD_RANGE_MIN = 30000000
@@ -79,16 +82,14 @@ def _classify_handle(ga_item_handle: int) -> tuple[str, int]:
 def _resolve_name(
     type_name: str, item_id: int, db: dict[str, dict[int, str]],
 ) -> str:
-    lookup = type_name
     if type_name == "goods":
-        if 4000 <= item_id < 8000:
-            lookup = "spell"
-        elif item_id < 4000:
-            lookup = "consumable"
-        else:
-            lookup = "material"
+        for lookup in ("upgrade_material", "spell", "consumable", "material"):
+            name = db.get(lookup, {}).get(item_id)
+            if name:
+                return name
+        return ""
 
-    id_map = db.get(lookup, {})
+    id_map = db.get(type_name, {})
     if not id_map:
         return ""
 
@@ -96,7 +97,7 @@ def _resolve_name(
     if name:
         return name
 
-    if lookup in ("weapon", "shield"):
+    if type_name in ("weapon", "shield"):
         base_id = _normalize_weapon_id(item_id)
         return id_map.get(base_id, "")
 
@@ -203,16 +204,13 @@ def parse_inventory(
                 continue
 
             if type_name == "goods":
-                if 4000 <= item_id < 8000:
-                    actual_cat = "spell"
-                elif item_id < 4000:
-                    actual_cat = "consumable"
-                else:
-                    actual_cat = "material"
-                if actual_cat in result:
-                    name = _resolve_name(type_name, item_id, db)
+                for actual_cat in ("upgrade_material", "spell", "consumable", "material"):
+                    if actual_cat not in result:
+                        continue
+                    name = db.get(actual_cat, {}).get(item_id)
                     if name:
                         result[actual_cat].add(name)
+                        break
                 continue
 
             if type_name not in result:
