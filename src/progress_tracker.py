@@ -68,6 +68,7 @@ AUTO_TRACKED = {
     "flask_upgrade", "ash_of_war", "map_fragment", "key_item",
     "weapon", "armor", "shield", "talisman", "spell",
     "consumable", "material", "upgrade_material",
+    "npc",
 }
 
 

@@ -22,6 +22,7 @@ FLAG_CATEGORY_FILES: dict[str, str] = {
     "ash_of_war": "ash_of_war_flags.json",
     "map_fragment": "map_fragment_flags.json",
     "key_item": "key_item_flags.json",
+    "npc": "npc_dead_flags.json",
 }
 
 _bst_map: dict[int, int] | None = None
