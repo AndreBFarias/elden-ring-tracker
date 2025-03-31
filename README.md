@@ -25,12 +25,12 @@ um dashboard Streamlit com mapa interativo via Leaflet/Folium.
 |---|---|
 | Mapa interativo | Quatro regiões (Superfície, Subterrâneo, DLC, Extra) com zoom e pan via Leaflet |
 | Camadas toggláveis | Bosses, Graças, Dungeons, NPCs, itens e posição do jogador com ícones customizados |
-| Auto-tracking expandido | Detecção automática de bosses, graças, crystal tears, ashes of war, mapas, cookbooks, materiais de melhoria e inventário |
+| Auto-tracking expandido | Detecção automática de bosses, graças, dungeons, crystal tears, ashes of war, mapas, cookbooks, consumíveis, materiais, materiais de melhoria e inventário |
 | Progresso detalhado | Tracking por categoria com abas Pendentes/Concluídos e checklist manual |
 | Scan de inventário | Parsing binário do inventário para detectar armas, armaduras, escudos, talismãs e feitiços |
 | Eventos perdíveis | 20 eventos críticos com severidade, status e condição de perda |
 | Conquistas Steam | 42 conquistas offline com resolução automática e barra de progresso |
-| Rastreamento de NPCs | 138 NPCs com checklist manual na aba Progresso |
+| Rastreamento de NPCs | 178 NPCs com checklist manual; auto-tracking via event flags para NPCs com flags documentados |
 | Histórico de snapshots | Aba Sessões com nível, runas e atributos por sincronização |
 | Indicador de NG+ | Ciclo do personagem exibido nos metrics do dashboard |
 | Diagnóstico de flags | Script CLI `scripts/diagnose_flags.py` para listar event flags ativos com nomes |
@@ -215,9 +215,11 @@ Todos os acessos passam por `database.py`. A conexão usa WAL mode, `foreign_key
 | `boss_flags.json` | 164 entradas: flag_id → {name, region, is_main, type} |
 | `graces.json` | Graças com flag ID e região |
 | `grace_flags.json` | flag_id → nome da graça |
-| `dungeons.json` | Dungeons com nome, tipo e região |
-| `items.json` | Todos os itens coletáveis por categoria |
-| `npcs.json` | 138 NPCs com nome, região e categoria |
+| `dungeons.json` | 306 dungeons com nome, tipo, região e boss_flags para auto-tracking |
+| `items.json` | Todos os itens coletáveis por categoria (loot map com coordenadas) |
+| `item_ids.json` | Mapa de item_id → nome por categoria (weapon, armor, shield, talisman, spell, consumable, material, upgrade_material) |
+| `npcs.json` | 178 NPCs com nome, região e categoria |
+| `npc_dead_flags.json` | flag_id → nome de NPC para auto-tracking via event flags |
 | `missable_events.json` | 20 eventos perdíveis com condição e severidade |
 | `achievements.json` | 42 conquistas com condição de resolução |
 | `crystal_tear_flags.json` | Flags de crystal tears (upgrades de frasco) |
@@ -247,6 +249,8 @@ Se `save_path` não estiver configurado ou for inválido, o parser busca automat
 | Script | Uso |
 |--------|-----|
 | `diagnose_flags.py` | CLI para listar event flags ativos com nomes (`--save`, `--slot`, `--category`) |
+| `import_goods_ids.py` | Baixa CSV de itens do EldenRingTool e popula `item_ids.json` com IDs de consumíveis, materiais e materiais de melhoria |
+| `link_dungeon_boss_flags.py` | Linka entradas de `dungeons.json` aos respectivos boss_flags para auto-tracking de conclusão |
 | `download_tiles.py` | Download dos tiles de mapa do Fextralife |
 | `enrich_references.py` | Enriquece JSONs de referência com flag IDs |
 | `import_dataset.py` | Importação de datasets externos para os JSONs de referência |
@@ -323,6 +327,8 @@ Nunca usar `print()` em código de produção — usar sempre o logger.
 │   └── map_tiles/             # Tiles dos mapas (baixados pelo usuário)
 ├── scripts/
 │   ├── diagnose_flags.py      # CLI para listar event flags ativos com nomes
+│   ├── import_goods_ids.py    # Popula item_ids.json com IDs de goods via CSV externo
+│   ├── link_dungeon_boss_flags.py  # Linka dungeons.json a boss_flags para auto-tracking
 │   ├── enrich_references.py   # Enriquecimento de JSONs com flags
 │   ├── download_tiles.py      # Download de tiles
 │   ├── stitch_tiles.py        # União de tiles
