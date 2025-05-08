@@ -18,7 +18,7 @@ logger = get_logger("progress")
 CATEGORY_FILES = {
     "boss": "bosses.json",
     "grace": "graces.json",
-    "dungeon": "dungeons.json",
+    "dungeon": "dungeon_bosses.json",
     "waygate": "waygates.json",
     "weapon": "items.json",
     "armor": "items.json",
@@ -33,6 +33,7 @@ CATEGORY_FILES = {
     "key_item": "items.json",
     "map_fragment": "items.json",
     "npc": "npcs.json",
+    "npc_invader": "npcs.json",
 }
 
 
@@ -91,14 +92,12 @@ def _get_auto_completed(slot_index: int, category: str) -> set[str]:
         }
     if category == "dungeon":
         kills = get_boss_kills(slot_index)
-        killed_flags = {row["boss_flag"] for row in kills}
+        flag_set = {row["boss_flag"] for row in kills}
         ref = _load_reference("dungeon")
-        completed = set()
-        for entry in ref:
-            boss_flags = entry.get("boss_flags", [])
-            if boss_flags and all(f in killed_flags for f in boss_flags):
-                completed.add(entry["name"])
-        return completed
+        return {
+            entry["name"] for entry in ref
+            if entry.get("flag") and entry["flag"] in flag_set
+        }
     if category in AUTO_TRACKED:
         rows = get_collected_items(slot_index, category)
         return {row["item_name"] for row in rows}

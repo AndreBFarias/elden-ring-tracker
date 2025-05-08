@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Astel, Naturalborn of the Void",
+    "flag": 9108,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Dragonkin Soldier of Nokstella",
+    "flag": 9109,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Valiant Gargoyles",
+    "flag": 9110,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Lichdragon Fortissax",
+    "flag": 9111,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Mohg, Lord of Blood",
+    "flag": 9112,
+    "region": "underground",
+    "is_main": true
+  },
+  {
+    "name": "Dragonlord Placidusax",
+    "flag": 9115,
+    "region": "farum_azula",
+    "is_main": false
+  },
+  {
+    "name": "Malenia, Blade of Miquella",
+    "flag": 9120,
+    "region": "haligtree",
+    "is_main": true
+  },
+  {
+    "name": "Mohg, the Omen",
+    "flag": 9125,
+    "region": "leyndell",
+    "is_main": false
+  },
+  {
+    "name": "Magma Wyrm Makar",
+    "flag": 9126,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Ulcerated Tree Spirit (Limgrave)",
+    "flag": 9128,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Abductor Virgins",
+    "flag": 9129,
+    "region": "volcano_manor",
+    "is_main": false
+  },
+  {
+    "name": "Ancestor Spirit",
+    "flag": 9132,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Regal Ancestor Spirit",
+    "flag": 9133,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Mimic Tear",
+    "flag": 9134,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Fia's Champions",
+    "flag": 9135,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Godskin Apostle (Dragonbarrow)",
+    "flag": 9173,
+    "region": "dragonbarrow",
+    "is_main": false
+  },
+  {
+    "name": "Fell Twins",
+    "flag": 9174,
+    "region": "capital_outskirts",
+    "is_main": false
+  },
+  {
+    "name": "Leonine Misbegotten",
+    "flag": 9180,
+    "region": "weeping_peninsula",
+    "is_main": false
+  },
+  {
+    "name": "Royal Knight Loretta",
+    "flag": 9181,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Elemer of the Briar",
+    "flag": 9182,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Crucible Knight & Misbegotten Warrior",
+    "flag": 9183,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Commander Niall",
+    "flag": 9184,
+    "region": "mountaintops",
+    "is_main": false
+  },
+  {
+    "name": "Dragonkin Soldier (Lake of Rot)",
+    "flag": 12010850,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Ulcerated Tree Spirit (Fringefolk Hero's Grave)",
+    "flag": 18000800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Soldier of Godrick (Fringefolk Hero's Grave)",
+    "flag": 18000850,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Cemetery Shade (Tombsward Catacombs)",
+    "flag": 30000800,
+    "region": "weeping_peninsula",
+    "is_main": false
+  },
+  {
+    "name": "Erdtree Burial Watchdog (Impaler's Catacombs)",
+    "flag": 30010800,
+    "region": "weeping_peninsula",
+    "is_main": false
+  },
+  {
+    "name": "Erdtree Burial Watchdog (Stormfoot Catacombs)",
+    "flag": 30020800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Spirit-Caller Snail",
+    "flag": 30030800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Grave Warden Duelist (Murkwater Catacombs)",
+    "flag": 30040800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Cemetery Shade (Black Knife Catacombs)",
+    "flag": 30050800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Black Knife Assassin (Black Knife Catacombs)",
+    "flag": 30050850,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Erdtree Burial Watchdog (Cliffbottom Catacombs)",
+    "flag": 30060800,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Erdtree Burial Watchdog (Wyndham Catacombs)",
+    "flag": 30070800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Ancient Hero of Zamor (Sainted Hero's Grave)",
+    "flag": 30080800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Red Wolf of the Champion (Gelmir Hero's Grave)",
+    "flag": 30090800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Crucible Knight Ordovis & Crucible Knight",
+    "flag": 30100800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Erdtree Burial Watchdog (Minor Erdtree Catacombs)",
+    "flag": 30140800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Cemetery Shade (Caelid Catacombs)",
+    "flag": 30150800,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Putrid Tree Spirit (War-Dead Catacombs)",
+    "flag": 30160800,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Ancient Hero of Zamor (Giant-Conquering Hero's Grave)",
+    "flag": 30170800,
+    "region": "mountaintops",
+    "is_main": false
+  },
+  {
+    "name": "Ulcerated Tree Spirit (Giants' Mountaintop Catacombs)",
+    "flag": 30180800,
+    "region": "mountaintops",
+    "is_main": false
+  },
+  {
+    "name": "Putrid Grave Warden Duelist (Consecrated Snowfield Catacombs)",
+    "flag": 30190800,
+    "region": "mountaintops",
+    "is_main": false
+  },
+  {
+    "name": "Stray Mimic Tear (Hidden Path to Haligtree)",
+    "flag": 30200810,
+    "region": "haligtree",
+    "is_main": false
+  },
+  {
+    "name": "Patches (Murkwater Cave)",
+    "flag": 31000800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Runebear (Earthbore Cave)",
+    "flag": 31010800,
+    "region": "weeping_peninsula",
+    "is_main": false
+  },
+  {
+    "name": "Miranda the Blighted Bloom (Tombsward Cave)",
+    "flag": 31020800,
+    "region": "weeping_peninsula",
+    "is_main": false
+  },
+  {
+    "name": "Beastman of Farum Azula (Groveside Cave)",
+    "flag": 31030800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Cleanrot Knight (Stillwater Cave)",
+    "flag": 31040800,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Bloodhound Knight (Lakeside Crystal Cave)",
+    "flag": 31050800,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Crystalians (Academy Crystal Cave)",
+    "flag": 31060800,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Kindred of Rot (Seethewater Cave)",
+    "flag": 31070800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Demi-Human Queen Margot (Volcano Cave)",
+    "flag": 31090800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Beastman of Farum Azula (Dragonbarrow Cave)",
+    "flag": 31100800,
+    "region": "dragonbarrow",
+    "is_main": false
+  },
+  {
+    "name": "Putrid Crystalians (Sellia Hideaway)",
+    "flag": 31110800,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Misbegotten Crusader (Cave of the Forlorn)",
+    "flag": 31120800,
+    "region": "mountaintops",
+    "is_main": false
+  },
+  {
+    "name": "Demi-Human Chief (Coastal Cave)",
+    "flag": 31150800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Guardian Golem (Highroad Cave)",
+    "flag": 31170800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Omenkiller (Perfumer's Grotto)",
+    "flag": 31180800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Black Knife Assassin (Sage's Cave)",
+    "flag": 31190800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Necromancer Garris (Sage's Cave)",
+    "flag": 31190850,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Cleanrot Knight (Abandoned Cave)",
+    "flag": 31200800,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Frenzied Duelist (Gaol Cave)",
+    "flag": 31210800,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Scaly Misbegotten (Morne Tunnel)",
+    "flag": 32000800,
+    "region": "weeping_peninsula",
+    "is_main": false
+  },
+  {
+    "name": "Stonedigger Troll (Limgrave Tunnels)",
+    "flag": 32010800,
+    "region": "limgrave",
+    "is_main": false
+  },
+  {
+    "name": "Crystalian Ringblade (Raya Lucaria Crystal Tunnel)",
+    "flag": 32020800,
+    "region": "liurnia",
+    "is_main": false
+  },
+  {
+    "name": "Stonedigger Troll (Old Altus Tunnel)",
+    "flag": 32040800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Crystalians (Altus Tunnel)",
+    "flag": 32050800,
+    "region": "altus",
+    "is_main": false
+  },
+  {
+    "name": "Magma Wyrm (Gael Tunnel)",
+    "flag": 32070800,
+    "region": "caelid",
+    "is_main": false
+  },
+  {
+    "name": "Astel, Stars of Darkness (Yelough Anix Tunnel)",
+    "flag": 32110800,
+    "region": "mountaintops",
+    "is_main": false
+  },
+  {
+    "name": "Godskin Apostle (Divine Tower of Caelid)",
+    "flag": 34130800,
+    "region": "dragonbarrow",
+    "is_main": false
+  },
+  {
+    "name": "Esgar, Priest of Blood",
+    "flag": 35000850,
+    "region": "underground",
+    "is_main": false
+  },
+  {
+    "name": "Death Knight (Fog Rift Catacombs)",
+    "flag": 40000800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Death Knight (Scorpion River Catacombs)",
+    "flag": 40010800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Demi-Human Swordmaster Onze",
+    "flag": 41000800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Curseblade Labirith (Bonny Gaol)",
+    "flag": 41010800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Lamenter (Lamenter's Gaol)",
+    "flag": 41020800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Chief Bloodfiend (Rivermouth Cave)",
+    "flag": 43000800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Ancient Dragon-Man (Dragon's Pit)",
+    "flag": 43010800,
+    "region": "dlc",
+    "is_main": false
+  },
+  {
+    "name": "Jori, Elder Inquisitor (Darklight Catacombs)",
+    "flag": 2052430800,
+    "region": "dlc",
+    "is_main": false
+  }
+]
