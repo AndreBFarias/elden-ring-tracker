@@ -354,19 +354,15 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
         else:
             st.markdown(f"**Graças:** {grace_prog['completed']}")
 
-        st.markdown("### PROGRESSO DO MAPA")
-        progress_mode = st.session_state.get("map_progress_mode", "total")
-        cp1, cp2 = st.columns(2)
-        with cp1:
-            atual_type = "primary" if progress_mode == "atual" else "secondary"
-            if st.button("Atual", use_container_width=True, type=atual_type):
-                st.session_state["map_progress_mode"] = "atual"
-                st.rerun()
-        with cp2:
-            total_type = "primary" if progress_mode == "total" else "secondary"
-            if st.button("Total", use_container_width=True, type=total_type):
-                st.session_state["map_progress_mode"] = "total"
-                st.rerun()
+        st.markdown("### FILTRO")
+        st.radio(
+            "Filtro",
+            options=["a_fazer", "feito"],
+            format_func=lambda x: "A fazer" if x == "a_fazer" else "Feito",
+            key="completion_mode",
+            horizontal=True,
+            label_visibility="collapsed",
+        )
 
         st.markdown("### CAMADAS")
 
@@ -472,8 +468,6 @@ def _render_map(
         if stats["pos_x"] != 0.0 or stats["pos_z"] != 0.0:
             player_pos = pixel_to_fextra(stats["pos_x"], stats["pos_z"])
 
-    progress_mode = st.session_state.get("map_progress_mode", "total")
-
     html = build_map(
         region_name=region_name,
         defeated_boss_flags=defeated_flags,
@@ -482,7 +476,7 @@ def _render_map(
         layer_visibility=layer_visibility,
         search_query=search_query,
         map_height=600,
-        progress_mode=progress_mode,
+        progress_mode="total",
     )
 
     if search_query:
@@ -555,7 +549,8 @@ def main() -> None:
 
     with tab_progress:
         from tabs import progress as page_progress
-        page_progress.render(slot_index, region=filter_region)
+        completion_mode = st.session_state.get("completion_mode", "a_fazer")
+        page_progress.render(slot_index, region=filter_region, completion_mode=completion_mode)
 
     with tab_missable:
         from tabs import missable as page_missable

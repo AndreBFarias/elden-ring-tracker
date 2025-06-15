@@ -1,0 +1,190 @@
+{
+  "_instrucoes": "Edite os campos boss_flag. Use null se a flag nao for conhecida. Rode scripts/apply_patches.py para aplicar.",
+  "invasores": [
+    {
+      "name": "Dryleaf Dane - Enir-Ilim",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Fire Knight Queelign",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Fire Knight Queelign - Belurat Tower Settlement",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Greater Potentate",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Greater Potentate",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Greater Potentate",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Hornsent",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Logur, the Beast Claw",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Madding Hand (NPC)",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Moonrithyll, Carian Knight",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Moore (Enemy) - Enir-Ilim",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Needle Knight Leda - Enir-Ilim",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Redmane Freyja - Enir-Ilim",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Swordhand of Night Anna",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Swordhand of Night Jolan",
+      "boss_flag": null,
+      "notas": "regiao: dlc"
+    },
+    {
+      "name": "Anastasia, Tarnished-Eater A",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Anastasia, Tarnished-Eater B",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Bloody Finger Nerijus",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Bloody Finger Okina",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Bloody Finger Ravenmount Assassin",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Chief Guardian Arghanthy",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Dung Eater (Royal Capital Moat)",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Edgar the Revenger",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Eleonora, Violet Bloody Finger",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Great Horned Tragoth",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Inquisitor Ghiza",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Juno Hoslow, Knight of Blood",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Maleigh Marais, Shaded Castle Castellan",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Millicent (NPC Invader)",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Moongrum, Carian Knight",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Old Knight Istvan",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Preceptor Miriam",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Recusant Bernahl",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Recusant Henricus",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Rileigh the Idle",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Vargram the Raging Wolf",
+      "boss_flag": null,
+      "notas": "regiao: surface"
+    },
+    {
+      "name": "Baleful Shadow",
+      "boss_flag": null,
+      "notas": "regiao: underground"
+    }
+  ]
+}

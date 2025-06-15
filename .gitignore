@@ -47,6 +47,9 @@ assets/models/
 # Worktrees
 .worktrees/
 
+# Ambientes virtuais alternativos
+venv_requirements-dev/
+
 # Build artifacts
 packaging/appimage/build/
 build-flatpak/

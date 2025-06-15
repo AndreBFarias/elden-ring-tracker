@@ -166,7 +166,9 @@ def _render_ref_list(category: str, items: list[dict]) -> None:
                 st.rerun()
 
 
-def _render_category_auto(slot_index: int, category: str, region: str) -> None:
+def _render_category_auto(
+    slot_index: int, category: str, region: str, completion_mode: str = "a_fazer"
+) -> None:
     cat_config = CATEGORIES.get(category)
     if not cat_config:
         return
@@ -174,27 +176,16 @@ def _render_category_auto(slot_index: int, category: str, region: str) -> None:
     label = cat_config.display_name
     progress = get_progress(slot_index, category, region=region)
 
+    done_count = sum(1 for i in progress["items"] if i["completed"])
+    pending_count = sum(1 for i in progress["items"] if not i["completed"])
+
     with st.expander(
-        f"{label} - {progress['completed']}/{progress['total']}",
+        f"{label} — {done_count} feitos / {pending_count} a fazer",
         expanded=False,
     ):
-        _render_progress_bar(
-            label, progress["completed"], progress["total"], color
-        )
-        pending_count = sum(1 for i in progress["items"] if not i["completed"])
-        done_count = sum(1 for i in progress["items"] if i["completed"])
-        tab_pending, tab_done = st.tabs([
-            f"Pendentes ({pending_count})",
-            f"Concluídos ({done_count})",
-        ])
-        with tab_pending:
-            _render_item_list(
-                slot_index, category, progress["items"], show_completed=False
-            )
-        with tab_done:
-            _render_item_list(
-                slot_index, category, progress["items"], show_completed=True
-            )
+        _render_progress_bar(label, progress["completed"], progress["total"], color)
+        show_completed = completion_mode == "feito"
+        _render_item_list(slot_index, category, progress["items"], show_completed=show_completed)
 
 
 def _render_category_ref(category: str, region: str) -> None:
@@ -219,7 +210,7 @@ def _render_category_ref(category: str, region: str) -> None:
         _render_ref_list(category, progress["items"])
 
 
-def render(slot_index: int, region: str = "") -> None:
+def render(slot_index: int, region: str = "", completion_mode: str = "a_fazer") -> None:
     overall = get_overall_stats(slot_index, region=region)
 
     st.markdown(
@@ -251,7 +242,7 @@ def render(slot_index: int, region: str = "") -> None:
             if category not in CATEGORIES:
                 continue
             if category in AUTO_DETECT_CATEGORIES:
-                _render_category_auto(slot_index, category, region)
+                _render_category_auto(slot_index, category, region, completion_mode)
             else:
                 _render_category_ref(category, region)
 

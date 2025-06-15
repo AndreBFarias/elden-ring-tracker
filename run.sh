@@ -150,7 +150,32 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# 7. Dashboard
+# 7. Limpeza de cache
+#    Remove bytecode Python (__pycache__ / .pyc) e cache interno do Streamlit.
+#    Garante que alterações em .py e em arquivos de referência (.json) sejam
+#    sempre carregadas do disco — evita estado stale entre reinicializações.
+# ---------------------------------------------------------------------------
+find "$SCRIPT_DIR/src" -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+find "$SCRIPT_DIR/src" -name "*.pyc" -delete 2>/dev/null || true
+find "$SCRIPT_DIR/scripts" -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+rm -rf "$SCRIPT_DIR/.streamlit/cache" 2>/dev/null || true
+ok "Cache limpo (bytecode + Streamlit)"
+
+# ---------------------------------------------------------------------------
+# 8. Encerrar instância anterior na porta 8501
+#    Usa lsof (portátil) em vez de fuser (indisponível em alguns sistemas).
+#    kill -TERM permite ao Streamlit encerrar graciosamente.
+# ---------------------------------------------------------------------------
+OLD_PIDS=$(lsof -ti:8501 2>/dev/null || true)
+if [ -n "$OLD_PIDS" ]; then
+    PID_LIST=$(echo "$OLD_PIDS" | tr '\n' ' ' | xargs)
+    info "Encerrando processo(s) anterior(es) na porta 8501 (PID: $PID_LIST)..."
+    echo "$OLD_PIDS" | xargs kill -TERM 2>/dev/null || true
+    sleep 2
+fi
+
+# ---------------------------------------------------------------------------
+# 9. Dashboard
 #    Inicia o Streamlit na porta 8501. Se tiles locais não estiverem
 #    disponíveis, o mapa carrega tiles remotos do Fextralife automaticamente.
 # ---------------------------------------------------------------------------

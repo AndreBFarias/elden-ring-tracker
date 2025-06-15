@@ -1,0 +1,1190 @@
+{
+  "_instrucoes": "boss_flags e lista de ints. Use [] se sem boss. Rode scripts/apply_patches.py para aplicar.",
+  "dungeons": [
+    {
+      "name": "Abandoned Ailing Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Abandoned Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Albinauric's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Artist's Shack (Gravesite Plain)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Belurat Gaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Belurat Tower Settlement",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Bonny Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Castle Ensis",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Cathedral of Manus Metyr",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Church of Benediction",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Church of Consolation",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Church of the Crusade",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Eastern Nameless Mausoleum",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Elder's Hovel",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Ellac Greatbridge",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Enir-Ilim",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Finger Ruins of Dheo",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Finger Ruins of Miyr",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Finger Ruins of Rhia",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Finger-Weaver's Hovel",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Fog Rift Fort",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Fort of Reprimand",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Grand Altar of Dragon Communion",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Midra's Manse",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Moorth Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Northern Nameless Mausoleum",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Prospect Town",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Rabbath's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Remembrance Duplication Coffin (Finger Ruins of Dheo)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Remembrance Duplication Coffin (Finger Ruins of Rhia)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Remembrance Duplication Coffin (Manus Metyr)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Ruined Forge Lava Intake",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Ruins of Unte",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Run-Down Traveler's Rest",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Scadutree Chalice",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Scorched Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Shadow Keep",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Shaman Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Southern Nameless Mausoleum",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Stone Coffin Fissure",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Suppressing Pillar",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Taylew's Ruined Forge",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Teleportation Coffin",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Temple Town Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Village of Flies",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Waygate",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Western Nameless Mausoleum",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Whipping Hut",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: dlc"
+    },
+    {
+      "name": "Auriza Side Tomb",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: extra"
+    },
+    {
+      "name": "Divine Tower of East Altus",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: extra"
+    },
+    {
+      "name": "Hermit Merchant's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: extra"
+    },
+    {
+      "name": "Leyndell, Ashen Capital",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: extra"
+    },
+    {
+      "name": "Minor Erdtree",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: extra"
+    },
+    {
+      "name": "Academy Gate Town",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Ailing Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Ainsel River Well",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Albinauric Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Apostate Derelict",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Artist's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Artist's Shack (Limgrave)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Auriza Side Tomb",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Bellum Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Bestial Sanctum",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Boilprawn Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Bridge of Sacrifice",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Caelem Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Caelid Waypoint Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Callu Baptismal Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Carian Study Hall",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Cathedral of Dragon Communion",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Cathedral of Manus Celes",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Chapel of Anticipation",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Chelona's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Dragon Communion",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Elleh",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Inhibition",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Irith",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Pilgrimage",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Repose",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of Vows",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Church of the Plague",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Converted Fringe Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Converted Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Corpse-Stench Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Craftsman's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Cuckoo's Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Deathtouched Catacombs",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Deep Ainsel Well",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Deep Siofra Well",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Demi-human Forest Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Divine Tower of East Altus",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Divine Tower of Limgrave",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Divine Tower of Liurnia",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Divine Tower of West Altus",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Dominula, Windmill Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Dragon-Burnt Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "East Windmill Pasture",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Enemy Caravan (Aluts Plateau)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Enemy Caravan (Dragonbarrow)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Enemy Caravan (Limgrave)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Enemy Caravan (West Liurnia of the Lakes)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Enemy Caravan 1 (Consecrated Snowfield)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Enemy Caravan 2 (Consecrated Snowfield)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "First Church of Marika",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Flame Peak",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Forest Lookout Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Forge of the Giants",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Forlorn Hound Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Forsaken Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Fort Faroth",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Fort Gael",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Fort Haight",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Fort Laiedd",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Fourth Church of Marika",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Frenzied Flame Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Frenzy-Flaming Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Gatefront Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Golden Lineage Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Gowry's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Grand Lift of Dectus",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Grand Lift of Rold",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Guardians' Garrison",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Heretical Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Hermit Merchant's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Hermit Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Hermit's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Highway Lookout Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Highway Lookout Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Isolated Divine Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Isolated Merchant's Shack (Dragonbarrow)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Isolated Merchant's Shack (Weeping Peninsula)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Jarburg",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Kingsrealm Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Laskyar Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Lenne's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Leyndell, Royal Capital",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Lord Contender's Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Lunar Estate Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Lux Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Malefactor's Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Altus Plateau)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Caelid)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Capital Outskirts)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Consecrated Snowfield)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Dragonbarrow)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Liurnia Northeast)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Liurnia Southwest)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Mistwood)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Mountaintops East)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Mt. Gelmir)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree (Weeping Peninsula)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Minor Erdtree Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Miquella's Haligtree",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Mirage Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Mistwood Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Moonfolk Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Ordina, Liturgical Town",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Oridys's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Perfumer's Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Purified Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Ranni's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Raya Lucaria Academy",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Renna's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Revenger's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Ringleader's Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Road's End Catacombs",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Rose Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Royal Grave Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Sealed Tunnel",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Second Church of Marika",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Sellia Crystal Tunnel",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Sellia Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Sellia Gateway",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Sellia, Town of Sorcery",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Seluvis's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Shack of the Lofty",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Shack of the Rotting",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Siofra River Well",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Slumbering Wolf's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Smoldering Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stargazer's Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stormcaller Church",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stormgate",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stormhill Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stormhill Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stormveil Castle",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Stranded Graveyard",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Street of Sages Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Summonwater Village",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Swamp Lookout Tower",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Temple Quarter",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Testu's Rise",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "The Four Belfries",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Third Church of Marika",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Tombsward Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Tower of Return",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Unsightly Catacombs",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Village of the Albinaurics",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Walking Mausoleum (Consecrated Snowfield)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Walking Mausoleum (Liurnia of the Lakes Central)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Walking Mausoleum (Liurnia of the Lakes East)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Walking Mausoleum (Liurnia of the Lakes)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Walking Mausoleum (Mountaintops of the Giants)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Walking Mausoleum (Weeping Peninsula)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Warmaster's Shack",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Waypoint Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Weeping Evergaol",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "West Windmill Pasture",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Windmill Village Pasture",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Witchbane Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Woodfolk Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Writheblood Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Wyndham Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Yelough Anix Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Zamor Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: surface"
+    },
+    {
+      "name": "Grand Cloister",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (1)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (2)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (3)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (4)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (5)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (6)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (7)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (8)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (a)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (b)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (c)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (d)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (e)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Hallowhorn Grounds Altar (f)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Night's Sacred Ground",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Siofra Aqueduct",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Uhl Palace Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Uhl Palace Ruins",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    },
+    {
+      "name": "Walking Mausoleum (Deeproot Depths)",
+      "boss_flags": [],
+      "notas": "dungeon | regiao: underground"
+    }
+  ]
+}

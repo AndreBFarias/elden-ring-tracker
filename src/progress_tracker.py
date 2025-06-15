@@ -98,6 +98,26 @@ def _get_auto_completed(slot_index: int, category: str) -> set[str]:
             entry["name"] for entry in ref
             if entry.get("flag") and entry["flag"] in flag_set
         }
+    if category == "npc":
+        discoveries = get_grace_discoveries(slot_index)
+        discovered_flags = {row["grace_flag"] for row in discoveries}
+        ref = _load_reference("npc")
+        grace_met = {
+            entry["name"] for entry in ref
+            if entry.get("nearby_grace_flag") and entry["nearby_grace_flag"] in discovered_flags
+        }
+        item_met = {row["item_name"] for row in get_collected_items(slot_index, "npc")}
+        return grace_met | item_met
+    if category == "npc_invader":
+        kills = get_boss_kills(slot_index)
+        killed_flags = {row["boss_flag"] for row in kills}
+        ref = _load_reference("npc_invader")
+        boss_defeated = {
+            entry["name"] for entry in ref
+            if entry.get("boss_flag") and entry["boss_flag"] in killed_flags
+        }
+        item_col = {row["item_name"] for row in get_collected_items(slot_index, "npc_invader")}
+        return boss_defeated | item_col
     if category in AUTO_TRACKED:
         rows = get_collected_items(slot_index, category)
         return {row["item_name"] for row in rows}

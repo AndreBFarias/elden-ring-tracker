@@ -7,7 +7,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Dragon Communion Priestess",
@@ -17,7 +18,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Dryleaf Dane",
@@ -27,7 +29,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Fire Knight Queelign (NPC)",
@@ -37,7 +40,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Freyja",
@@ -47,7 +51,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Ghost",
@@ -57,7 +62,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Ghost",
@@ -67,7 +73,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Hornsent",
@@ -77,7 +84,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Hornsent",
@@ -87,7 +95,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Hornsent (2nd Location)",
@@ -97,7 +106,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Hornsent Grandam - Belurat Tower Settlement",
@@ -107,7 +117,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Igon",
@@ -117,7 +128,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Igon - Ruined Forge Lava Intake",
@@ -127,7 +139,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Jolan",
@@ -137,7 +150,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Moore - Belurat Tower Settlement",
@@ -147,7 +161,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Needle Knight Leda (2nd Location)",
@@ -157,7 +172,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Redmane Freyja",
@@ -167,7 +183,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Sir Ansbach",
@@ -177,7 +194,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Sir Ansbach - Belurat Tower Settlement",
@@ -187,7 +205,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Sir Ansbach - Enir-Ilim",
@@ -197,7 +216,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "St. Trina - Stone Coffin Fissure",
@@ -207,7 +227,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Thiollier",
@@ -217,7 +238,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Thiollier (2nd Location)  - Stone Coffin Fissure",
@@ -227,7 +249,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": null
   },
   {
     "name": "Ancient Dragon-Man - Ruined Forge Lava Intake",
@@ -237,7 +260,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": 43010800
   },
   {
     "name": "Dryleaf Dane - Enir-Ilim",
@@ -247,7 +271,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Fire Knight Queelign",
@@ -257,7 +282,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Fire Knight Queelign - Belurat Tower Settlement",
@@ -267,7 +293,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Greater Potentate",
@@ -277,7 +304,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Greater Potentate",
@@ -287,7 +315,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Greater Potentate",
@@ -297,7 +326,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Hornsent",
@@ -307,7 +337,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Logur, the Beast Claw",
@@ -317,7 +348,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Madding Hand (NPC)",
@@ -327,7 +359,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Moonrithyll, Carian Knight",
@@ -337,7 +370,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Moore (Enemy) - Enir-Ilim",
@@ -347,7 +381,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Needle Knight Leda - Enir-Ilim",
@@ -357,7 +392,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Redmane Freyja - Enir-Ilim",
@@ -367,7 +403,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Swordhand of Night Anna",
@@ -377,7 +414,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Swordhand of Night Jolan",
@@ -387,7 +425,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Brother Corhyn",
@@ -397,7 +436,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71105
   },
   {
     "name": "Albus",
@@ -407,7 +447,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76250
   },
   {
     "name": "Bernahl (First Location)",
@@ -417,7 +458,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76118
   },
   {
     "name": "Bernahl (Second Location)",
@@ -427,7 +469,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71603
   },
   {
     "name": "Blackguard  (Second Location)",
@@ -437,7 +480,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71235
   },
   {
     "name": "Blackguard Big Boggart",
@@ -447,7 +491,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76216
   },
   {
     "name": "Blaidd (1st location)",
@@ -457,7 +502,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71270
   },
   {
     "name": "Blaidd (2nd Location)",
@@ -467,7 +513,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76106
   },
   {
     "name": "Blaidd (Ranni's Quest - Second Location)",
@@ -477,7 +524,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76419
   },
   {
     "name": "Blaidd (Spectral)",
@@ -487,7 +535,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76247
   },
   {
     "name": "Bloody Finger Hunter Yura (First Location)",
@@ -497,7 +546,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76113
   },
   {
     "name": "Bloody Finger Hunter Yura (Fourth Location)",
@@ -507,7 +557,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73204
   },
   {
     "name": "Bloody Finger Hunter Yura (Second Location)",
@@ -517,7 +568,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76116
   },
   {
     "name": "Bloody Finger Hunter Yura (Third Location)",
@@ -527,7 +579,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76206
   },
   {
     "name": "Boc the Seamster (Fifth Location)",
@@ -537,7 +590,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76303
   },
   {
     "name": "Boc the Seamster (First Location)",
@@ -547,7 +601,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73201
   },
   {
     "name": "Boc the Seamster (Fourth Location)",
@@ -557,7 +612,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76207
   },
   {
     "name": "Boc the Seamster (Second Location)",
@@ -567,7 +623,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73115
   },
   {
     "name": "Boc the Seamster (Sixth Location)",
@@ -577,7 +634,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71102
   },
   {
     "name": "Boc the Seamster (Third Location)",
@@ -587,7 +645,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76200
   },
   {
     "name": "Brother Corhyn (First Location)",
@@ -597,7 +656,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76303
   },
   {
     "name": "Brother Corhyn (Fourth Location)",
@@ -607,7 +667,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76503
   },
   {
     "name": "Brother Corhyn (Third Location)",
@@ -617,7 +678,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71101
   },
   {
     "name": "D, Hunter of the Dead",
@@ -627,7 +689,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76119
   },
   {
     "name": "D, Hunter of the Dead (Second Location)",
@@ -637,7 +700,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76119
   },
   {
     "name": "Diallos",
@@ -647,7 +711,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76223
   },
   {
     "name": "Diallos - Jarburg",
@@ -657,7 +722,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76245
   },
   {
     "name": "Dung Eater (Subterranean Shunning-Grounds)",
@@ -667,7 +733,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73501
   },
   {
     "name": "Edgar (First Location)",
@@ -677,7 +744,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76158
   },
   {
     "name": "Finger Reader (Academy Bridge)",
@@ -687,7 +755,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76205
   },
   {
     "name": "Finger Reader (Altus Plateau)",
@@ -697,7 +766,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76304
   },
   {
     "name": "Finger Reader (Caelid)",
@@ -707,7 +777,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76409
   },
   {
     "name": "Finger Reader (Collapsed Bridge)",
@@ -717,7 +788,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73410
   },
   {
     "name": "Finger Reader (Grand Lift of Rold)",
@@ -727,7 +799,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76501
   },
   {
     "name": "Finger Reader (Leyndell Capital City)",
@@ -737,7 +810,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76312
   },
   {
     "name": "Frustrated Spirit",
@@ -747,7 +821,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73011
   },
   {
     "name": "Gatekeeper Gostoc",
@@ -757,7 +832,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71008
   },
   {
     "name": "Goldmask",
@@ -767,7 +843,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76307
   },
   {
     "name": "Goldmask (Second Location)",
@@ -777,7 +854,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71101
   },
   {
     "name": "Gowry",
@@ -787,7 +865,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71252
   },
   {
     "name": "Gurranq, Beast Clergyman",
@@ -797,7 +876,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76454
   },
   {
     "name": "Hermit Merchant",
@@ -807,7 +887,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76311
   },
   {
     "name": "Hyetta (First Location)",
@@ -817,7 +898,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76200
   },
   {
     "name": "Hyetta (Fourth location)",
@@ -827,7 +909,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76235
   },
   {
     "name": "Hyetta (Second Location)",
@@ -837,7 +920,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76202
   },
   {
     "name": "Hyetta (Third Location)",
@@ -847,7 +931,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76222
   },
   {
     "name": "Irina (First Location)",
@@ -857,7 +942,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76157
   },
   {
     "name": "Iron Fist Alexander (Fifth Location)",
@@ -867,7 +953,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76245
   },
   {
     "name": "Iron Fist Alexander (First Location)",
@@ -877,7 +964,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76117
   },
   {
     "name": "Iron Fist Alexander (Fourth Location)",
@@ -887,7 +975,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76422
   },
   {
     "name": "Iron Fist Alexander (Second Location)",
@@ -897,7 +986,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73257
   },
   {
     "name": "Iron Fist Alexander (Sixth Location)",
@@ -907,7 +997,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71604
   },
   {
     "name": "Iron Fist Alexander (Third Location)",
@@ -917,7 +1008,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76419
   },
   {
     "name": "Isolated Merchant",
@@ -927,7 +1019,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76162
   },
   {
     "name": "Isolated Merchant (Raya Lucaria)",
@@ -937,7 +1030,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76205
   },
   {
     "name": "Isolated Merchant Dragonbarrow",
@@ -947,7 +1041,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76450
   },
   {
     "name": "Jar Bairn",
@@ -957,7 +1052,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76245
   },
   {
     "name": "Kenneth Haight (First Location)",
@@ -967,7 +1063,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76114
   },
   {
     "name": "Kenneth Haight (Second Location)",
@@ -977,7 +1074,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76105
   },
   {
     "name": "Latenna",
@@ -987,7 +1085,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76215
   },
   {
     "name": "Merchant Kal",
@@ -997,7 +1096,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76100
   },
   {
     "name": "Millicent (First Location)",
@@ -1007,7 +1107,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76418
   },
   {
     "name": "Millicent (Fourth Location)",
@@ -1017,7 +1118,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76313
   },
   {
     "name": "Millicent (Second Location)",
@@ -1027,7 +1129,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71252
   },
   {
     "name": "Millicent (Third Location)",
@@ -1037,7 +1140,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76302
   },
   {
     "name": "Miriel, Pastor of Vows",
@@ -1047,7 +1151,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76224
   },
   {
     "name": "Nepheli Loux (First Location)",
@@ -1057,7 +1162,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71006
   },
   {
     "name": "Nepheli Loux (Second Location)",
@@ -1067,7 +1173,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76250
   },
   {
     "name": "Nomadic Merchant Caelid South",
@@ -1077,7 +1184,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76411
   },
   {
     "name": "Nomadic Merchant Castle Morne Rampart",
@@ -1087,7 +1195,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76151
   },
   {
     "name": "Nomadic Merchant East Limgrave",
@@ -1097,7 +1206,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76105
   },
   {
     "name": "Nomadic Merchant Liurnia of the Lakes",
@@ -1107,7 +1217,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76201
   },
   {
     "name": "Nomadic Merchant Mountaintops East",
@@ -1117,7 +1228,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76503
   },
   {
     "name": "Nomadic Merchant Mt. Gelmir",
@@ -1127,7 +1239,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76352
   },
   {
     "name": "Nomadic Merchant North Limgrave",
@@ -1137,7 +1250,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73004
   },
   {
     "name": "Nomadic Merchant North Liurnia of the Lakes",
@@ -1147,7 +1261,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76235
   },
   {
     "name": "Nomadic Merchant West Altus Plateau",
@@ -1157,7 +1272,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76304
   },
   {
     "name": "Nomadic Merchant West Limgrave",
@@ -1167,7 +1283,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73115
   },
   {
     "name": "Patches (First Location)",
@@ -1177,7 +1294,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76203
   },
   {
     "name": "Patches (Second Location)",
@@ -1187,7 +1305,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73009
   },
   {
     "name": "Patches (Third Location)",
@@ -1197,7 +1316,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71605
   },
   {
     "name": "Pidia, Carian Servant",
@@ -1207,7 +1327,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76231
   },
   {
     "name": "Primeval Sorcerer Azur",
@@ -1217,7 +1338,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76357
   },
   {
     "name": "Renna",
@@ -1227,7 +1349,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73103
   },
   {
     "name": "Roderika",
@@ -1237,7 +1360,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76102
   },
   {
     "name": "Rya (First Location)",
@@ -1247,7 +1371,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76203
   },
   {
     "name": "Rya (Second Location A)",
@@ -1257,7 +1382,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76302
   },
   {
     "name": "Rya (Second Location B)",
@@ -1267,7 +1393,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76209
   },
   {
     "name": "Rya (Second Location)",
@@ -1277,7 +1404,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71605
   },
   {
     "name": "Seluvis",
@@ -1287,7 +1415,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76231
   },
   {
     "name": "Seluvis (Spectral)",
@@ -1297,7 +1426,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76228
   },
   {
     "name": "Shabriri",
@@ -1307,7 +1437,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76501
   },
   {
     "name": "Smithing Master Iji (Spectral)",
@@ -1317,7 +1448,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76228
   },
   {
     "name": "Sorcerer Rogier (First Location)",
@@ -1327,7 +1459,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71006
   },
   {
     "name": "Sorceress Sellen (First Location)",
@@ -1337,7 +1470,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76120
   },
   {
     "name": "Sorceress Sellen (Second Location)",
@@ -1347,7 +1481,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76162
   },
   {
     "name": "Sorceress Sellen (Third Location)",
@@ -1357,7 +1492,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76247
   },
   {
     "name": "Tanith",
@@ -1367,7 +1503,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71605
   },
   {
     "name": "The Great-Jar",
@@ -1377,7 +1514,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 73014
   },
   {
     "name": "Thops",
@@ -1387,7 +1525,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76200
   },
   {
     "name": "Thops (Deceased)",
@@ -1397,7 +1536,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71218
   },
   {
     "name": "Wandering Merchant Caelid Highway North",
@@ -1407,7 +1547,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76407
   },
   {
     "name": "War Counselor Iji",
@@ -1417,7 +1558,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76213
   },
   {
     "name": "White-Faced Varre (First Location)",
@@ -1427,7 +1569,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76101
   },
   {
     "name": "White-Faced Varre (Second Location)",
@@ -1437,7 +1580,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71218
   },
   {
     "name": "Witch-Hunter Jerren (First Location)",
@@ -1447,7 +1591,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76419
   },
   {
     "name": "Witch-Hunter Jerren (Second Location)",
@@ -1457,7 +1602,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76162
   },
   {
     "name": "Witch-Hunter Jerren (Third Location)",
@@ -1467,7 +1613,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71400
   },
   {
     "name": "Anastasia, Tarnished-Eater A",
@@ -1477,7 +1624,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Anastasia, Tarnished-Eater B",
@@ -1487,7 +1635,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Bloody Finger Nerijus",
@@ -1497,7 +1646,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Bloody Finger Okina",
@@ -1507,7 +1657,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Bloody Finger Ravenmount Assassin",
@@ -1517,7 +1668,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Chief Guardian Arghanthy",
@@ -1527,7 +1679,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Dung Eater (Royal Capital Moat)",
@@ -1537,7 +1690,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Edgar the Revenger",
@@ -1547,7 +1701,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Eleonora, Violet Bloody Finger",
@@ -1557,7 +1712,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Festering Fingerprint Vyke",
@@ -1567,7 +1723,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": 1053560800
   },
   {
     "name": "Great Horned Tragoth",
@@ -1577,7 +1734,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Inquisitor Ghiza",
@@ -1587,7 +1745,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Juno Hoslow, Knight of Blood",
@@ -1597,7 +1756,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Maleigh Marais, Shaded Castle Castellan",
@@ -1607,7 +1767,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Millicent (NPC Invader)",
@@ -1617,7 +1778,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Moongrum, Carian Knight",
@@ -1627,7 +1789,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Old Knight Istvan",
@@ -1637,7 +1800,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Preceptor Miriam",
@@ -1647,7 +1811,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Recusant Bernahl",
@@ -1657,7 +1822,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Recusant Henricus",
@@ -1667,7 +1833,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Rileigh the Idle",
@@ -1677,7 +1844,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Sanguine Noble",
@@ -1687,7 +1855,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": 1040530800
   },
   {
     "name": "Vargram the Raging Wolf",
@@ -1697,7 +1866,8 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   },
   {
     "name": "Blaidd (Ranni's Quest - First Location)",
@@ -1707,7 +1877,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76405
   },
   {
     "name": "D's Twin Brother",
@@ -1717,7 +1888,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76403
   },
   {
     "name": "Imprisoned Merchant",
@@ -1727,7 +1899,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71253
   },
   {
     "name": "Nameless White Mask",
@@ -1737,7 +1910,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71251
   },
   {
     "name": "Palm Reader",
@@ -1747,7 +1921,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71233
   },
   {
     "name": "Wandering Merchant Ainsel River",
@@ -1757,7 +1932,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 71213
   },
   {
     "name": "Wandering Merchant Siofra River",
@@ -1767,7 +1943,8 @@
     "category": "npc",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "nearby_grace_flag": 76407
   },
   {
     "name": "Baleful Shadow",
@@ -1777,6 +1954,7 @@
     "category": "npc_invader",
     "npc_id": null,
     "questline": null,
-    "missable": false
+    "missable": false,
+    "boss_flag": null
   }
 ]
