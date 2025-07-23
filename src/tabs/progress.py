@@ -179,10 +179,12 @@ def _render_category_auto(
     done_count = sum(1 for i in progress["items"] if i["completed"])
     pending_count = sum(1 for i in progress["items"] if not i["completed"])
 
-    with st.expander(
-        f"{label} — {done_count} feitos / {pending_count} a fazer",
-        expanded=False,
-    ):
+    if completion_mode == "feito":
+        expander_label = f"{label} — {done_count} concluídos"
+    else:
+        expander_label = f"{label} — {pending_count} pendentes"
+
+    with st.expander(expander_label, expanded=False):
         _render_progress_bar(label, progress["completed"], progress["total"], color)
         show_completed = completion_mode == "feito"
         _render_item_list(slot_index, category, progress["items"], show_completed=show_completed)
