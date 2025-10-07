@@ -251,12 +251,6 @@
     "is_main": false,
     "type": "dlc"
   },
-  "9163": {
-    "name": "Bayle, the Dread",
-    "region": "dlc",
-    "is_main": true,
-    "type": "dlc"
-  },
   "9164": {
     "name": "Commander Gaius",
     "region": "dlc",

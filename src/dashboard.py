@@ -354,16 +354,6 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
         else:
             st.markdown(f"**Graças:** {grace_prog['completed']}")
 
-        st.markdown("### FILTRO")
-        st.radio(
-            "Filtro",
-            options=["a_fazer", "feito"],
-            format_func=lambda x: "A fazer" if x == "a_fazer" else "Feito",
-            key="completion_mode",
-            horizontal=True,
-            label_visibility="collapsed",
-        )
-
         st.markdown("### CAMADAS")
 
         col_sel, col_desel = st.columns(2)
@@ -549,6 +539,14 @@ def main() -> None:
 
     with tab_progress:
         from tabs import progress as page_progress
+        st.radio(
+            "Filtro",
+            options=["a_fazer", "feito"],
+            format_func=lambda x: "A fazer" if x == "a_fazer" else "Feito",
+            key="completion_mode",
+            horizontal=True,
+            label_visibility="collapsed",
+        )
         completion_mode = st.session_state.get("completion_mode", "a_fazer")
         page_progress.render(slot_index, region=filter_region, completion_mode=completion_mode)
 

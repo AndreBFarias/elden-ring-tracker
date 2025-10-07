@@ -41,7 +41,7 @@
     "lng": 162.21125730636135,
     "region": "dlc",
     "category": "boss",
-    "flag": 9163,
+    "flag": null,
     "is_main": true,
     "type": "dlc",
     "missable": false,
