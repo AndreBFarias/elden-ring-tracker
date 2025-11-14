@@ -60,7 +60,7 @@ def _render_achievement_card(slot_index: int, ach: dict) -> None:
                 )
 
 
-def render(slot_index: int) -> None:
+def render(slot_index: int, completion_mode: str = "all") -> None:
     summary = get_achievement_summary(slot_index)
 
     st.markdown(
@@ -112,6 +112,11 @@ def render(slot_index: int) -> None:
     if filter_status != "Todos":
         s = status_map.get(filter_status, "")
         achievements = [a for a in achievements if a["status"] == s]
+
+    if completion_mode == "feito":
+        achievements = [a for a in achievements if a["status"] == "concluido"]
+    elif completion_mode == "a_fazer":
+        achievements = [a for a in achievements if a["status"] != "concluido"]
 
     if not achievements:
         if filter_type != "Todos" or filter_status != "Todos":

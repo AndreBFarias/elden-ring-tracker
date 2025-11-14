@@ -383,7 +383,8 @@ def build_map(
     layer_visibility: dict[str, bool] | None = None,
     search_query: str = "",
     map_height: int = 700,
-    progress_mode: str = "total",
+    completion_mode: str = "all",
+    completed_names: set[str] | None = None,
 ) -> str:
     region = REGIONS.get(region_name, REGIONS["surface"])
     defeated = defeated_boss_flags or set()
@@ -400,15 +401,13 @@ def build_map(
             continue
         if search_query and search_query.lower() not in entry.get("name", "").lower():
             continue
-        if progress_mode == "atual":
-            if category == "boss":
-                flag = entry.get("flag")
-                if flag is None or flag not in defeated:
-                    continue
-            elif category == "grace":
-                flag = entry.get("flag")
-                if flag is None or flag not in discovered:
-                    continue
+        if completion_mode != "all" and completed_names is not None:
+            name = entry.get("name", "")
+            is_done = name in completed_names
+            if completion_mode == "feito" and not is_done:
+                continue
+            if completion_mode == "a_fazer" and is_done:
+                continue
         marker = _build_marker(entry, defeated, discovered)
         if marker:
             markers.append(marker)

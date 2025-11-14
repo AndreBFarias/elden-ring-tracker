@@ -20,7 +20,7 @@ from database import (
 from log import get_logger
 from map_config import CATEGORIES, CATEGORY_GROUPS, ICONS_DIR, REFERENCES_DIR, REGIONS
 from map_renderer import build_map, pixel_to_fextra
-from progress_tracker import get_progress
+from progress_tracker import get_all_progress, get_progress
 from save_parser import find_save_file, get_save_path, parse_slot, set_save_path, sync_to_db
 
 logger = get_logger("dashboard")
@@ -243,7 +243,7 @@ def _format_slot(slot_names: dict[int, str], index: int) -> str:
     return f"Slot {index} - {name}"
 
 
-def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
+def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str, str]:
     with st.sidebar:
         icon_path = ICONS_DIR / "icon.png"
         if icon_path.exists():
@@ -354,6 +354,16 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
         else:
             st.markdown(f"**Graças:** {grace_prog['completed']}")
 
+        st.markdown("### FILTRO")
+        st.radio(
+            "Filtro",
+            options=["a_fazer", "feito"],
+            format_func=lambda x: "A fazer" if x == "a_fazer" else "Feito",
+            key="completion_mode",
+            horizontal=True,
+            label_visibility="collapsed",
+        )
+
         st.markdown("### CAMADAS")
 
         col_sel, col_desel = st.columns(2)
@@ -381,20 +391,22 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str]:
                         continue
                     if not cat.filterable:
                         continue
-                    default_on = True
+                    if f"layer_{key}" not in st.session_state:
+                        st.session_state[f"layer_{key}"] = True
                     layer_visibility[key] = st.checkbox(
                         cat.display_name,
-                        value=default_on,
                         key=f"layer_{key}",
                     )
 
+        if "layer_player" not in st.session_state:
+            st.session_state["layer_player"] = True
         layer_visibility["player"] = st.checkbox(
             CATEGORIES["player"].display_name,
-            value=True,
             key="layer_player",
         )
 
-    return slot_index, map_region, filter_region, layer_visibility, search_query
+    completion_mode = st.session_state.get("completion_mode", "a_fazer")
+    return slot_index, map_region, filter_region, layer_visibility, search_query, completion_mode
 
 
 def _render_metrics(slot_index: int, region: str = "") -> None:
@@ -446,6 +458,7 @@ def _render_map(
     region_name: str,
     layer_visibility: dict[str, bool],
     search_query: str,
+    completion_mode: str = "all",
 ) -> None:
     boss_kills = get_boss_kills(slot_index)
     grace_discoveries = get_grace_discoveries(slot_index)
@@ -458,6 +471,14 @@ def _render_map(
         if stats["pos_x"] != 0.0 or stats["pos_z"] != 0.0:
             player_pos = pixel_to_fextra(stats["pos_x"], stats["pos_z"])
 
+    completed_names: set[str] = set()
+    if completion_mode in ("a_fazer", "feito"):
+        all_progress = get_all_progress(slot_index)
+        for cat_progress in all_progress.values():
+            for item in cat_progress["items"]:
+                if item["completed"]:
+                    completed_names.add(item["name"])
+
     html = build_map(
         region_name=region_name,
         defeated_boss_flags=defeated_flags,
@@ -466,7 +487,8 @@ def _render_map(
         layer_visibility=layer_visibility,
         search_query=search_query,
         map_height=600,
-        progress_mode="total",
+        completion_mode=completion_mode,
+        completed_names=completed_names,
     )
 
     if search_query:
@@ -516,7 +538,7 @@ def main() -> None:
 
     initialize_db()
 
-    slot_index, map_region, filter_region, layer_visibility, search_query = _render_sidebar()
+    slot_index, map_region, filter_region, layer_visibility, search_query, completion_mode = _render_sidebar()
 
     _auto_sync_if_needed(slot_index)
 
@@ -535,19 +557,10 @@ def main() -> None:
 
     with tab_map:
         with st.spinner("Carregando mapa..."):
-            _render_map(slot_index, map_region, layer_visibility, search_query)
+            _render_map(slot_index, map_region, layer_visibility, search_query, completion_mode)
 
     with tab_progress:
         from tabs import progress as page_progress
-        st.radio(
-            "Filtro",
-            options=["a_fazer", "feito"],
-            format_func=lambda x: "A fazer" if x == "a_fazer" else "Feito",
-            key="completion_mode",
-            horizontal=True,
-            label_visibility="collapsed",
-        )
-        completion_mode = st.session_state.get("completion_mode", "a_fazer")
         page_progress.render(slot_index, region=filter_region, completion_mode=completion_mode)
 
     with tab_missable:
@@ -556,7 +569,7 @@ def main() -> None:
 
     with tab_achievements:
         from tabs import achievements as page_achievements
-        page_achievements.render(slot_index)
+        page_achievements.render(slot_index, completion_mode=completion_mode)
 
     with tab_sessions:
         from tabs import sessions as page_sessions
