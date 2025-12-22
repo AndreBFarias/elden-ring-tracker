@@ -33,6 +33,7 @@ um dashboard Streamlit com mapa interativo via Leaflet/Folium.
 | Rastreamento de NPCs | 178 NPCs com checklist manual; auto-tracking via event flags para NPCs com flags documentados |
 | Histórico de snapshots | Aba Sessões com nível, runas e atributos por sincronização |
 | Indicador de NG+ | Ciclo do personagem exibido nos metrics do dashboard |
+| Filtro global A fazer / Feito | Radio na sidebar filtra mapa, progresso e conquistas por status de conclusão |
 | Diagnóstico de flags | Script CLI `scripts/diagnose_flags.py` para listar event flags ativos com nomes |
 | System tray | Integração desktop via pystray com autostart e controle de processo |
 | Leitura de save | Parsing de ER0000.sl2 (BND4) com extração de stats, posição e event flags |
@@ -85,7 +86,8 @@ Na sidebar do dashboard:
 
 1. Selecione o **slot** do personagem (0-9)
 2. Escolha a **região** do mapa
-3. Toggle as **camadas** de interesse
+3. Defina o **filtro** de conclusão: "A fazer" (pendentes) ou "Feito" (concluídos)
+4. Toggle as **camadas** de interesse (Bosses, Graças, Dungeons, NPCs, Itens)
 
 Abas disponíveis:
 
