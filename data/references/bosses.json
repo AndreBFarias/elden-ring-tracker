@@ -1,0 +1,17 @@
+[
+  {"flag": 9100, "name": "Godrick the Grafted", "region": "surface", "pos_x": 2400.0, "pos_y": 3300.0, "is_main": true, "is_dlc": false},
+  {"flag": 9101, "name": "Rennala, Queen of the Full Moon", "region": "surface", "pos_x": 2000.0, "pos_y": 2500.0, "is_main": true, "is_dlc": false},
+  {"flag": 9102, "name": "Starscourge Radahn", "region": "surface", "pos_x": 4800.0, "pos_y": 5200.0, "is_main": true, "is_dlc": false},
+  {"flag": 9103, "name": "Morgott, the Omen King", "region": "surface", "pos_x": 3200.0, "pos_y": 2300.0, "is_main": true, "is_dlc": false},
+  {"flag": 9104, "name": "Fire Giant", "region": "surface", "pos_x": 4200.0, "pos_y": 1300.0, "is_main": true, "is_dlc": false},
+  {"flag": 9105, "name": "Godfrey, First Elden Lord", "region": "surface", "pos_x": 3200.0, "pos_y": 2250.0, "is_main": true, "is_dlc": false},
+  {"flag": 9106, "name": "Radagon / Elden Beast", "region": "surface", "pos_x": 3200.0, "pos_y": 2200.0, "is_main": true, "is_dlc": false},
+  {"flag": 9107, "name": "Malenia, Blade of Miquella", "region": "surface", "pos_x": 900.0, "pos_y": 600.0, "is_main": true, "is_dlc": false},
+  {"flag": 9108, "name": "Mohg, Lord of Blood", "region": "underground", "pos_x": 700.0, "pos_y": 250.0, "is_main": true, "is_dlc": false},
+  {"flag": 9109, "name": "Regal Ancestor Spirit", "region": "underground", "pos_x": 450.0, "pos_y": 500.0, "is_main": false, "is_dlc": false},
+  {"flag": 9110, "name": "Dragonlord Placidusax", "region": "surface", "pos_x": 5000.0, "pos_y": 800.0, "is_main": false, "is_dlc": false},
+  {"flag": 9111, "name": "Lichdragon Fortissax", "region": "underground", "pos_x": 300.0, "pos_y": 550.0, "is_main": false, "is_dlc": false},
+  {"flag": 9112, "name": "Astel, Naturalborn of the Void", "region": "underground", "pos_x": 700.0, "pos_y": 750.0, "is_main": false, "is_dlc": false},
+  {"flag": 9140, "name": "Messmer the Impaler", "region": "dlc", "pos_x": 1500.0, "pos_y": 1200.0, "is_main": true, "is_dlc": true},
+  {"flag": 9141, "name": "Promised Consort Radahn", "region": "dlc", "pos_x": 1500.0, "pos_y": 2500.0, "is_main": true, "is_dlc": true}
+]

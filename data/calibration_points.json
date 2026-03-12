@@ -1,0 +1,112 @@
+{
+  "surface": {
+    "first_step": {
+      "pos_x": 2432.3,
+      "pos_y": 5843
+    },
+    "church_elleh": {
+      "pos_x": 2206,
+      "pos_y": 5617.8
+    },
+    "stranded_graveyard": {
+      "pos_x": 2269.5,
+      "pos_y": 5691.5
+    },
+    "gatefront": {
+      "pos_x": 2247.3,
+      "pos_y": 5379.3
+    },
+    "stormveil": {
+      "pos_x": 1715.5,
+      "pos_y": 5189
+    },
+    "godrick": {
+      "pos_x": 1776,
+      "pos_y": 5030
+    },
+    "raya_lucaria": {
+      "pos_x": 728,
+      "pos_y": 3778
+    },
+    "volcano_manor": {
+      "pos_x": 1013,
+      "pos_y": 2093
+    },
+    "leyndell": {
+      "pos_x": 2894,
+      "pos_y": 2816
+    },
+    "radahn": {
+      "pos_x": 4257.9,
+      "pos_y": 5296
+    },
+    "castle_sol": {
+      "pos_x": 4145.5,
+      "pos_y": 1268.5
+    },
+    "fire_giant": {
+      "pos_x": 4689,
+      "pos_y": 2199
+    },
+    "malenia": {
+      "pos_x": 3830.4,
+      "pos_y": 571.9
+    },
+    "farum_azula": {
+      "pos_x": 6069.8,
+      "pos_y": 3451.2
+    },
+    "weeping_peninsula": {
+      "pos_x": 2703.5,
+      "pos_y": 6362.5
+    }
+  },
+  "underground": {
+    "siofra_river": {
+      "pos_x": 745.6,
+      "pos_y": 512.1
+    },
+    "ainsel_river": {
+      "pos_x": 345.4,
+      "pos_y": 481.6
+    },
+    "nokron": {
+      "pos_x": 637.5,
+      "pos_y": 549.8
+    },
+    "deeproot_depths": {
+      "pos_x": 506.8,
+      "pos_y": 133.9
+    },
+    "mohgwyn_palace": {
+      "pos_x": 907,
+      "pos_y": 518.2
+    },
+    "lake_of_rot": {
+      "pos_x": 181,
+      "pos_y": 631.9
+    }
+  },
+  "dlc": {
+    "gravesite_plain": {
+      "pos_x": 889,
+      "pos_y": 1904
+    },
+    "castle_ensis": {
+      "pos_x": 1038.8,
+      "pos_y": 1254.5
+    },
+    "shadow_keep": {
+      "pos_x": 1313.8,
+      "pos_y": 659.7
+    },
+    "abyssal_woods": {
+      "pos_x": 1323,
+      "pos_y": 2026.9
+    },
+    "enir_ilim": {
+      "pos_x": 324,
+      "pos_y": 1181.3
+    }
+  }
+}

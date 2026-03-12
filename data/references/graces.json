@@ -1,0 +1,22 @@
+[
+  {"flag": 71000, "name": "The First Step", "region": "surface", "pos_x": 2700.0, "pos_y": 4300.0},
+  {"flag": 71001, "name": "Church of Elleh", "region": "surface", "pos_x": 2600.0, "pos_y": 4100.0},
+  {"flag": 71002, "name": "Gatefront", "region": "surface", "pos_x": 2600.0, "pos_y": 3900.0},
+  {"flag": 71003, "name": "Stormhill Shack", "region": "surface", "pos_x": 2500.0, "pos_y": 3700.0},
+  {"flag": 71004, "name": "Stormveil Main Gate", "region": "surface", "pos_x": 2400.0, "pos_y": 3500.0},
+  {"flag": 71005, "name": "Godrick the Grafted", "region": "surface", "pos_x": 2400.0, "pos_y": 3300.0},
+  {"flag": 71006, "name": "Lake-Facing Cliffs", "region": "surface", "pos_x": 2200.0, "pos_y": 3100.0},
+  {"flag": 71007, "name": "Liurnia Lake Shore", "region": "surface", "pos_x": 1800.0, "pos_y": 2900.0},
+  {"flag": 71008, "name": "Academy Main Gate", "region": "surface", "pos_x": 2100.0, "pos_y": 2600.0},
+  {"flag": 71009, "name": "Raya Lucaria Grand Library", "region": "surface", "pos_x": 2000.0, "pos_y": 2450.0},
+  {"flag": 71010, "name": "Altus Plateau", "region": "surface", "pos_x": 2800.0, "pos_y": 2100.0},
+  {"flag": 71011, "name": "Erdtree-Gazing Hill", "region": "surface", "pos_x": 2900.0, "pos_y": 2000.0},
+  {"flag": 71012, "name": "East Capital Rampart", "region": "surface", "pos_x": 3300.0, "pos_y": 2400.0},
+  {"flag": 71013, "name": "Queen's Bedchamber", "region": "surface", "pos_x": 3200.0, "pos_y": 2250.0},
+  {"flag": 71014, "name": "Church of the Eclipse", "region": "surface", "pos_x": 5200.0, "pos_y": 1200.0},
+  {"flag": 71015, "name": "Mountaintops of the Giants", "region": "surface", "pos_x": 4200.0, "pos_y": 1400.0},
+  {"flag": 71016, "name": "Ainsel River Main", "region": "underground", "pos_x": 350.0, "pos_y": 450.0},
+  {"flag": 71017, "name": "Siofra River Bank", "region": "underground", "pos_x": 650.0, "pos_y": 400.0},
+  {"flag": 71018, "name": "Gravesite Plain", "region": "dlc", "pos_x": 1000.0, "pos_y": 800.0},
+  {"flag": 71019, "name": "Shadow Keep", "region": "dlc", "pos_x": 1500.0, "pos_y": 1200.0}
+]
