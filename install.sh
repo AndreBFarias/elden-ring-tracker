@@ -121,6 +121,48 @@ DESKTOP
         ok "Desktop database atualizado"
     fi
 
+    REAL_USER="${SUDO_USER:-$USER}"
+    REAL_HOME=$(eval echo "~$REAL_USER")
+    CONFIG_DIR="$REAL_HOME/.local/share/elden-ring-tracker"
+    CONFIG_FILE="$CONFIG_DIR/config.json"
+
+    PROTON_PATH_1="$REAL_HOME/.steam/debian-installation/steamapps/compatdata/1245620/pfx/drive_c/users/steamuser/AppData/Roaming/EldenRing"
+    PROTON_PATH_2="$REAL_HOME/.steam/steam/steamapps/compatdata/1245620/pfx/drive_c/users/steamuser/AppData/Roaming/EldenRing"
+
+    AUTO_SAVE=""
+    for candidate in "$PROTON_PATH_1" "$PROTON_PATH_2"; do
+        if [ -d "$candidate" ]; then
+            found=$(find "$candidate" -name "ER0000.sl2" -type f 2>/dev/null | head -1)
+            if [ -n "$found" ]; then
+                AUTO_SAVE="$found"
+                break
+            fi
+        fi
+    done
+
+    printf "\n=== Configuração do Save ===\n\n"
+    if [ -n "$AUTO_SAVE" ]; then
+        ok "Save detectado automaticamente: $AUTO_SAVE"
+        printf "Pressione ENTER para aceitar ou digite outro caminho: "
+    else
+        warn "Save não detectado nos caminhos padrão do Steam/Proton"
+        printf "Digite o caminho completo do ER0000.sl2 (ou ENTER para pular): "
+    fi
+
+    read -r USER_SAVE_PATH
+    if [ -z "$USER_SAVE_PATH" ] && [ -n "$AUTO_SAVE" ]; then
+        USER_SAVE_PATH="$AUTO_SAVE"
+    fi
+
+    if [ -n "$USER_SAVE_PATH" ]; then
+        install -d -o "$REAL_USER" -g "$(id -g "$REAL_USER")" "$CONFIG_DIR"
+        printf '{"save_path": "%s"}\n' "$USER_SAVE_PATH" > "$CONFIG_FILE"
+        chown "$REAL_USER":"$(id -g "$REAL_USER")" "$CONFIG_FILE"
+        ok "Caminho do save configurado: $USER_SAVE_PATH"
+    else
+        warn "Nenhum save configurado. Configure pelo dashboard após iniciar."
+    fi
+
     printf "\n${GREEN}Instalação concluída.${NC}\n"
     printf "O Elden Ring Tracker foi instalado em: %s\n" "$INSTALL_DIR"
     printf "O aplicativo aparecerá no launcher do sistema.\n"

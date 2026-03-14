@@ -20,6 +20,8 @@ LOG_DIR, DB_DIR = _resolve_user_dirs()
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 DB_DIR.mkdir(parents=True, exist_ok=True)
 
+CONFIG_PATH = DB_DIR / "config.json"
+
 
 def get_logger(name: str) -> logging.Logger:
     logger = logging.getLogger(f"elden_tracker.{name}")
