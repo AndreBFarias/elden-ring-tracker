@@ -118,7 +118,6 @@ def get_progress(
 
     auto_completed = _get_auto_completed(slot_index, category)
     manual_completed = _get_manual_completed(slot_index, category)
-    completed_names = auto_completed | manual_completed
 
     items = []
     for entry in ref:

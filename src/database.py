@@ -1,6 +1,5 @@
 import sqlite3
 from pathlib import Path
-from typing import Optional
 
 from log import get_logger
 
@@ -260,7 +259,7 @@ def end_session(session_id: int, level: int, runes: int) -> None:
         conn.close()
 
 
-def get_latest_stats(slot_index: int) -> Optional[sqlite3.Row]:
+def get_latest_stats(slot_index: int) -> sqlite3.Row | None:
     conn = get_connection()
     try:
         row = conn.execute(
@@ -407,7 +406,7 @@ def is_manually_completed(
         conn.close()
 
 
-def get_active_session(slot_index: int) -> Optional[sqlite3.Row]:
+def get_active_session(slot_index: int) -> sqlite3.Row | None:
     conn = get_connection()
     try:
         row = conn.execute(

@@ -1,6 +1,5 @@
 import struct
 from pathlib import Path
-from typing import Optional
 
 from log import get_logger
 
@@ -49,7 +48,7 @@ GENERAL_SECTION_NAME_BASE = 0x196E
 GENERAL_SECTION_SLOT_SPACING = 588
 
 
-def find_save_file() -> Optional[Path]:
+def find_save_file() -> Path | None:
     for search_path in SAVE_SEARCH_PATHS:
         if search_path.is_file() and search_path.name == "ER0000.sl2":
             logger.info("Save encontrado: %s", search_path)
@@ -71,7 +70,7 @@ def _get_bnd4_header_size(data: bytes) -> int:
         return 0
 
 
-def _get_slot_data(data: bytes, slot_index: int) -> Optional[bytes]:
+def _get_slot_data(data: bytes, slot_index: int) -> bytes | None:
     header_size = _get_bnd4_header_size(data)
     if header_size == 0:
         return None
@@ -95,7 +94,7 @@ def _get_slot_data(data: bytes, slot_index: int) -> Optional[bytes]:
     return data[slot_start:slot_end]
 
 
-def _find_player_game_data(slot_data: bytes) -> Optional[int]:
+def _find_player_game_data(slot_data: bytes) -> int | None:
     stat_keys = list(PGD_STAT_OFFSETS.keys())
     first_stat_offset = PGD_STAT_OFFSETS[stat_keys[0]]
 
@@ -155,7 +154,7 @@ PLAYER_COORDS_SIZE = 57
 
 def _find_player_coordinates(
     slot_data: bytes, event_offset: int,
-) -> Optional[tuple[float, float, float]]:
+) -> tuple[float, float, float] | None:
     from event_flags import EVENT_FLAGS_SIZE
 
     pos = event_offset + EVENT_FLAGS_SIZE + 1
@@ -229,7 +228,7 @@ def _score_candidate(
     return score
 
 
-def _find_event_flags(slot_data: bytes) -> Optional[int]:
+def _find_event_flags(slot_data: bytes) -> int | None:
     from event_flags import EVENT_FLAGS_SIZE, _load_bst_map
 
     bst_map = _load_bst_map()
@@ -271,7 +270,7 @@ def _find_event_flags(slot_data: bytes) -> Optional[int]:
     return None
 
 
-def parse_slot(slot_index: int, save_path: Optional[Path] = None) -> Optional[dict]:
+def parse_slot(slot_index: int, save_path: Path | None = None) -> dict | None:
     if save_path is None:
         save_path = find_save_file()
     if save_path is None:
@@ -378,7 +377,7 @@ def parse_slot(slot_index: int, save_path: Optional[Path] = None) -> Optional[di
     return result
 
 
-def sync_to_db(slot_index: int, save_path: Optional[Path] = None) -> bool:
+def sync_to_db(slot_index: int, save_path: Path | None = None) -> bool:
     from database import get_connection
     from event_flags import FLAG_CATEGORY_FILES, _load_flag_db
 

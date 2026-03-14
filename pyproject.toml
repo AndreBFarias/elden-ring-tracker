@@ -11,10 +11,14 @@ line-length = 100
 select = ["E", "F", "W", "I", "UP"]
 ignore = ["E501"]
 
+[tool.ruff.lint.per-file-ignores]
+"src/dashboard.py" = ["E402"]
+
 [tool.ruff.lint.isort]
 known-first-party = [
     "dashboard",
     "database",
+    "log",
     "map_config",
     "map_renderer",
     "save_parser",

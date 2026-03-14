@@ -10,7 +10,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from database import (
-    end_session,
     get_active_session,
     get_boss_kills,
     get_grace_discoveries,
