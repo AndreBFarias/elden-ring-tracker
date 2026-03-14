@@ -1,30 +1,15 @@
 import functools
 import json
-import logging
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from typing import Any
 
 from database import get_boss_kills
+from log import get_logger
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 REFERENCES_DIR = PROJECT_ROOT / "data" / "references"
-LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-logger = logging.getLogger("elden_tracker.missable")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("missable")
 
 STATUS_DISPONIVEL = "disponivel"
 STATUS_PERDIDO = "perdido"

@@ -29,7 +29,8 @@ data/raw_saves
 data/tracker.db
 .streamlit/secrets.toml
 assets/cache/
-assets/icons/
+assets/icons/*
+!assets/icons/icon.png
 
 # Tiles de mapa (baixados via scripts/download_tiles.py)
 assets/map_tiles/
@@ -45,5 +46,9 @@ assets/models/
 
 # Build artifacts
 packaging/appimage/build/
+build-flatpak/
+.flatpak-builder/
+flatpak-repo/
 *.AppImage
+*.flatpak
 *.deb

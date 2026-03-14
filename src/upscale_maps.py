@@ -2,32 +2,19 @@ import argparse
 import logging
 import sys
 import urllib.request
-from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
 import numpy as np
 from PIL import Image
 
+from log import get_logger
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ASSETS_DIR = PROJECT_ROOT / "assets"
 MAP_TILES_DIR = ASSETS_DIR / "map_tiles"
 MODELS_DIR = ASSETS_DIR / "models"
-LOG_DIR = PROJECT_ROOT / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-logger = logging.getLogger("elden_tracker.upscale")
-if not logger.handlers:
-    logger.setLevel(logging.DEBUG)
-    _handler = RotatingFileHandler(
-        LOG_DIR / "tracker.log",
-        maxBytes=5 * 1024 * 1024,
-        backupCount=3,
-        encoding="utf-8",
-    )
-    _handler.setFormatter(
-        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-    )
-    logger.addHandler(_handler)
+logger = get_logger("upscale")
 
 TARGET_SIZE = (3040, 3165)
 

@@ -19,7 +19,7 @@ modules:
       - pip3 install --no-build-isolation --prefix=/app -r requirements.txt
     sources:
       - type: file
-        path: requirements.txt
+        path: ../../requirements.txt
 
   - name: elden-ring-tracker
     buildsystem: simple
