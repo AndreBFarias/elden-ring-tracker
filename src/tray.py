@@ -2,6 +2,9 @@ import os
 import shutil
 import signal
 import subprocess
+import threading
+import time
+import urllib.request
 import webbrowser
 from pathlib import Path
 
@@ -32,6 +35,17 @@ def _open_dashboard(*_args) -> None:
     webbrowser.open(DASHBOARD_URL)
 
 
+def _wait_and_open_browser() -> None:
+    for _ in range(120):
+        try:
+            urllib.request.urlopen(DASHBOARD_URL, timeout=1)
+            _open_dashboard()
+            return
+        except Exception:
+            time.sleep(1)
+    logger.warning("Timeout aguardando streamlit iniciar (120s)")
+
+
 def _start_streamlit() -> None:
     global _streamlit_process
     if _streamlit_process and _streamlit_process.poll() is None:
@@ -48,7 +62,7 @@ def _start_streamlit() -> None:
     log_file = log_dir / "streamlit.log"
     with open(str(log_file), "a", encoding="utf-8") as lf:
         _streamlit_process = subprocess.Popen(
-            ["bash", str(run_script)],
+            ["bash", str(run_script), "--headless"],
             cwd=str(PROJECT_ROOT),
             stdout=lf,
             stderr=subprocess.STDOUT,
@@ -109,6 +123,7 @@ def run_tray() -> None:
     logger.info("Iniciando system tray")
 
     _start_streamlit()
+    threading.Thread(target=_wait_and_open_browser, daemon=True).start()
 
     icon_image = _load_icon()
     menu = pystray.Menu(
