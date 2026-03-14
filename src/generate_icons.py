@@ -12,18 +12,18 @@ LOG_DIR = PROJECT_ROOT / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 logger = logging.getLogger("elden_tracker.icons")
-logger.setLevel(logging.DEBUG)
-
-_handler = RotatingFileHandler(
-    LOG_DIR / "tracker.log",
-    maxBytes=5 * 1024 * 1024,
-    backupCount=3,
-    encoding="utf-8",
-)
-_handler.setFormatter(
-    logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-)
-logger.addHandler(_handler)
+if not logger.handlers:
+    logger.setLevel(logging.DEBUG)
+    _handler = RotatingFileHandler(
+        LOG_DIR / "tracker.log",
+        maxBytes=5 * 1024 * 1024,
+        backupCount=3,
+        encoding="utf-8",
+    )
+    _handler.setFormatter(
+        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    )
+    logger.addHandler(_handler)
 
 FONT_CANDIDATES = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
@@ -37,7 +37,7 @@ def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     for path in FONT_CANDIDATES:
         if Path(path).exists():
             return ImageFont.truetype(path, size)
-    logger.warning("Nenhuma fonte TrueType encontrada, usando fonte padrao bitmap")
+    logger.warning("Nenhuma fonte TrueType encontrada, usando fonte padrão bitmap")
     return ImageFont.load_default()
 
 
@@ -78,7 +78,7 @@ def generate_icon(config: CategoryConfig) -> Path:
     draw.text((tx, ty), config.symbol, fill=(255, 255, 255, 255), font=font)
 
     img.save(str(output_path), "PNG")
-    logger.info("Icone gerado: %s (%dx%d)", output_path.name, w, h)
+    logger.info("Ícone gerado: %s (%dx%d)", output_path.name, w, h)
     return output_path
 
 
@@ -86,7 +86,7 @@ def generate_all_icons() -> list[Path]:
     paths = []
     for config in CATEGORIES.values():
         paths.append(generate_icon(config))
-    logger.info("Todos os %d icones gerados em %s", len(paths), ICONS_DIR)
+    logger.info("Todos os %d ícones gerados em %s", len(paths), ICONS_DIR)
     return paths
 
 

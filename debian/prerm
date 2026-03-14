@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+INSTALL_DIR="/opt/elden-ring-tracker"
+
+if [ "$1" = "remove" ]; then
+    pkill -f "streamlit run.*dashboard.py" 2>/dev/null || true
+    pkill -f "python3.*tray.py" 2>/dev/null || true
+
+    rm -f "$HOME/.config/autostart/elden-ring-tracker.desktop" 2>/dev/null || true
+fi

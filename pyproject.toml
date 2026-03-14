@@ -1,0 +1,28 @@
+[project]
+name = "elden-ring-tracker"
+version = "1.0.0"
+requires-python = ">=3.10"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "dashboard",
+    "database",
+    "map_config",
+    "map_renderer",
+    "save_parser",
+    "event_flags",
+    "inventory_parser",
+    "progress_tracker",
+    "achievement_resolver",
+    "missable_checker",
+    "generate_icons",
+    "tray",
+]

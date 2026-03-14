@@ -1,0 +1,379 @@
+[
+  {
+    "achievement_id": "elden_lord",
+    "name_pt": "Lorde Ancestral",
+    "description": "Alcançar o final Elden Lord (Era da Fratura).",
+    "type": "ending",
+    "required_bosses": ["Radagon of the Erdtree"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "age_of_stars",
+    "name_pt": "Era das Estrelas",
+    "description": "Alcançar o final Age of the Stars.",
+    "type": "ending",
+    "required_bosses": ["Radagon of the Erdtree"],
+    "required_items": ["Dark Moon Ring"]
+  },
+  {
+    "achievement_id": "lord_of_frenzied_flame",
+    "name_pt": "Lorde da Chama Frenética",
+    "description": "Alcançar o final Lord of Frenzied Flame.",
+    "type": "ending",
+    "required_bosses": ["Radagon of the Erdtree"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "age_of_order",
+    "name_pt": "Era da Ordem",
+    "description": "Alcançar o final Age of Order com a Mending Rune of Perfect Order.",
+    "type": "ending",
+    "required_bosses": ["Radagon of the Erdtree"],
+    "required_items": ["Mending Rune of Perfect Order"]
+  },
+  {
+    "achievement_id": "age_of_duskborn",
+    "name_pt": "Era dos Nascidos do Crepúsculo",
+    "description": "Alcançar o final Age of the Duskborn com a Mending Rune of the Death-Prince.",
+    "type": "ending",
+    "required_bosses": ["Radagon of the Erdtree"],
+    "required_items": ["Mending Rune of the Death-Prince"]
+  },
+  {
+    "achievement_id": "blessing_of_despair",
+    "name_pt": "Bênção do Desespero",
+    "description": "Alcançar o final Blessing of Despair com a Mending Rune of the Fell Curse.",
+    "type": "ending",
+    "required_bosses": ["Radagon of the Erdtree"],
+    "required_items": ["Mending Rune of the Fell Curse"]
+  },
+  {
+    "achievement_id": "shardbearer_godrick",
+    "name_pt": "Portador de Fragmento: Godrick",
+    "description": "Derrotar o portador de fragmento Godrick the Grafted.",
+    "type": "boss",
+    "required_bosses": ["Godrick the Grafted"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "shardbearer_rennala",
+    "name_pt": "Portadora de Fragmento: Rennala",
+    "description": "Derrotar a portadora de fragmento Rennala, Queen of the Full Moon.",
+    "type": "boss",
+    "required_bosses": ["Rennala, Queen of the Full Moon"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "shardbearer_radahn",
+    "name_pt": "Portador de Fragmento: Radahn",
+    "description": "Derrotar o portador de fragmento Starscourge Radahn.",
+    "type": "boss",
+    "required_bosses": ["Starscourge Radahn"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "shardbearer_morgott",
+    "name_pt": "Portador de Fragmento: Morgott",
+    "description": "Derrotar o portador de fragmento Morgott, the Omen King.",
+    "type": "boss",
+    "required_bosses": ["Morgott, the Omen King"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "shardbearer_rykard",
+    "name_pt": "Portador de Fragmento: Rykard",
+    "description": "Derrotar o portador de fragmento Rykard, Lord of Blasphemy.",
+    "type": "boss",
+    "required_bosses": ["Rykard, Lord of Blasphemy"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "shardbearer_mohg",
+    "name_pt": "Portador de Fragmento: Mohg",
+    "description": "Derrotar o portador de fragmento Mohg, Lord of Blood.",
+    "type": "boss",
+    "required_bosses": ["Mohg, Lord of Blood"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "shardbearer_malenia",
+    "name_pt": "Portadora de Fragmento: Malenia",
+    "description": "Derrotar a portadora de fragmento Malenia, Blade of Miquella.",
+    "type": "boss",
+    "required_bosses": ["Malenia, Blade of Miquella"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "maliketh",
+    "name_pt": "Maliketh, a Lâmina Negra",
+    "description": "Derrotar Maliketh, the Black Blade.",
+    "type": "boss",
+    "required_bosses": ["Maliketh, the Black Blade"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "hoarah_loux",
+    "name_pt": "Hoarah Loux, Guerreiro",
+    "description": "Derrotar Hoarah Loux, Warrior.",
+    "type": "boss",
+    "required_bosses": ["Hoarah Loux, Warrior"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "fire_giant",
+    "name_pt": "Gigante de Fogo",
+    "description": "Derrotar o Fire Giant.",
+    "type": "boss",
+    "required_bosses": ["Fire Giant"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "godskin_duo",
+    "name_pt": "Duo Godskin",
+    "description": "Derrotar o Godskin Duo.",
+    "type": "boss",
+    "required_bosses": ["Godskin Duo"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "lichdragon_fortissax",
+    "name_pt": "Dragão Lich Fortissax",
+    "description": "Derrotar Lichdragon Fortissax.",
+    "type": "boss",
+    "required_bosses": ["Lichdragon Fortissax"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "dragonlord_placidusax",
+    "name_pt": "Senhor dos Dragões Placidusax",
+    "description": "Derrotar Dragonlord Placidusax.",
+    "type": "boss",
+    "required_bosses": ["Dragonlord Placidusax"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "astel",
+    "name_pt": "Astel, Nascido do Vazio",
+    "description": "Derrotar Astel, Naturalborn of the Void.",
+    "type": "boss",
+    "required_bosses": ["Astel, Naturalborn of the Void"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "regal_ancestor_spirit",
+    "name_pt": "Espírito Ancestral Régio",
+    "description": "Derrotar o Regal Ancestor Spirit.",
+    "type": "boss",
+    "required_bosses": ["Regal Ancestor Spirit"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "ancestor_spirit",
+    "name_pt": "Espírito Ancestral",
+    "description": "Derrotar o Ancestor Spirit.",
+    "type": "boss",
+    "required_bosses": ["Ancestor Spirit"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "leonine_misbegotten",
+    "name_pt": "Leonino Aberrante",
+    "description": "Derrotar o Leonine Misbegotten em Castle Morne.",
+    "type": "boss",
+    "required_bosses": ["Leonine Misbegotten"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "red_wolf_of_radagon",
+    "name_pt": "Lobo Vermelho de Radagon",
+    "description": "Derrotar o Red Wolf of Radagon.",
+    "type": "boss",
+    "required_bosses": ["Red Wolf of Radagon"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "godfrey_golden_shade",
+    "name_pt": "Godfrey, o Primeiro Lorde Ancestral (Sombra)",
+    "description": "Derrotar a sombra dourada de Godfrey.",
+    "type": "boss",
+    "required_bosses": ["Godfrey the Grafted"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "magma_wyrm_makar",
+    "name_pt": "Wyrm de Magma Makar",
+    "description": "Derrotar Magma Wyrm Makar.",
+    "type": "boss",
+    "required_bosses": ["Magma Wyrm Makar"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "mimic_tear",
+    "name_pt": "Lágrima Mimética",
+    "description": "Derrotar o Mimic Tear.",
+    "type": "boss",
+    "required_bosses": ["Mimic Tear"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "dragonkin_soldier_nokstella",
+    "name_pt": "Soldado Dragônico de Nokstella",
+    "description": "Derrotar o Dragonkin Soldier of Nokstella.",
+    "type": "boss",
+    "required_bosses": ["Dragonkin Soldier of Nokstella"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "valiant_gargoyle",
+    "name_pt": "Gárgula Valente",
+    "description": "Derrotar os Valiant Gargoyles.",
+    "type": "boss",
+    "required_bosses": ["Valiant Gargoyle"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "elemer_of_the_briar",
+    "name_pt": "Elemer dos Espinhos",
+    "description": "Derrotar Elemer of the Briar.",
+    "type": "boss",
+    "required_bosses": ["Elemer of the Briar"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "commander_niall",
+    "name_pt": "Comandante Niall",
+    "description": "Derrotar Commander Niall.",
+    "type": "boss",
+    "required_bosses": ["Commander Niall"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "mohg_the_omen",
+    "name_pt": "Mohg, o Presságio",
+    "description": "Derrotar Mohg, the Omen no Subterranean Shunning-Grounds.",
+    "type": "boss",
+    "required_bosses": ["Mohg, the Omen"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "royal_knight_loretta",
+    "name_pt": "Cavaleira Real Loretta",
+    "description": "Derrotar Royal Knight Loretta.",
+    "type": "boss",
+    "required_bosses": ["Royal Knight Loretta"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "erdtree_aflame",
+    "name_pt": "Erdtree em Chamas",
+    "description": "Incendiar a Erdtree.",
+    "type": "progression",
+    "required_bosses": ["Fire Giant"],
+    "required_items": []
+  },
+  {
+    "achievement_id": "roundtable_hold",
+    "name_pt": "Mesa Redonda",
+    "description": "Chegar ao Roundtable Hold.",
+    "type": "progression",
+    "required_bosses": [],
+    "required_items": []
+  },
+  {
+    "achievement_id": "great_rune",
+    "name_pt": "Grande Runa",
+    "description": "Restaurar e equipar uma Great Rune.",
+    "type": "progression",
+    "required_bosses": [],
+    "required_items": []
+  },
+  {
+    "achievement_id": "legendary_armaments",
+    "name_pt": "Armamentos Lendários",
+    "description": "Coletar todos os armamentos lendários.",
+    "type": "collection",
+    "required_bosses": [],
+    "required_items": [
+      "Grafted Blade Greatsword",
+      "Sword of Night and Flame",
+      "Ruins Greatsword",
+      "Marais Executioner's Sword",
+      "Dark Moon Greatsword",
+      "Bolt of Gransax",
+      "Eclipse Shotel",
+      "Devourer's Scepter",
+      "Golden Order Greatsword"
+    ]
+  },
+  {
+    "achievement_id": "legendary_ashen_remains",
+    "name_pt": "Cinzas Lendárias",
+    "description": "Coletar todas as cinzas de invocação lendárias.",
+    "type": "collection",
+    "required_bosses": [],
+    "required_items": [
+      "Lhutel the Headless",
+      "Black Knife Tiche",
+      "Redmane Knight Ogha",
+      "Mimic Tear Ashes",
+      "Cleanrot Knight Finlay",
+      "Ancient Dragon Knight Kristoff"
+    ]
+  },
+  {
+    "achievement_id": "legendary_sorceries_incantations",
+    "name_pt": "Feitiçarias e Encantamentos Lendários",
+    "description": "Coletar todas as feitiçarias e encantamentos lendários.",
+    "type": "collection",
+    "required_bosses": [],
+    "required_items": [
+      "Comet Azur",
+      "Stars of Ruin",
+      "Founding Rain of Stars",
+      "Ranni's Dark Moon",
+      "Flame of the Fell God",
+      "Greyoll's Roar",
+      "Elden Stars"
+    ]
+  },
+  {
+    "achievement_id": "legendary_talismans",
+    "name_pt": "Talismãs Lendários",
+    "description": "Coletar todos os talismãs lendários.",
+    "type": "collection",
+    "required_bosses": [],
+    "required_items": [
+      "Radagon Icon",
+      "Radagon's Soreseal",
+      "Godfrey Icon",
+      "Moon of Nokstella",
+      "Dragoncrest Greatshield Talisman",
+      "Marika's Soreseal",
+      "Old Lord's Talisman",
+      "Erdtree's Favor +2"
+    ]
+  },
+  {
+    "achievement_id": "legendary_spirit_ashes",
+    "name_pt": "Espíritos Lendários",
+    "description": "Coletar todas as cinzas de espírito lendárias.",
+    "type": "collection",
+    "required_bosses": [],
+    "required_items": [
+      "Banished Knight Oleg",
+      "Lhutel the Headless",
+      "Black Knife Tiche",
+      "Redmane Knight Ogha",
+      "Mimic Tear Ashes",
+      "Cleanrot Knight Finlay"
+    ]
+  },
+  {
+    "achievement_id": "elden_ring_platinum",
+    "name_pt": "Elden Ring",
+    "description": "Obter todas as conquistas.",
+    "type": "misc",
+    "required_bosses": [],
+    "required_items": []
+  }
+]

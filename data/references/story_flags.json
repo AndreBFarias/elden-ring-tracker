@@ -1,0 +1,15 @@
+[
+  {"flag_id": 20, "name": "Game Clear - Age of Fracture", "type": "ending"},
+  {"flag_id": 21, "name": "Game Clear - Age of Duskborn", "type": "ending"},
+  {"flag_id": 22, "name": "Game Clear - Age of Order", "type": "ending"},
+  {"flag_id": 23, "name": "Game Clear - Lord of Frenzied Flame", "type": "ending"},
+  {"flag_id": 24, "name": "Game Clear - Age of Stars", "type": "ending"},
+  {"flag_id": 100, "name": "Arrived at the Lands Between", "type": "milestone"},
+  {"flag_id": 101, "name": "Arrived at Chapel of Anticipation", "type": "milestone"},
+  {"flag_id": 108, "name": "Acquired Frenzied Flame", "type": "milestone"},
+  {"flag_id": 120, "name": "Game Completed", "type": "milestone"},
+  {"flag_id": 128, "name": "Entered Shadow of the Erdtree", "type": "milestone"},
+  {"flag_id": 130, "name": "Entered Stormveil Castle", "type": "milestone"},
+  {"flag_id": 310, "name": "Radahn Festival Started", "type": "milestone"},
+  {"flag_id": 330, "name": "Romina Defeated (DLC progression)", "type": "milestone"}
+]

@@ -1,0 +1,15 @@
+Source: elden-ring-tracker
+Section: games
+Priority: optional
+Maintainer: Andre Farias <andre@localhost>
+Build-Depends: debhelper-compat (= 13), python3, python3-venv
+Standards-Version: 4.6.0
+
+Package: elden-ring-tracker
+Architecture: all
+Depends: python3 (>= 3.10), python3-venv, libappindicator3-1, ${misc:Depends}
+Description: Dashboard interativo para rastrear progresso em Elden Ring
+ Mapa interativo com camadas de bosses, graças e dungeons.
+ Lê saves do Steam/Proton, extrai coordenadas e estado de progresso,
+ e renderiza tudo via Leaflet dentro de um dashboard Streamlit.
+ Inclui system tray para integração desktop.

@@ -1,31 +1,28 @@
 import logging
 import sqlite3
-from datetime import datetime, timezone
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from typing import Optional
 
-# #1
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "tracker.db"
 LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
 
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 logger = logging.getLogger("elden_tracker.database")
-logger.setLevel(logging.DEBUG)
+if not logger.handlers:
+    logger.setLevel(logging.DEBUG)
+    _handler = RotatingFileHandler(
+        LOG_DIR / "tracker.log",
+        maxBytes=5 * 1024 * 1024,
+        backupCount=3,
+        encoding="utf-8",
+    )
+    _handler.setFormatter(
+        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    )
+    logger.addHandler(_handler)
 
-_handler = RotatingFileHandler(
-    LOG_DIR / "tracker.log",
-    maxBytes=5 * 1024 * 1024,
-    backupCount=3,
-    encoding="utf-8",
-)
-_handler.setFormatter(
-    logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
-)
-logger.addHandler(_handler)
-
-# #2
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS player_stats (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -94,6 +91,15 @@ CREATE TABLE IF NOT EXISTS endings (
     UNIQUE (slot_index, ending_flag)
 );
 
+CREATE TABLE IF NOT EXISTS item_collection (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    slot_index  INTEGER NOT NULL CHECK (slot_index BETWEEN 0 AND 9),
+    item_name   TEXT NOT NULL,
+    category    TEXT NOT NULL,
+    collected_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
+    UNIQUE (slot_index, item_name, category)
+);
+
 CREATE INDEX IF NOT EXISTS idx_stats_slot_time
     ON player_stats (slot_index, recorded_at DESC);
 CREATE INDEX IF NOT EXISTS idx_boss_slot
@@ -102,13 +108,27 @@ CREATE INDEX IF NOT EXISTS idx_grace_slot
     ON grace_discoveries (slot_index);
 CREATE INDEX IF NOT EXISTS idx_sessions_slot
     ON play_sessions (slot_index, started_at DESC);
+CREATE INDEX IF NOT EXISTS idx_items_slot
+    ON item_collection (slot_index, category);
+
+CREATE TABLE IF NOT EXISTS manual_progress (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    slot_index  INTEGER NOT NULL CHECK (slot_index BETWEEN 0 AND 9),
+    entity_type TEXT NOT NULL,
+    entity_name TEXT NOT NULL,
+    completed   INTEGER NOT NULL DEFAULT 0,
+    completed_at TEXT,
+    UNIQUE (slot_index, entity_type, entity_name)
+);
+
+CREATE INDEX IF NOT EXISTS idx_manual_slot_type
+    ON manual_progress (slot_index, entity_type);
 """
 
 
-# #3
 def get_connection() -> sqlite3.Connection:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(str(DB_PATH), timeout=10)
+    conn = sqlite3.connect(str(DB_PATH), timeout=10, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
@@ -116,7 +136,6 @@ def get_connection() -> sqlite3.Connection:
     return conn
 
 
-# #4
 def initialize_db() -> None:
     conn = get_connection()
     try:
@@ -126,9 +145,6 @@ def initialize_db() -> None:
         conn.close()
 
 
-# --- Escritas (commit atomico via context manager) ---
-
-# #5
 def insert_player_stats(slot_index: int, stats: dict) -> None:
     conn = get_connection()
     try:
@@ -154,7 +170,6 @@ def insert_player_stats(slot_index: int, stats: dict) -> None:
         conn.close()
 
 
-# #6
 def insert_boss_kill(slot_index: int, boss_flag: int) -> None:
     conn = get_connection()
     try:
@@ -191,9 +206,7 @@ def insert_map_progress(slot_index: int, map_flag: int, flag_type: str) -> None:
             )
         logger.debug(
             "Map flag %d (%s) registrada para slot %d",
-            map_flag,
-            flag_type,
-            slot_index,
+            map_flag, flag_type, slot_index,
         )
     finally:
         conn.close()
@@ -212,7 +225,19 @@ def insert_ending(slot_index: int, ending_flag: int) -> None:
         conn.close()
 
 
-# #7
+def insert_item_collected(slot_index: int, item_name: str, category: str) -> None:
+    conn = get_connection()
+    try:
+        with conn:
+            conn.execute(
+                "INSERT OR IGNORE INTO item_collection (slot_index, item_name, category) VALUES (?, ?, ?)",
+                (slot_index, item_name, category),
+            )
+        logger.debug("Item '%s' (%s) coletado para slot %d", item_name, category, slot_index)
+    finally:
+        conn.close()
+
+
 def start_session(slot_index: int, level: int, runes: int) -> int:
     conn = get_connection()
     try:
@@ -225,7 +250,7 @@ def start_session(slot_index: int, level: int, runes: int) -> int:
                 (slot_index, level, runes),
             )
         session_id = cursor.lastrowid
-        logger.info("Sessao %d iniciada para slot %d", session_id, slot_index)
+        logger.info("Sessão %d iniciada para slot %d", session_id, slot_index)
         return session_id
     finally:
         conn.close()
@@ -245,14 +270,11 @@ def end_session(session_id: int, level: int, runes: int) -> None:
                 """,
                 (level, runes, session_id),
             )
-        logger.info("Sessao %d encerrada", session_id)
+        logger.info("Sessão %d encerrada", session_id)
     finally:
         conn.close()
 
 
-# --- Leituras ---
-
-# #8
 def get_latest_stats(slot_index: int) -> Optional[sqlite3.Row]:
     conn = get_connection()
     try:
@@ -294,6 +316,24 @@ def get_grace_discoveries(slot_index: int) -> list[sqlite3.Row]:
         conn.close()
 
 
+def get_collected_items(slot_index: int, category: str = "") -> list[sqlite3.Row]:
+    conn = get_connection()
+    try:
+        if category:
+            rows = conn.execute(
+                "SELECT * FROM item_collection WHERE slot_index = ? AND category = ? ORDER BY collected_at",
+                (slot_index, category),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM item_collection WHERE slot_index = ? ORDER BY collected_at",
+                (slot_index,),
+            ).fetchall()
+        return rows
+    finally:
+        conn.close()
+
+
 def get_stats_history(slot_index: int, limit: int = 100) -> list[sqlite3.Row]:
     conn = get_connection()
     try:
@@ -307,6 +347,77 @@ def get_stats_history(slot_index: int, limit: int = 100) -> list[sqlite3.Row]:
             (slot_index, limit),
         ).fetchall()
         return rows
+    finally:
+        conn.close()
+
+
+def toggle_manual_progress(
+    slot_index: int, entity_type: str, entity_name: str, completed: bool
+) -> None:
+    conn = get_connection()
+    try:
+        with conn:
+            if completed:
+                conn.execute(
+                    """
+                    INSERT INTO manual_progress (slot_index, entity_type, entity_name, completed, completed_at)
+                    VALUES (?, ?, ?, 1, strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+                    ON CONFLICT (slot_index, entity_type, entity_name)
+                    DO UPDATE SET completed = 1, completed_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now')
+                    """,
+                    (slot_index, entity_type, entity_name),
+                )
+            else:
+                conn.execute(
+                    """
+                    INSERT INTO manual_progress (slot_index, entity_type, entity_name, completed, completed_at)
+                    VALUES (?, ?, ?, 0, NULL)
+                    ON CONFLICT (slot_index, entity_type, entity_name)
+                    DO UPDATE SET completed = 0, completed_at = NULL
+                    """,
+                    (slot_index, entity_type, entity_name),
+                )
+        logger.debug(
+            "Progresso manual: %s/%s slot %d -> %s",
+            entity_type, entity_name, slot_index, completed,
+        )
+    finally:
+        conn.close()
+
+
+def get_manual_progress(
+    slot_index: int, entity_type: str = ""
+) -> list[sqlite3.Row]:
+    conn = get_connection()
+    try:
+        if entity_type:
+            rows = conn.execute(
+                "SELECT * FROM manual_progress WHERE slot_index = ? AND entity_type = ?",
+                (slot_index, entity_type),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM manual_progress WHERE slot_index = ?",
+                (slot_index,),
+            ).fetchall()
+        return rows
+    finally:
+        conn.close()
+
+
+def is_manually_completed(
+    slot_index: int, entity_type: str, entity_name: str
+) -> bool:
+    conn = get_connection()
+    try:
+        row = conn.execute(
+            """
+            SELECT completed FROM manual_progress
+            WHERE slot_index = ? AND entity_type = ? AND entity_name = ?
+            """,
+            (slot_index, entity_type, entity_name),
+        ).fetchone()
+        return bool(row and row["completed"])
     finally:
         conn.close()
 
@@ -328,7 +439,6 @@ def get_active_session(slot_index: int) -> Optional[sqlite3.Row]:
         conn.close()
 
 
-# #9
 if __name__ == "__main__":
     initialize_db()
     logger.info("Modulo database executado diretamente -- banco inicializado.")

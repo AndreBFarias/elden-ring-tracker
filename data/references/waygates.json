@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Chapel of Anticipation Waygate",
+    "lat": -127.709375,
+    "lng": 48.335292,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Crumbling Farum Azula Waygate",
+    "lat": -129.623437,
+    "lng": 47.765096,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Divine Bridge Waygate",
+    "lat": -175.509375,
+    "lng": 97.11532,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Fort Gael Waygate Teleporter",
+    "lat": -181.289062,
+    "lng": 129.06636,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Laskyar Ruins Waygate",
+    "lat": -159.464063,
+    "lng": 71.479135,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Nokron, Eternal City Waygate",
+    "lat": -128.589063,
+    "lng": 47.205959,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Purified Ruins Waygate",
+    "lat": -158.429687,
+    "lng": 79.801247,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Raya Lucaria Academy Waygate",
+    "lat": -134.59375,
+    "lng": 58.673357,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Renna's Rise Waygate",
+    "lat": -102.360938,
+    "lng": 52.958177,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Sending Gate (Bestial Sanctum)",
+    "lat": -178.3125,
+    "lng": 124.341227,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Teleporter Chest (Sellia Crystal Tunnel)",
+    "lat": -194.476562,
+    "lng": 107.582528,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Teleporter Chest to Leyndell",
+    "lat": -219.5,
+    "lng": 100.113283,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Volcano Manor Waygate",
+    "lat": -86.801562,
+    "lng": 65.782842,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Waygate (Consecrated Snowfield)",
+    "lat": -71.62,
+    "lng": 149.9,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Waygate to Liurnia East (from Liurnia West)",
+    "lat": -137.92,
+    "lng": 66.23,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Waygate to Miquella's Haligtree",
+    "lat": -61.460937,
+    "lng": 140.441793,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Waygate to Mohgwyn Palace",
+    "lat": -70.68,
+    "lng": 129.59,
+    "region": "surface",
+    "category": "waygate"
+  },
+  {
+    "name": "Coffin",
+    "lat": -97.84375,
+    "lng": 108.769494,
+    "region": "underground",
+    "category": "waygate"
+  },
+  {
+    "name": "Night's Sacred Ground Waygate",
+    "lat": -181.273437,
+    "lng": 128.605844,
+    "region": "underground",
+    "category": "waygate"
+  },
+  {
+    "name": "Siofra River East Waygate",
+    "lat": -181.296875,
+    "lng": 138.115104,
+    "region": "underground",
+    "category": "waygate"
+  },
+  {
+    "name": "Siofra River South Waygate",
+    "lat": -183.99375,
+    "lng": 131.983864,
+    "region": "underground",
+    "category": "waygate"
+  }
+]

@@ -31,7 +31,19 @@ data/tracker.db
 assets/cache/
 assets/icons/
 
-# Imagens upscaled (geradas, grandes demais para git)
-assets/map_tiles/*_upscaled.*
+# Tiles de mapa (baixados via scripts/download_tiles.py)
+assets/map_tiles/
+
+# Saves do jogador
+assets/save/
+
+# Backup de referências
+data/references/backup/
+
 # Pesos de modelos de ML
 assets/models/
+
+# Build artifacts
+packaging/appimage/build/
+*.AppImage
+*.deb
