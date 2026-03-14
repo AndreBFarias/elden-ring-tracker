@@ -1,9 +1,8 @@
 import sqlite3
-from pathlib import Path
 
-from log import get_logger
+from log import DB_DIR, get_logger
 
-DB_PATH = Path(__file__).resolve().parent.parent / "data" / "tracker.db"
+DB_PATH = DB_DIR / "tracker.db"
 
 logger = get_logger("database")
 

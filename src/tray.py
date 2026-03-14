@@ -8,7 +8,7 @@ import urllib.request
 import webbrowser
 from pathlib import Path
 
-from log import get_logger
+from log import LOG_DIR, get_logger
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -57,7 +57,7 @@ def _start_streamlit() -> None:
         logger.error("run.sh não encontrado: %s", run_script)
         return
 
-    log_dir = PROJECT_ROOT / "logs"
+    log_dir = LOG_DIR
     log_dir.mkdir(parents=True, exist_ok=True)
     log_file = log_dir / "streamlit.log"
     with open(str(log_file), "a", encoding="utf-8") as lf:
