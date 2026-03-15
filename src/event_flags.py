@@ -205,4 +205,4 @@ def validate_event_flags(event_flags: bytes) -> bool:
     return read_flag(event_flags, VALIDATION_FLAG, bst_map)
 
 
-# "A verdade e como um leao; nao precisas defende-la. Solta-a." -- Santo Agostinho
+# "A verdade é como um leão; não precisas defendê-la. Solta-a." -- Santo Agostinho

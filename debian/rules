@@ -1,9 +1,14 @@
 #!/usr/bin/make -f
 
 INSTALL_DIR = /opt/elden-ring-tracker
+DESTDIR = debian/elden-ring-tracker
 
 %:
 	dh $@
+
+override_dh_auto_build:
+
+override_dh_auto_clean:
 
 override_dh_auto_install:
 	install -d $(DESTDIR)$(INSTALL_DIR)

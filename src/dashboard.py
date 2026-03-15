@@ -186,14 +186,14 @@ def _get_reference_totals() -> dict[str, dict[str, int]]:
         if filename not in file_cache:
             path = REFERENCES_DIR / filename
             if not path.exists():
-                logger.warning("Arquivo de referencia ausente: %s", path)
+                logger.warning("Arquivo de referência ausente: %s", path)
                 file_cache[filename] = []
                 continue
             try:
                 with open(str(path), encoding="utf-8") as f:
                     file_cache[filename] = json.load(f)
             except (json.JSONDecodeError, OSError) as exc:
-                logger.error("Falha ao carregar referencia %s: %s", path, exc)
+                logger.error("Falha ao carregar referência %s: %s", path, exc)
                 file_cache[filename] = []
                 continue
 

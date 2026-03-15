@@ -55,12 +55,12 @@ def _wait_and_open_browser() -> None:
 def _start_streamlit() -> None:
     global _streamlit_process
     if _streamlit_process and _streamlit_process.poll() is None:
-        logger.info("Streamlit ja em execucao (PID %d)", _streamlit_process.pid)
+        logger.info("Streamlit já em execução (PID %d)", _streamlit_process.pid)
         return
 
     run_script = PROJECT_ROOT / "run.sh"
     if not run_script.exists():
-        logger.error("run.sh nao encontrado: %s", run_script)
+        logger.error("run.sh não encontrado: %s", run_script)
         return
 
     log_dir = LOG_DIR

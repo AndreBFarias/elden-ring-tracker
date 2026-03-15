@@ -139,7 +139,7 @@ def main() -> None:
     logger.info("=== Importando dataset ===")
     counts = import_dataset(source)
     total = sum(counts.values())
-    logger.info("Importacao concluida: %d entradas em %d arquivos", total, len(counts))
+    logger.info("Importação concluída: %d entradas em %d arquivos", total, len(counts))
 
 
 if __name__ == "__main__":
