@@ -37,7 +37,7 @@ def _ensure_tile_server() -> int:
     with _tile_server_lock:
         if _tile_server_port is not None:
             return _tile_server_port
-        _tile_server = http.server.HTTPServer(("127.0.0.1", 0), _SilentHandler)
+        _tile_server = http.server.HTTPServer(("0.0.0.0", 0), _SilentHandler)
         _tile_server_port = _tile_server.server_address[1]
         thread = threading.Thread(target=_tile_server.serve_forever, daemon=True)
         thread.start()
@@ -85,7 +85,7 @@ def _get_tile_url(region: MapRegion) -> str:
 
     if has_local:
         port = _ensure_tile_server()
-        return f"http://127.0.0.1:{port}/map_tiles/{region.name}/{{z}}/{{x}}/{{y}}.jpg"
+        return f"http://{{host}}:{port}/map_tiles/{region.name}/{{z}}/{{x}}/{{y}}.jpg"
 
     tc = region.tile_config
     return FEXTRALIFE_TILE_URL.format(
@@ -298,7 +298,9 @@ MAP_HTML = Template("""<!DOCTYPE html>
         maxBoundsViscosity:1.0
     });
 
-    L.tileLayer('$tile_url',{
+    var host=window.location.hostname||window.parent.location.hostname||'127.0.0.1';
+    var tileUrl='$tile_url'.replace('{host}',host);
+    L.tileLayer(tileUrl,{
         minZoom:$min_zoom,
         maxZoom:$max_zoom,
         maxNativeZoom:$max_native_zoom,

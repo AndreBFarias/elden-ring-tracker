@@ -28,5 +28,6 @@ known-first-party = [
     "achievement_resolver",
     "missable_checker",
     "generate_icons",
+    "tabs",
     "tray",
 ]
