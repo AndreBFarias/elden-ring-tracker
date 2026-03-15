@@ -50,8 +50,8 @@ bash run.sh      # iniciar dashboard
 ### Sistema (instalação em /opt)
 
 ```bash
-sudo bash install.sh             # instala em /opt/elden-ring-tracker
-sudo bash install.sh --uninstall # remove completamente
+sudo bash install.sh      # instala em /opt e pergunta o caminho do save
+sudo bash uninstall.sh     # remove tudo (com opção de manter dados)
 ```
 
 ### Pacotes
@@ -97,7 +97,8 @@ make flatpak    # gera Flatpak
 ├── debian/                    # Esqueleto para pacote .deb
 ├── setup.sh                   # Setup do ambiente
 ├── run.sh                     # Verificação + inicialização (--tray)
-└── install.sh                 # Instalação/desinstalação do sistema
+├── install.sh                 # Instalação do sistema
+└── uninstall.sh               # Desinstalação do sistema
 ```
 
 ## Uso
