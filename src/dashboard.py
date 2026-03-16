@@ -418,7 +418,7 @@ def _render_metrics(slot_index: int, region: str = "") -> None:
     grace_progress = get_progress(slot_index, "grace", region=region)
 
     with st.container(border=True):
-        c1, c2, c3, c4, c5 = st.columns(5)
+        c1, c2, c3, c4, c5, c6 = st.columns(6)
 
         if stats:
             c1.metric("Nível", stats["level"])
@@ -426,6 +426,10 @@ def _render_metrics(slot_index: int, region: str = "") -> None:
         else:
             c1.metric("Nível", "--")
             c2.metric("Runas", "--")
+
+        ng_value = stats.get("ng_plus", 0) if stats else 0
+        ng_label = f"NG+{ng_value}" if ng_value > 0 else "NG"
+        c3.metric("Ciclo", ng_label)
 
         boss_label = (
             f"{boss_progress['completed']} / {boss_progress['total']}"
@@ -437,8 +441,8 @@ def _render_metrics(slot_index: int, region: str = "") -> None:
             if grace_progress["total"]
             else str(grace_progress["completed"])
         )
-        c3.metric("Bosses", boss_label)
-        c4.metric("Graças", grace_label)
+        c4.metric("Bosses", boss_label)
+        c5.metric("Graças", grace_label)
 
         if session:
             from datetime import datetime, timezone
@@ -446,9 +450,9 @@ def _render_metrics(slot_index: int, region: str = "") -> None:
             elapsed = datetime.now(timezone.utc) - started
             hours = int(elapsed.total_seconds() // 3600)
             minutes = int((elapsed.total_seconds() % 3600) // 60)
-            c5.metric("Sessão", f"{hours}h{minutes:02d}m")
+            c6.metric("Sessão", f"{hours}h{minutes:02d}m")
         else:
-            c5.metric("Sessão", "Inativa")
+            c6.metric("Sessão", "Inativa")
 
 
 def _render_map(
@@ -541,8 +545,8 @@ def main() -> None:
 
     _render_metrics(slot_index, region=filter_region)
 
-    tab_map, tab_progress, tab_missable, tab_achievements = st.tabs(
-        ["Mapa", "Progresso", "Eventos Perdíveis", "Conquistas"]
+    tab_map, tab_progress, tab_missable, tab_achievements, tab_sessions = st.tabs(
+        ["Mapa", "Progresso", "Eventos Perdíveis", "Conquistas", "Sessões"]
     )
 
     with tab_map:
@@ -560,6 +564,10 @@ def main() -> None:
     with tab_achievements:
         from tabs import achievements as page_achievements
         page_achievements.render(slot_index)
+
+    with tab_sessions:
+        from tabs import sessions as page_sessions
+        page_sessions.render(slot_index)
 
     logger.debug("Dashboard renderizado: slot=%d, região='%s'", slot_index, map_region)
 
