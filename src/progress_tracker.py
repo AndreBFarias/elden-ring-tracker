@@ -32,6 +32,7 @@ CATEGORY_FILES = {
     "flask_upgrade": "items.json",
     "key_item": "items.json",
     "map_fragment": "items.json",
+    "npc": "npcs.json",
 }
 
 
@@ -58,13 +59,15 @@ def _load_reference(category: str) -> list[dict]:
     data = _ref_cache[filename]
     if filename == "items.json":
         data = [e for e in data if e.get("category") == category]
+    if filename == "npcs.json":
+        data = [e for e in data if e.get("category") == category]
     return data
 
 
 AUTO_TRACKED = {
     "flask_upgrade", "ash_of_war", "map_fragment", "key_item",
     "weapon", "armor", "shield", "talisman", "spell",
-    "consumable", "material",
+    "consumable", "material", "upgrade_material",
 }
 
 
