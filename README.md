@@ -213,22 +213,22 @@ Todos os acessos passam por `database.py`. A conexão usa WAL mode, `foreign_key
 
 | Arquivo | Conteúdo |
 |---------|----------|
-| `bosses.json` | 244 bosses com nome, região, tipo e flag ID |
-| `boss_flags.json` | 164 entradas: flag_id → {name, region, is_main, type} |
-| `graces.json` | Graças com flag ID e região |
-| `grace_flags.json` | flag_id → nome da graça |
-| `dungeons.json` | 306 dungeons com nome, tipo, região e boss_flags para auto-tracking |
+| `bosses.json` | 217 bosses com nome, região, tipo e flag (206 vinculados a flags) |
+| `boss_flags.json` | 262 entradas: flag_id → {name, region, is_main, type} |
+| `graces.json` | 423 graças com flag e região (105 DLC) |
+| `grace_flags.json` | 419 entradas: flag_id → nome da graça (inclui DLC) |
+| `dungeons.json` | 306 dungeons com nome, dungeon_type, região e boss_flags para auto-tracking |
 | `items.json` | Todos os itens coletáveis por categoria (loot map com coordenadas) |
-| `item_ids.json` | Mapa de item_id → nome por categoria (weapon, armor, shield, talisman, spell, consumable, material, upgrade_material) |
+| `item_ids.json` | 2012 IDs: item_id → nome em 8 categorias (weapon, armor, shield, talisman, spell, consumable, material, upgrade_material) |
 | `npcs.json` | 178 NPCs com nome, região e categoria |
-| `npc_dead_flags.json` | flag_id → nome de NPC para auto-tracking via event flags |
+| `npc_dead_flags.json` | 52 entradas: flag_id → nome de NPC para auto-tracking via event flags |
 | `missable_events.json` | 20 eventos perdíveis com condição e severidade |
 | `achievements.json` | 42 conquistas com condição de resolução |
 | `crystal_tear_flags.json` | Flags de crystal tears (upgrades de frasco) |
 | `ash_of_war_flags.json` | Flags de ashes of war |
 | `map_fragment_flags.json` | Flags de fragmentos de mapa |
 | `key_item_flags.json` | Flags de itens-chave |
-| `story_flags.json` | Flags de progresso narrativo |
+| `story_flags.json` | 34 flags de progresso narrativo |
 | `waygates.json` | Portais e waygates |
 
 ### Configuração (`data/config.json`)
@@ -251,8 +251,17 @@ Se `save_path` não estiver configurado ou for inválido, o parser busca automat
 | Script | Uso |
 |--------|-----|
 | `diagnose_flags.py` | CLI para listar event flags ativos com nomes (`--save`, `--slot`, `--category`) |
-| `import_goods_ids.py` | Baixa CSV de itens do EldenRingTool e popula `item_ids.json` com IDs de consumíveis, materiais e materiais de melhoria |
-| `link_dungeon_boss_flags.py` | Linka entradas de `dungeons.json` aos respectivos boss_flags para auto-tracking de conclusão |
+| `validate_references.py` | Validação cruzada de todos os JSONs de referência |
+| `expand_item_ids.py` | Expansão de `item_ids.json` com IDs adicionais por categoria |
+| `integrate_dlc_graces.py` | Integração de graças DLC em `graces.json` e `grace_flags.json` |
+| `integrate_npc_dead_flags.py` | Integração de flags de morte de NPC |
+| `integrate_remaining_bosses.py` | Integração de boss flags restantes |
+| `integrate_story_flags.py` | Integração de flags de progressão narrativa |
+| `audit_dungeons.py` | Auditoria e classificação de `dungeon_type` em `dungeons.json` |
+| `cleanup_graces.py` | Limpeza de duplicatas em graças |
+| `fetch_utils.py` | Utilitário compartilhado para requisições HTTP com retry |
+| `import_goods_ids.py` | Baixa CSV de itens do EldenRingTool e popula `item_ids.json` |
+| `link_dungeon_boss_flags.py` | Linka `dungeons.json` a boss_flags para auto-tracking |
 | `download_tiles.py` | Download dos tiles de mapa do Fextralife |
 | `enrich_references.py` | Enriquece JSONs de referência com flag IDs |
 | `import_dataset.py` | Importação de datasets externos para os JSONs de referência |
@@ -329,8 +338,17 @@ Nunca usar `print()` em código de produção — usar sempre o logger.
 │   └── map_tiles/             # Tiles dos mapas (baixados pelo usuário)
 ├── scripts/
 │   ├── diagnose_flags.py      # CLI para listar event flags ativos com nomes
-│   ├── import_goods_ids.py    # Popula item_ids.json com IDs de goods via CSV externo
-│   ├── link_dungeon_boss_flags.py  # Linka dungeons.json a boss_flags para auto-tracking
+│   ├── validate_references.py # Validação cruzada de JSONs de referência
+│   ├── expand_item_ids.py     # Expansão de item_ids.json
+│   ├── integrate_dlc_graces.py    # Integração de graças DLC
+│   ├── integrate_npc_dead_flags.py # Integração de flags de morte de NPC
+│   ├── integrate_remaining_bosses.py # Integração de boss flags
+│   ├── integrate_story_flags.py    # Integração de flags narrativas
+│   ├── audit_dungeons.py      # Auditoria de dungeons
+│   ├── cleanup_graces.py      # Limpeza de duplicatas em graças
+│   ├── fetch_utils.py         # Utilitário HTTP com retry
+│   ├── import_goods_ids.py    # Popula item_ids.json via CSV externo
+│   ├── link_dungeon_boss_flags.py  # Linka dungeons a boss_flags
 │   ├── enrich_references.py   # Enriquecimento de JSONs com flags
 │   ├── download_tiles.py      # Download de tiles
 │   ├── stitch_tiles.py        # União de tiles

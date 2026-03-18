@@ -5,7 +5,8 @@
     "lng": 110.22877516107658,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Abandoned Church",
@@ -13,7 +14,8 @@
     "lng": 150.10564867597333,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Albinauric's Shack",
@@ -21,7 +23,8 @@
     "lng": 125.81661759161945,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack"
   },
   {
     "name": "Artist's Shack (Gravesite Plain)",
@@ -29,7 +32,9 @@
     "lng": 111.42567129523853,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76800
   },
   {
     "name": "Belurat Gaol",
@@ -37,7 +42,9 @@
     "lng": 103.66817723565161,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol",
+    "grace_flag": 74100
   },
   {
     "name": "Belurat Tower Settlement",
@@ -45,7 +52,9 @@
     "lng": 100.30876279182405,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 72001
   },
   {
     "name": "Bonny Gaol",
@@ -56,7 +65,9 @@
     "type": "dungeon",
     "boss_flags": [
       41010800
-    ]
+    ],
+    "dungeon_type": "gaol",
+    "grace_flag": 74101
   },
   {
     "name": "Bonny Village",
@@ -64,7 +75,9 @@
     "lng": 133.55877938790897,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76903
   },
   {
     "name": "Castle Ensis",
@@ -72,7 +85,9 @@
     "lng": 119.80161440195708,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76821
   },
   {
     "name": "Cathedral of Manus Metyr",
@@ -80,7 +95,9 @@
     "lng": 138.54360277485836,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76906
   },
   {
     "name": "Church of Benediction",
@@ -88,7 +105,8 @@
     "lng": 110.7537848713672,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Church of Consolation",
@@ -96,7 +114,8 @@
     "lng": 120.70072420802593,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Church of the Crusade",
@@ -104,7 +123,8 @@
     "lng": 117.12922040646134,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Darklight Catacombs",
@@ -115,7 +135,9 @@
     "type": "dungeon",
     "boss_flags": [
       2052430800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 74002
   },
   {
     "name": "Dragon's Pit",
@@ -126,7 +148,9 @@
     "type": "dungeon",
     "boss_flags": [
       43010800
-    ]
+    ],
+    "dungeon_type": "surface_poi",
+    "grace_flag": 74301
   },
   {
     "name": "Eastern Nameless Mausoleum",
@@ -134,7 +158,8 @@
     "lng": 140.05911210816123,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Elder's Hovel",
@@ -142,7 +167,8 @@
     "lng": 131.51851024150065,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Ellac Greatbridge",
@@ -150,7 +176,8 @@
     "lng": 112.9419503118717,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Enir-Ilim",
@@ -158,7 +185,8 @@
     "lng": 98.89464263274539,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Finger Ruins of Dheo",
@@ -166,7 +194,8 @@
     "lng": 154.22091560276036,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Finger Ruins of Miyr",
@@ -174,7 +203,8 @@
     "lng": 138.16648879123898,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Finger Ruins of Rhia",
@@ -182,7 +212,9 @@
     "lng": 136.70723259573205,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76834
   },
   {
     "name": "Finger-Weaver's Hovel",
@@ -190,7 +222,8 @@
     "lng": 127.05877938790897,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Fog Rift Catacombs",
@@ -201,7 +234,9 @@
     "type": "dungeon",
     "boss_flags": [
       40000800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 74000
   },
   {
     "name": "Fog Rift Fort",
@@ -209,7 +244,8 @@
     "lng": 115.65234375,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Fort of Reprimand",
@@ -217,7 +253,9 @@
     "lng": 130.0036806285414,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "fort",
+    "grace_flag": 76909
   },
   {
     "name": "Grand Altar of Dragon Communion",
@@ -225,7 +263,9 @@
     "lng": 130.77806202590935,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76840
   },
   {
     "name": "Lamenter's Gaol",
@@ -236,7 +276,9 @@
     "type": "dungeon",
     "boss_flags": [
       41020800
-    ]
+    ],
+    "dungeon_type": "gaol",
+    "grace_flag": 74102
   },
   {
     "name": "Midra's Manse",
@@ -244,7 +286,8 @@
     "lng": 127.96805735410194,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Moorth Ruins",
@@ -252,7 +295,9 @@
     "lng": 129.61424371115885,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76902
   },
   {
     "name": "Northern Nameless Mausoleum",
@@ -260,7 +305,8 @@
     "lng": 112.75255709294758,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Prospect Town",
@@ -268,7 +314,8 @@
     "lng": 104.10482044530251,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Rabbath's Rise",
@@ -276,7 +323,8 @@
     "lng": 143.42578125,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Remembrance Duplication Coffin (Finger Ruins of Dheo)",
@@ -284,7 +332,8 @@
     "lng": 151.66065890033815,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Remembrance Duplication Coffin (Finger Ruins of Rhia)",
@@ -292,7 +341,9 @@
     "lng": 140.94145051750138,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76834
   },
   {
     "name": "Remembrance Duplication Coffin (Manus Metyr)",
@@ -300,7 +351,8 @@
     "lng": 137.027564638819,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Rivermouth Cave",
@@ -311,7 +363,9 @@
     "type": "dungeon",
     "boss_flags": [
       43000800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 74300
   },
   {
     "name": "Ruined Forge Lava Intake",
@@ -319,7 +373,9 @@
     "lng": 119.76211001759276,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "forge",
+    "grace_flag": 74200
   },
   {
     "name": "Ruined Forge of Starfall Past",
@@ -330,7 +386,9 @@
     "type": "dungeon",
     "boss_flags": [
       41000800
-    ]
+    ],
+    "dungeon_type": "forge",
+    "grace_flag": 74202
   },
   {
     "name": "Ruins of Unte",
@@ -338,7 +396,8 @@
     "lng": 133.68053011522085,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Run-Down Traveler's Rest",
@@ -346,7 +405,8 @@
     "lng": 111.1900810809267,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Scadutree Chalice",
@@ -354,7 +414,8 @@
     "lng": 128.86061641011185,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Scorched Ruins",
@@ -362,7 +423,9 @@
     "lng": 114.88155587415463,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76801
   },
   {
     "name": "Scorpion River Catacombs",
@@ -373,7 +436,9 @@
     "type": "dungeon",
     "boss_flags": [
       40010800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 74001
   },
   {
     "name": "Shadow Keep",
@@ -381,7 +446,9 @@
     "lng": 127.52128310203618,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 72102
   },
   {
     "name": "Shaman Village",
@@ -389,7 +456,8 @@
     "lng": 141.2385163482255,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Southern Nameless Mausoleum",
@@ -397,7 +465,8 @@
     "lng": 110.45215425605276,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Stone Coffin Fissure",
@@ -405,7 +474,9 @@
     "lng": 118.91627163838359,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 72201
   },
   {
     "name": "Suppressing Pillar",
@@ -413,7 +484,8 @@
     "lng": 122.82469712461159,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Taylew's Ruined Forge",
@@ -421,7 +493,9 @@
     "lng": 121.81211360515383,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "forge",
+    "grace_flag": 74203
   },
   {
     "name": "Teleportation Coffin",
@@ -429,7 +503,8 @@
     "lng": 127.94921875,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Temple Town Ruins",
@@ -437,7 +512,9 @@
     "lng": 107.86729888274539,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76913
   },
   {
     "name": "Village of Flies",
@@ -445,7 +522,8 @@
     "lng": 134.27772502170535,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Waygate",
@@ -453,7 +531,8 @@
     "lng": 119.10923262567664,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "waygate"
   },
   {
     "name": "Western Nameless Mausoleum",
@@ -461,7 +540,8 @@
     "lng": 107.58959385281484,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Whipping Hut",
@@ -469,7 +549,8 @@
     "lng": 137.41097734075123,
     "region": "dlc",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Auriza Hero's Grave",
@@ -480,7 +561,9 @@
     "type": "dungeon",
     "boss_flags": [
       30100800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73010
   },
   {
     "name": "Auriza Side Tomb",
@@ -488,7 +571,9 @@
     "lng": 122.481104,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 73013
   },
   {
     "name": "Divine Tower of East Altus",
@@ -496,7 +581,8 @@
     "lng": 135.793948,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "divine_tower"
   },
   {
     "name": "Hermit Merchant's Shack",
@@ -504,7 +590,9 @@
     "lng": 106.434799,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76311
   },
   {
     "name": "Leyndell, Ashen Capital",
@@ -512,7 +600,8 @@
     "lng": 111.574037,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Minor Erdtree",
@@ -520,7 +609,9 @@
     "lng": 115.62895,
     "region": "extra",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree",
+    "grace_flag": 73014
   },
   {
     "name": "Subterranean Shunning-Grounds",
@@ -531,7 +622,8 @@
     "type": "dungeon",
     "boss_flags": [
       9125
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Abandoned Cave",
@@ -542,7 +634,9 @@
     "type": "dungeon",
     "boss_flags": [
       31200800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73120
   },
   {
     "name": "Academy Crystal Cave",
@@ -553,7 +647,9 @@
     "type": "dungeon",
     "boss_flags": [
       31060800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73106
   },
   {
     "name": "Academy Gate Town",
@@ -561,7 +657,9 @@
     "lng": 67.70741,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76204
   },
   {
     "name": "Ailing Village",
@@ -569,7 +667,9 @@
     "lng": 110.93214,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76154
   },
   {
     "name": "Ainsel River Well",
@@ -577,7 +677,9 @@
     "lng": 78.354236,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71211
   },
   {
     "name": "Albinauric Rise",
@@ -585,7 +687,8 @@
     "lng": 147.910385,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Altus Tunnel",
@@ -596,7 +699,9 @@
     "type": "dungeon",
     "boss_flags": [
       32050800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73205
   },
   {
     "name": "Apostate Derelict",
@@ -604,7 +709,9 @@
     "lng": 133.1,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76653
   },
   {
     "name": "Artist's Shack",
@@ -612,7 +719,9 @@
     "lng": 78.372289,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76103
   },
   {
     "name": "Artist's Shack (Limgrave)",
@@ -620,7 +729,9 @@
     "lng": 113.93,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76103
   },
   {
     "name": "Auriza Hero's Grave",
@@ -631,7 +742,9 @@
     "type": "dungeon",
     "boss_flags": [
       30100800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73010
   },
   {
     "name": "Auriza Side Tomb",
@@ -639,7 +752,9 @@
     "lng": 122.5,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 73013
   },
   {
     "name": "Bellum Church",
@@ -647,7 +762,9 @@
     "lng": 64.188543,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76208
   },
   {
     "name": "Bestial Sanctum",
@@ -655,7 +772,9 @@
     "lng": 156.29925,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76454
   },
   {
     "name": "Black Knife Catacombs",
@@ -667,7 +786,9 @@
     "boss_flags": [
       30050800,
       30050850
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73005
   },
   {
     "name": "Boilprawn Shack",
@@ -675,7 +796,9 @@
     "lng": 66.84,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76216
   },
   {
     "name": "Bridge of Sacrifice",
@@ -683,7 +806,9 @@
     "lng": 116.44782,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76157
   },
   {
     "name": "Caelem Ruins",
@@ -691,7 +816,9 @@
     "lng": 135.118232,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76403
   },
   {
     "name": "Caelid Catacombs",
@@ -702,7 +829,9 @@
     "type": "dungeon",
     "boss_flags": [
       30150800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73015
   },
   {
     "name": "Caelid Waypoint Ruins",
@@ -710,7 +839,8 @@
     "lng": 133.19739,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Callu Baptismal Church",
@@ -718,7 +848,8 @@
     "lng": 111.262281,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Caria Manor",
@@ -729,7 +860,9 @@
     "type": "dungeon",
     "boss_flags": [
       9181
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 76214
   },
   {
     "name": "Carian Study Hall",
@@ -737,7 +870,8 @@
     "lng": 81.817762,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Castle Morne",
@@ -748,7 +882,9 @@
     "type": "dungeon",
     "boss_flags": [
       9180
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 76151
   },
   {
     "name": "Castle Sol",
@@ -759,7 +895,9 @@
     "type": "dungeon",
     "boss_flags": [
       9184
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 76522
   },
   {
     "name": "Cathedral of Dragon Communion",
@@ -767,7 +905,9 @@
     "lng": 139.08,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76404
   },
   {
     "name": "Cathedral of Manus Celes",
@@ -775,7 +915,9 @@
     "lng": 55.292812,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76251
   },
   {
     "name": "Cave of the Forlorn",
@@ -786,7 +928,9 @@
     "type": "dungeon",
     "boss_flags": [
       31120800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73112
   },
   {
     "name": "Chapel of Anticipation",
@@ -794,7 +938,8 @@
     "lng": 78.883837,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Chelona's Rise",
@@ -802,7 +947,8 @@
     "lng": 45.168583,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Church of Dragon Communion",
@@ -810,7 +956,9 @@
     "lng": 93.144813,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76110
   },
   {
     "name": "Church of Elleh",
@@ -818,7 +966,9 @@
     "lng": 99.395265,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76100
   },
   {
     "name": "Church of Inhibition",
@@ -826,7 +976,9 @@
     "lng": 71.8825,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76240
   },
   {
     "name": "Church of Irith",
@@ -834,7 +986,8 @@
     "lng": 81.753729,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Church of Pilgrimage",
@@ -842,7 +995,9 @@
     "lng": 104.654229,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76150
   },
   {
     "name": "Church of Repose",
@@ -850,7 +1005,9 @@
     "lng": 155.64,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76507
   },
   {
     "name": "Church of Vows",
@@ -858,7 +1015,9 @@
     "lng": 68.773762,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76224
   },
   {
     "name": "Church of the Plague",
@@ -866,7 +1025,9 @@
     "lng": 150.72784,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76418
   },
   {
     "name": "Cliffbottom Catacombs",
@@ -877,7 +1038,9 @@
     "type": "dungeon",
     "boss_flags": [
       30060800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73006
   },
   {
     "name": "Coastal Cave",
@@ -888,7 +1051,9 @@
     "type": "dungeon",
     "boss_flags": [
       31150800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73115
   },
   {
     "name": "Consecrated Snowfield Catacombs",
@@ -899,7 +1064,9 @@
     "type": "dungeon",
     "boss_flags": [
       30190800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73019
   },
   {
     "name": "Converted Fringe Tower",
@@ -907,7 +1074,8 @@
     "lng": 82.02136,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Converted Tower",
@@ -915,7 +1083,9 @@
     "lng": 49.191995,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76237
   },
   {
     "name": "Corpse-Stench Shack",
@@ -923,7 +1093,8 @@
     "lng": 73.77088,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack"
   },
   {
     "name": "Craftsman's Shack",
@@ -931,7 +1102,9 @@
     "lng": 66.258,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76356
   },
   {
     "name": "Crumbling Farum Azula",
@@ -942,7 +1115,8 @@
     "type": "dungeon",
     "boss_flags": [
       9115
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Cuckoo's Evergaol",
@@ -950,7 +1124,8 @@
     "lng": 44.416863,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Deathtouched Catacombs",
@@ -958,7 +1133,9 @@
     "lng": 105.106501,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "catacomb",
+    "grace_flag": 73011
   },
   {
     "name": "Deep Ainsel Well",
@@ -966,7 +1143,8 @@
     "lng": 50.885515,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Deep Siofra Well",
@@ -974,7 +1152,9 @@
     "lng": 141.942969,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76410
   },
   {
     "name": "Demi-human Forest Ruins",
@@ -982,7 +1162,8 @@
     "lng": 108.200935,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Divine Tower of Caelid",
@@ -993,7 +1174,9 @@
     "type": "dungeon",
     "boss_flags": [
       34130800
-    ]
+    ],
+    "dungeon_type": "divine_tower",
+    "grace_flag": 73440
   },
   {
     "name": "Divine Tower of East Altus",
@@ -1001,7 +1184,8 @@
     "lng": 134.781,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "divine_tower"
   },
   {
     "name": "Divine Tower of Limgrave",
@@ -1009,7 +1193,9 @@
     "lng": 113.980777,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "divine_tower",
+    "grace_flag": 73412
   },
   {
     "name": "Divine Tower of Liurnia",
@@ -1017,7 +1203,9 @@
     "lng": 92.153736,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "divine_tower",
+    "grace_flag": 73422
   },
   {
     "name": "Divine Tower of West Altus",
@@ -1025,7 +1213,9 @@
     "lng": 106.257777,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "divine_tower",
+    "grace_flag": 73430
   },
   {
     "name": "Dominula, Windmill Village",
@@ -1033,7 +1223,9 @@
     "lng": 98.973197,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76308
   },
   {
     "name": "Dragon-Burnt Ruins",
@@ -1041,7 +1233,8 @@
     "lng": 106.661413,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Dragonbarrow Cave",
@@ -1052,7 +1245,9 @@
     "type": "dungeon",
     "boss_flags": [
       31100800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73110
   },
   {
     "name": "Earthbore Cave",
@@ -1063,7 +1258,9 @@
     "type": "dungeon",
     "boss_flags": [
       31010800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73101
   },
   {
     "name": "East Windmill Pasture",
@@ -1071,7 +1268,8 @@
     "lng": 92.05,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Elphael, Brace of the Haligtree",
@@ -1082,7 +1280,8 @@
     "type": "dungeon",
     "boss_flags": [
       9120
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Enemy Caravan (Aluts Plateau)",
@@ -1090,7 +1289,8 @@
     "lng": 88.22,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Enemy Caravan (Dragonbarrow)",
@@ -1098,7 +1298,8 @@
     "lng": 133.04,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Enemy Caravan (Limgrave)",
@@ -1106,7 +1307,8 @@
     "lng": 112.54,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Enemy Caravan (West Liurnia of the Lakes)",
@@ -1114,7 +1316,8 @@
     "lng": 48.261822,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Enemy Caravan 1 (Consecrated Snowfield)",
@@ -1122,7 +1325,9 @@
     "lng": 145.54,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76550
   },
   {
     "name": "Enemy Caravan 2 (Consecrated Snowfield)",
@@ -1130,7 +1335,9 @@
     "lng": 139.83,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76550
   },
   {
     "name": "First Church of Marika",
@@ -1138,7 +1345,9 @@
     "lng": 174.57,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76505
   },
   {
     "name": "Flame Peak",
@@ -1146,7 +1355,8 @@
     "lng": 163.646566,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Forest Lookout Tower",
@@ -1154,7 +1364,8 @@
     "lng": 113.597761,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Forge of the Giants",
@@ -1162,7 +1373,9 @@
     "lng": 173.223795,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "forge",
+    "grace_flag": 76510
   },
   {
     "name": "Forlorn Hound Evergaol",
@@ -1170,7 +1383,8 @@
     "lng": 113.191478,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Forsaken Ruins",
@@ -1178,7 +1392,8 @@
     "lng": 129.940183,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Fort Faroth",
@@ -1186,7 +1401,9 @@
     "lng": 155.477667,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "fort",
+    "grace_flag": 76453
   },
   {
     "name": "Fort Gael",
@@ -1194,7 +1411,9 @@
     "lng": 129.113068,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "fort",
+    "grace_flag": 76402
   },
   {
     "name": "Fort Haight",
@@ -1202,7 +1421,9 @@
     "lng": 125.418491,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "fort",
+    "grace_flag": 76105
   },
   {
     "name": "Fort Laiedd",
@@ -1210,7 +1431,8 @@
     "lng": 57.06,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "fort"
   },
   {
     "name": "Fourth Church of Marika",
@@ -1218,7 +1440,9 @@
     "lng": 96.699528,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76162
   },
   {
     "name": "Frenzied Flame Village",
@@ -1226,7 +1450,9 @@
     "lng": 74.800986,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76239
   },
   {
     "name": "Frenzy-Flaming Tower",
@@ -1234,7 +1460,8 @@
     "lng": 76.13,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Fringefolk Hero's Grave",
@@ -1246,7 +1473,8 @@
     "boss_flags": [
       18000800,
       18000850
-    ]
+    ],
+    "dungeon_type": "catacomb"
   },
   {
     "name": "Gael Tunnel",
@@ -1257,7 +1485,9 @@
     "type": "dungeon",
     "boss_flags": [
       32070800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73207
   },
   {
     "name": "Gaol Cave",
@@ -1268,7 +1498,9 @@
     "type": "dungeon",
     "boss_flags": [
       31210800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73121
   },
   {
     "name": "Gatefront Ruins",
@@ -1276,7 +1508,9 @@
     "lng": 103.133963,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76111
   },
   {
     "name": "Gelmir Hero's Grave",
@@ -1287,7 +1521,9 @@
     "type": "dungeon",
     "boss_flags": [
       30090800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73009
   },
   {
     "name": "Giant-Conquering Hero's Grave",
@@ -1298,7 +1534,9 @@
     "type": "dungeon",
     "boss_flags": [
       30170800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73017
   },
   {
     "name": "Giants' Mountaintop Catacombs",
@@ -1309,7 +1547,9 @@
     "type": "dungeon",
     "boss_flags": [
       30180800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73018
   },
   {
     "name": "Golden Lineage Evergaol",
@@ -1317,7 +1557,8 @@
     "lng": 80.79178,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Gowry's Shack",
@@ -1325,7 +1566,8 @@
     "lng": 148.747833,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack"
   },
   {
     "name": "Grand Lift of Dectus",
@@ -1333,7 +1575,9 @@
     "lng": 77.269611,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76209
   },
   {
     "name": "Grand Lift of Rold",
@@ -1341,7 +1585,9 @@
     "lng": 143.8,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76502
   },
   {
     "name": "Groveside Cave",
@@ -1352,7 +1598,9 @@
     "type": "dungeon",
     "boss_flags": [
       31030800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73103
   },
   {
     "name": "Guardians' Garrison",
@@ -1360,7 +1608,8 @@
     "lng": 161.6,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Heretical Rise",
@@ -1368,7 +1617,8 @@
     "lng": 165.120391,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Hermit Merchant's Shack",
@@ -1376,7 +1626,9 @@
     "lng": 106.92,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76311
   },
   {
     "name": "Hermit Village",
@@ -1384,7 +1636,8 @@
     "lng": 69.711659,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hermit's Shack",
@@ -1392,7 +1645,8 @@
     "lng": 60.846706,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack"
   },
   {
     "name": "Hidden Path to the Haligtree",
@@ -1403,7 +1657,9 @@
     "type": "dungeon",
     "boss_flags": [
       30200810
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 73020
   },
   {
     "name": "Highroad Cave",
@@ -1414,7 +1670,9 @@
     "type": "dungeon",
     "boss_flags": [
       31170800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73117
   },
   {
     "name": "Highway Lookout Tower",
@@ -1422,7 +1680,8 @@
     "lng": 79.095783,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Highway Lookout Tower",
@@ -1430,7 +1689,8 @@
     "lng": 101.76,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Impaler's Catacombs",
@@ -1441,7 +1701,9 @@
     "type": "dungeon",
     "boss_flags": [
       30010800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73001
   },
   {
     "name": "Isolated Divine Tower",
@@ -1449,7 +1711,9 @@
     "lng": 156.126,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "divine_tower",
+    "grace_flag": 73460
   },
   {
     "name": "Isolated Merchant's Shack (Dragonbarrow)",
@@ -1457,7 +1721,9 @@
     "lng": 136.248541,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76451
   },
   {
     "name": "Isolated Merchant's Shack (Weeping Peninsula)",
@@ -1465,7 +1731,9 @@
     "lng": 94.958167,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76451
   },
   {
     "name": "Jarburg",
@@ -1473,7 +1741,9 @@
     "lng": 83.71,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76245
   },
   {
     "name": "Kingsrealm Ruins",
@@ -1481,7 +1751,8 @@
     "lng": 52.915288,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Lakeside Crystal Cave",
@@ -1492,7 +1763,9 @@
     "type": "dungeon",
     "boss_flags": [
       31050800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73105
   },
   {
     "name": "Laskyar Ruins",
@@ -1500,7 +1773,9 @@
     "lng": 72.385616,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76202
   },
   {
     "name": "Lenne's Rise",
@@ -1508,7 +1783,9 @@
     "lng": 165.3,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise",
+    "grace_flag": 76455
   },
   {
     "name": "Leyndell Catacombs",
@@ -1519,7 +1796,9 @@
     "type": "dungeon",
     "boss_flags": [
       35000850
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73503
   },
   {
     "name": "Leyndell, Royal Capital",
@@ -1527,7 +1806,8 @@
     "lng": 114.587958,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Limgrave Tunnels",
@@ -1538,7 +1818,9 @@
     "type": "dungeon",
     "boss_flags": [
       32010800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73201
   },
   {
     "name": "Lord Contender's Evergaol",
@@ -1546,7 +1828,8 @@
     "lng": 167.967194,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Lunar Estate Ruins",
@@ -1554,7 +1837,8 @@
     "lng": 57.718619,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Lux Ruins",
@@ -1562,7 +1846,8 @@
     "lng": 75.279,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Malefactor's Evergaol",
@@ -1570,7 +1855,8 @@
     "lng": 76.054285,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Minor Erdtree (Altus Plateau)",
@@ -1578,7 +1864,9 @@
     "lng": 93.08687,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree",
+    "grace_flag": 76301
   },
   {
     "name": "Minor Erdtree (Caelid)",
@@ -1586,7 +1874,8 @@
     "lng": 130.242492,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Capital Outskirts)",
@@ -1594,7 +1883,8 @@
     "lng": 115.04107,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Consecrated Snowfield)",
@@ -1602,7 +1892,9 @@
     "lng": 147.6686,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree",
+    "grace_flag": 76550
   },
   {
     "name": "Minor Erdtree (Dragonbarrow)",
@@ -1610,7 +1902,8 @@
     "lng": 157.81,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Liurnia Northeast)",
@@ -1618,7 +1911,8 @@
     "lng": 76.503103,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Liurnia Southwest)",
@@ -1626,7 +1920,8 @@
     "lng": 45.942854,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Mistwood)",
@@ -1634,7 +1929,8 @@
     "lng": 121.832608,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Mountaintops East)",
@@ -1642,7 +1938,8 @@
     "lng": 161.736922,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Mt. Gelmir)",
@@ -1650,7 +1947,8 @@
     "lng": 69.99787,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree (Weeping Peninsula)",
@@ -1658,7 +1956,8 @@
     "lng": 105.864682,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "minor_erdtree"
   },
   {
     "name": "Minor Erdtree Catacombs",
@@ -1669,7 +1968,9 @@
     "type": "dungeon",
     "boss_flags": [
       30140800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73014
   },
   {
     "name": "Minor Erdtree Church",
@@ -1677,7 +1978,9 @@
     "lng": 104.496409,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76310
   },
   {
     "name": "Miquella's Haligtree",
@@ -1685,7 +1988,8 @@
     "lng": 148.01,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Mirage Rise",
@@ -1693,7 +1997,8 @@
     "lng": 84.715878,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Mistwood Ruins",
@@ -1701,7 +2006,8 @@
     "lng": 118.714178,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Moonfolk Ruins",
@@ -1709,7 +2015,8 @@
     "lng": 51.56093,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Morne Tunnel",
@@ -1720,7 +2027,9 @@
     "type": "dungeon",
     "boss_flags": [
       32000800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73200
   },
   {
     "name": "Murkwater Catacombs",
@@ -1731,7 +2040,9 @@
     "type": "dungeon",
     "boss_flags": [
       30040800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73004
   },
   {
     "name": "Murkwater Cave",
@@ -1742,7 +2053,9 @@
     "type": "dungeon",
     "boss_flags": [
       31000800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73100
   },
   {
     "name": "Old Altus Tunnel",
@@ -1753,7 +2066,9 @@
     "type": "dungeon",
     "boss_flags": [
       32040800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73204
   },
   {
     "name": "Ordina, Liturgical Town",
@@ -1761,7 +2076,9 @@
     "lng": 139.45,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76652
   },
   {
     "name": "Oridys's Rise",
@@ -1769,7 +2086,8 @@
     "lng": 118.160201,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Perfumer's Grotto",
@@ -1780,7 +2098,9 @@
     "type": "dungeon",
     "boss_flags": [
       31180800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73118
   },
   {
     "name": "Perfumer's Ruins",
@@ -1788,7 +2108,8 @@
     "lng": 62.774129,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Purified Ruins",
@@ -1796,7 +2117,8 @@
     "lng": 80.072098,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Ranni's Rise",
@@ -1804,7 +2126,9 @@
     "lng": 50.012044,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise",
+    "grace_flag": 76228
   },
   {
     "name": "Raya Lucaria Academy",
@@ -1812,7 +2136,8 @@
     "lng": 55.205,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Raya Lucaria Crystal Tunnel",
@@ -1823,7 +2148,9 @@
     "type": "dungeon",
     "boss_flags": [
       32020800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73202
   },
   {
     "name": "Redmane Castle",
@@ -1834,7 +2161,9 @@
     "type": "dungeon",
     "boss_flags": [
       9183
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 76419
   },
   {
     "name": "Renna's Rise",
@@ -1842,7 +2171,8 @@
     "lng": 53.604315,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Revenger's Shack",
@@ -1850,7 +2180,9 @@
     "lng": 45.732365,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76218
   },
   {
     "name": "Ringleader's Evergaol",
@@ -1858,7 +2190,8 @@
     "lng": 44.407354,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Road's End Catacombs",
@@ -1866,7 +2199,9 @@
     "lng": 45.168,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "catacomb",
+    "grace_flag": 73003
   },
   {
     "name": "Rose Church",
@@ -1874,7 +2209,8 @@
     "lng": 55.598321,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Royal Grave Evergaol",
@@ -1882,7 +2218,8 @@
     "lng": 66.208511,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Ruin-Strewn Precipice",
@@ -1893,7 +2230,9 @@
     "type": "dungeon",
     "boss_flags": [
       9126
-    ]
+    ],
+    "dungeon_type": "surface_poi",
+    "grace_flag": 73901
   },
   {
     "name": "Sage's Cave",
@@ -1905,7 +2244,9 @@
     "boss_flags": [
       31190800,
       31190850
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73119
   },
   {
     "name": "Sainted Hero's Grave",
@@ -1916,7 +2257,9 @@
     "type": "dungeon",
     "boss_flags": [
       30080800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73008
   },
   {
     "name": "Sealed Tunnel",
@@ -1924,7 +2267,9 @@
     "lng": 105.660584,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "tunnel",
+    "grace_flag": 73431
   },
   {
     "name": "Second Church of Marika",
@@ -1932,7 +2277,8 @@
     "lng": 83.195147,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Seethewater Cave",
@@ -1943,7 +2289,9 @@
     "type": "dungeon",
     "boss_flags": [
       31070800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73107
   },
   {
     "name": "Sellia Crystal Tunnel",
@@ -1951,7 +2299,9 @@
     "lng": 144.836114,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "tunnel",
+    "grace_flag": 73208
   },
   {
     "name": "Sellia Evergaol",
@@ -1959,7 +2309,8 @@
     "lng": 142.562,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Sellia Gateway",
@@ -1967,7 +2318,8 @@
     "lng": 147.737103,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Sellia Hideaway",
@@ -1978,7 +2330,9 @@
     "type": "dungeon",
     "boss_flags": [
       31110800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73111
   },
   {
     "name": "Sellia, Town of Sorcery",
@@ -1986,7 +2340,8 @@
     "lng": 148.115022,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Seluvis's Rise",
@@ -1994,7 +2349,8 @@
     "lng": 53.01976,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "Shack of the Lofty",
@@ -2002,7 +2358,8 @@
     "lng": 151.549638,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack"
   },
   {
     "name": "Shack of the Rotting",
@@ -2010,7 +2367,8 @@
     "lng": 127.763854,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack"
   },
   {
     "name": "Siofra River Well",
@@ -2018,7 +2376,9 @@
     "lng": 122.183791,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71270
   },
   {
     "name": "Slumbering Wolf's Shack",
@@ -2026,7 +2386,9 @@
     "lng": 66.81,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76215
   },
   {
     "name": "Smoldering Church",
@@ -2034,7 +2396,9 @@
     "lng": 124.477279,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76400
   },
   {
     "name": "Spiritcaller Cave",
@@ -2045,7 +2409,8 @@
     "type": "dungeon",
     "boss_flags": [
       30030800
-    ]
+    ],
+    "dungeon_type": "cave"
   },
   {
     "name": "Stargazer's Ruins",
@@ -2053,7 +2418,8 @@
     "lng": 155.201911,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Stillwater Cave",
@@ -2064,7 +2430,9 @@
     "type": "dungeon",
     "boss_flags": [
       31040800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73104
   },
   {
     "name": "Stormcaller Church",
@@ -2072,7 +2440,8 @@
     "lng": 89.15699,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church"
   },
   {
     "name": "Stormfoot Catacombs",
@@ -2083,7 +2452,9 @@
     "type": "dungeon",
     "boss_flags": [
       30020800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73002
   },
   {
     "name": "Stormgate",
@@ -2091,7 +2462,8 @@
     "lng": 101.121229,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Stormhill Evergaol",
@@ -2099,7 +2471,8 @@
     "lng": 99.56644,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "Stormhill Shack",
@@ -2107,7 +2480,9 @@
     "lng": 95.699559,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76102
   },
   {
     "name": "Stormveil Castle",
@@ -2115,7 +2490,8 @@
     "lng": 88.721627,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Stranded Graveyard",
@@ -2123,7 +2499,9 @@
     "lng": 103.0,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71801
   },
   {
     "name": "Street of Sages Ruins",
@@ -2131,7 +2509,8 @@
     "lng": 139.9,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Subterranean Shunning-Grounds",
@@ -2142,7 +2521,8 @@
     "type": "dungeon",
     "boss_flags": [
       9125
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Summonwater Village",
@@ -2150,7 +2530,9 @@
     "lng": 118.227006,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76119
   },
   {
     "name": "Swamp Lookout Tower",
@@ -2158,7 +2540,8 @@
     "lng": 146.116,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Temple Quarter",
@@ -2166,7 +2549,9 @@
     "lng": 52.746866,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76241
   },
   {
     "name": "Testu's Rise",
@@ -2174,7 +2559,8 @@
     "lng": 55.370114,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "rise"
   },
   {
     "name": "The Four Belfries",
@@ -2182,7 +2568,9 @@
     "lng": 46.934052,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76227
   },
   {
     "name": "The Shaded Castle",
@@ -2193,7 +2581,8 @@
     "type": "dungeon",
     "boss_flags": [
       9182
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Third Church of Marika",
@@ -2201,7 +2590,9 @@
     "lng": 123.402802,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "church",
+    "grace_flag": 76104
   },
   {
     "name": "Tombsward Catacombs",
@@ -2212,7 +2603,9 @@
     "type": "dungeon",
     "boss_flags": [
       30000800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73000
   },
   {
     "name": "Tombsward Cave",
@@ -2223,7 +2616,9 @@
     "type": "dungeon",
     "boss_flags": [
       31020800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73102
   },
   {
     "name": "Tombsward Ruins",
@@ -2231,7 +2626,9 @@
     "lng": 100.88663,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76152
   },
   {
     "name": "Tower of Return",
@@ -2239,7 +2636,8 @@
     "lng": 99.917936,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Unsightly Catacombs",
@@ -2247,7 +2645,9 @@
     "lng": 61.398984,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "catacomb",
+    "grace_flag": 73012
   },
   {
     "name": "Village of the Albinaurics",
@@ -2255,7 +2655,9 @@
     "lng": 52.637066,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76220
   },
   {
     "name": "Volcano Cave",
@@ -2266,7 +2668,9 @@
     "type": "dungeon",
     "boss_flags": [
       31090800
-    ]
+    ],
+    "dungeon_type": "cave",
+    "grace_flag": 73109
   },
   {
     "name": "Volcano Manor",
@@ -2277,7 +2681,9 @@
     "type": "dungeon",
     "boss_flags": [
       9129
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon",
+    "grace_flag": 71602
   },
   {
     "name": "Walking Mausoleum (Consecrated Snowfield)",
@@ -2285,7 +2691,9 @@
     "lng": 133.112383,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76550
   },
   {
     "name": "Walking Mausoleum (Liurnia of the Lakes Central)",
@@ -2293,7 +2701,8 @@
     "lng": 64.75,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Walking Mausoleum (Liurnia of the Lakes East)",
@@ -2301,7 +2710,8 @@
     "lng": 72.3,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Walking Mausoleum (Liurnia of the Lakes)",
@@ -2309,7 +2719,8 @@
     "lng": 72.16,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Walking Mausoleum (Mountaintops of the Giants)",
@@ -2317,7 +2728,8 @@
     "lng": 155.55,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Walking Mausoleum (Weeping Peninsula)",
@@ -2325,7 +2737,8 @@
     "lng": 102.06,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "War-Dead Catacombs",
@@ -2336,7 +2749,9 @@
     "type": "dungeon",
     "boss_flags": [
       30160800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73016
   },
   {
     "name": "Warmaster's Shack",
@@ -2344,7 +2759,9 @@
     "lng": 101.5,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "shack",
+    "grace_flag": 76118
   },
   {
     "name": "Waypoint Ruins",
@@ -2352,7 +2769,9 @@
     "lng": 113.935002,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76120
   },
   {
     "name": "Weeping Evergaol",
@@ -2360,7 +2779,8 @@
     "lng": 98.446034,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "gaol"
   },
   {
     "name": "West Windmill Pasture",
@@ -2368,7 +2788,8 @@
     "lng": 86.561366,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Windmill Village Pasture",
@@ -2376,7 +2797,9 @@
     "lng": 95.71,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 76308
   },
   {
     "name": "Witchbane Ruins",
@@ -2384,7 +2807,8 @@
     "lng": 96.246485,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Woodfolk Ruins",
@@ -2392,7 +2816,8 @@
     "lng": 95.331539,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Writheblood Ruins",
@@ -2400,7 +2825,8 @@
     "lng": 87.228239,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Wyndham Catacombs",
@@ -2411,7 +2837,9 @@
     "type": "dungeon",
     "boss_flags": [
       30070800
-    ]
+    ],
+    "dungeon_type": "catacomb",
+    "grace_flag": 73007
   },
   {
     "name": "Wyndham Ruins",
@@ -2419,7 +2847,8 @@
     "lng": 75.226403,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Yelough Anix Ruins",
@@ -2427,7 +2856,8 @@
     "lng": 132.993458,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Yelough Anix Tunnel",
@@ -2438,7 +2868,9 @@
     "type": "dungeon",
     "boss_flags": [
       32110800
-    ]
+    ],
+    "dungeon_type": "tunnel",
+    "grace_flag": 73211
   },
   {
     "name": "Zamor Ruins",
@@ -2446,7 +2878,9 @@
     "lng": 145.891674,
     "region": "surface",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins",
+    "grace_flag": 76501
   },
   {
     "name": "Grand Cloister",
@@ -2454,7 +2888,9 @@
     "lng": 54.65953,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71218
   },
   {
     "name": "Hallowhorn Grounds",
@@ -2462,7 +2898,8 @@
     "lng": 133.840227,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds",
@@ -2470,7 +2907,8 @@
     "lng": 132.07928,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (1)",
@@ -2478,7 +2916,8 @@
     "lng": 131.824941,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (2)",
@@ -2486,7 +2925,8 @@
     "lng": 129.941307,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (3)",
@@ -2494,7 +2934,8 @@
     "lng": 135.342489,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (4)",
@@ -2502,7 +2943,8 @@
     "lng": 140.23,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (5)",
@@ -2510,7 +2952,8 @@
     "lng": 139.5,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (6)",
@@ -2518,7 +2961,8 @@
     "lng": 136.91,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (7)",
@@ -2526,7 +2970,8 @@
     "lng": 140.0,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (8)",
@@ -2534,7 +2979,8 @@
     "lng": 138.17,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (a)",
@@ -2542,7 +2988,8 @@
     "lng": 132.781009,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (b)",
@@ -2550,7 +2997,8 @@
     "lng": 131.067153,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (c)",
@@ -2558,7 +3006,8 @@
     "lng": 129.445743,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (d)",
@@ -2566,7 +3015,8 @@
     "lng": 127.398852,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (e)",
@@ -2574,7 +3024,8 @@
     "lng": 127.906287,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Hallowhorn Grounds Altar (f)",
@@ -2582,7 +3033,8 @@
     "lng": 130.524048,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Mohgwyn Dynasty Mausoleum",
@@ -2594,7 +3046,8 @@
     "boss_flags": [
       9112,
       9174
-    ]
+    ],
+    "dungeon_type": "legacy_dungeon"
   },
   {
     "name": "Night's Sacred Ground",
@@ -2602,7 +3055,9 @@
     "lng": 128.731253,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71226
   },
   {
     "name": "Nokron, Eternal City",
@@ -2615,7 +3070,9 @@
       9110,
       9133,
       9134
-    ]
+    ],
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71271
   },
   {
     "name": "Nokstella, Eternal City",
@@ -2626,7 +3083,9 @@
     "type": "dungeon",
     "boss_flags": [
       9109
-    ]
+    ],
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71215
   },
   {
     "name": "Siofra Aqueduct",
@@ -2634,7 +3093,8 @@
     "lng": 135.544211,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi"
   },
   {
     "name": "Uhl Palace Ruins",
@@ -2642,7 +3102,8 @@
     "lng": 71.790136,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Uhl Palace Ruins",
@@ -2650,7 +3111,8 @@
     "lng": 74.660638,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "ruins"
   },
   {
     "name": "Walking Mausoleum (Deeproot Depths)",
@@ -2658,6 +3120,8 @@
     "lng": 112.44,
     "region": "underground",
     "category": "dungeon",
-    "type": "dungeon"
+    "type": "dungeon",
+    "dungeon_type": "surface_poi",
+    "grace_flag": 71233
   }
 ]

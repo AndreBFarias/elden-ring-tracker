@@ -5,7 +5,7 @@
     "lng": 137.1518122204492,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76860
   },
   {
     "name": "Ancient Ruins Base",
@@ -13,7 +13,7 @@
     "lng": 120.66007628290075,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76912
   },
   {
     "name": "Ancient Ruins, Grand Stairway",
@@ -21,7 +21,7 @@
     "lng": 101.19941152782854,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76944
   },
   {
     "name": "Behind the Fort of Reprimand",
@@ -29,7 +29,7 @@
     "lng": 130.67524718401572,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76910
   },
   {
     "name": "Belurat Gaol",
@@ -37,7 +37,7 @@
     "lng": 103.30846094749589,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74100
   },
   {
     "name": "Belurat Tower Settlement",
@@ -45,7 +45,7 @@
     "lng": 99.00402566668262,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72001
   },
   {
     "name": "Bonny Gaol Site of Grace",
@@ -53,7 +53,7 @@
     "lng": 133.49793299328277,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74101
   },
   {
     "name": "Bonny Village Site of Grace",
@@ -61,7 +61,7 @@
     "lng": 131.47246061620362,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76903
   },
   {
     "name": "Bridge Leading to the Village",
@@ -69,7 +69,7 @@
     "lng": 140.04308816668262,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76904
   },
   {
     "name": "Castle Ensis Checkpoint",
@@ -77,7 +77,7 @@
     "lng": 118.73843547226284,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76821
   },
   {
     "name": "Castle Front",
@@ -85,7 +85,7 @@
     "lng": 115.81702456703528,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76813
   },
   {
     "name": "Castle Watering Hole",
@@ -93,7 +93,7 @@
     "lng": 129.73114989832754,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76916
   },
   {
     "name": "Castle-Lord's Chamber",
@@ -101,7 +101,7 @@
     "lng": 121.8425863921717,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76822
   },
   {
     "name": "Cathedral of Manus Metyr",
@@ -109,7 +109,7 @@
     "lng": 138.58283377696034,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76906
   },
   {
     "name": "Cerulean  Coast Cross",
@@ -117,7 +117,7 @@
     "lng": 123.55170438121188,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76835
   },
   {
     "name": "Cerulean Coast",
@@ -125,7 +125,7 @@
     "lng": 120.28090537021531,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76831
   },
   {
     "name": "Cerulean Coast West",
@@ -133,7 +133,7 @@
     "lng": 109.47157812214404,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76832
   },
   {
     "name": "Charo's Hidden Grave",
@@ -141,7 +141,7 @@
     "lng": 120.81133239086776,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76841
   },
   {
     "name": "Church District Entrance",
@@ -149,7 +149,7 @@
     "lng": 133.089928001051,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72106
   },
   {
     "name": "Church District Highroad",
@@ -157,7 +157,7 @@
     "lng": 141.08225972742642,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76905
   },
   {
     "name": "Church Ruins",
@@ -165,7 +165,7 @@
     "lng": 149.39805311749106,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76864
   },
   {
     "name": "Church of the Bud",
@@ -173,7 +173,7 @@
     "lng": 97.35560632485439,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76945
   },
   {
     "name": "Church of the Bud, Main Entrance",
@@ -181,7 +181,7 @@
     "lng": 97.55133404485417,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76943
   },
   {
     "name": "Cleansing Chamber Anteroom",
@@ -189,7 +189,7 @@
     "lng": 93.90258850916234,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72015
   },
   {
     "name": "Cliffroad Terminus",
@@ -197,7 +197,7 @@
     "lng": 104.45822013660349,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76804
   },
   {
     "name": "Dark Chamber Entrance",
@@ -205,7 +205,7 @@
     "lng": 126.3165761800859,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72114
   },
   {
     "name": "Darklight Catacombs Site of Grace",
@@ -213,7 +213,7 @@
     "lng": 139.2235587358344,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74002
   },
   {
     "name": "Discussion Chamber",
@@ -221,7 +221,7 @@
     "lng": 127.62132365541035,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72800
   },
   {
     "name": "Divided Falls",
@@ -229,7 +229,7 @@
     "lng": 125.51122752353318,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76861
   },
   {
     "name": "Divine GateFront Staircase",
@@ -237,7 +237,7 @@
     "lng": 97.44526390435816,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72016
   },
   {
     "name": "Dragon's Pit",
@@ -245,7 +245,7 @@
     "lng": 120.55084408129227,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74301
   },
   {
     "name": "Dragon's Pit Terminus",
@@ -253,7 +253,7 @@
     "lng": 124.38748272139463,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74351
   },
   {
     "name": "Ellac River Cave",
@@ -261,7 +261,7 @@
     "lng": 117.48470299559303,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76812
   },
   {
     "name": "Ellac River Downstream",
@@ -269,7 +269,7 @@
     "lng": 117.77716382402669,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76830
   },
   {
     "name": "Enir-Ilim: Outer Wall",
@@ -277,7 +277,7 @@
     "lng": 97.69495065752571,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72012
   },
   {
     "name": "Ensis Moongazing Grounds",
@@ -285,7 +285,7 @@
     "lng": 121.37150643735148,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76823
   },
   {
     "name": "Finger Birthing Grounds",
@@ -293,7 +293,7 @@
     "lng": 138.12109375,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72500
   },
   {
     "name": "Finger Ruins of Rhia",
@@ -301,7 +301,7 @@
     "lng": 134.63271958882643,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76834
   },
   {
     "name": "Fingerstone Hill",
@@ -309,7 +309,7 @@
     "lng": 145.59114178737892,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76936
   },
   {
     "name": "First Rise",
@@ -317,7 +317,7 @@
     "lng": 98.75940471050315,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72013
   },
   {
     "name": "Fissure Cross",
@@ -325,7 +325,7 @@
     "lng": 123.26201434267044,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72202
   },
   {
     "name": "Fissure Depths",
@@ -333,7 +333,7 @@
     "lng": 128.3354450102348,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72204
   },
   {
     "name": "Fissure Waypoint",
@@ -341,7 +341,7 @@
     "lng": 124.30198954069006,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72203
   },
   {
     "name": "Fog Rift Catacombs",
@@ -349,7 +349,7 @@
     "lng": 114.26974116363553,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74000
   },
   {
     "name": "Foot of the Jagged Peak",
@@ -357,7 +357,7 @@
     "lng": 142.52509670135274,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76850
   },
   {
     "name": "Forsaken Graveyard",
@@ -365,7 +365,7 @@
     "lng": 145.14163462113163,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76862
   },
   {
     "name": "Fort of Reprimand Site of Grace",
@@ -373,7 +373,7 @@
     "lng": 130.14460550516358,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76909
   },
   {
     "name": "Garden of Deep Purple",
@@ -381,7 +381,7 @@
     "lng": 126.02696181546654,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72200
   },
   {
     "name": "Gate of Divinity",
@@ -389,7 +389,7 @@
     "lng": 96.0669888674374,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72010
   },
   {
     "name": "Grand Altar of Dragon Communion",
@@ -397,7 +397,7 @@
     "lng": 130.86107686802626,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76840
   },
   {
     "name": "Gravesite Plain",
@@ -405,7 +405,7 @@
     "lng": 112.2229475587187,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76800
   },
   {
     "name": "Greatbrdige, North",
@@ -413,7 +413,7 @@
     "lng": 109.57400883636447,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76805
   },
   {
     "name": "Highroad Cross",
@@ -421,7 +421,7 @@
     "lng": 121.99526409134528,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76900
   },
   {
     "name": "Hinterland",
@@ -429,7 +429,7 @@
     "lng": 131.7448613998812,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76935
   },
   {
     "name": "Hinterland Bridge",
@@ -437,7 +437,7 @@
     "lng": 139.23060440847195,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76937
   },
   {
     "name": "Jagged Peak Mountainside",
@@ -445,7 +445,7 @@
     "lng": 158.49383308029726,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76851
   },
   {
     "name": "Jagged Peak Summit",
@@ -453,7 +453,7 @@
     "lng": 159.6799257540288,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76852
   },
   {
     "name": "Lamenter's Gaol",
@@ -461,7 +461,7 @@
     "lng": 113.12779045088317,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74102
   },
   {
     "name": "Main Gate Cross",
@@ -469,7 +469,7 @@
     "lng": 102.52725093104551,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76803
   },
   {
     "name": "Main Gate Plaza",
@@ -477,7 +477,7 @@
     "lng": 125.629394620499,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72101
   },
   {
     "name": "Manse Hall",
@@ -485,7 +485,7 @@
     "lng": 128.03546183855786,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72801
   },
   {
     "name": "Messmer's Dark Chamber",
@@ -493,7 +493,7 @@
     "lng": 125.9859964757357,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72110
   },
   {
     "name": "Midra's Library",
@@ -501,7 +501,7 @@
     "lng": 127.71484375,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72802
   },
   {
     "name": "Moorth Highway, South Site of Grace",
@@ -509,7 +509,7 @@
     "lng": 128.3554973096783,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76908
   },
   {
     "name": "Moorth Ruins Site of Grace",
@@ -517,7 +517,7 @@
     "lng": 127.34026928920673,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76902
   },
   {
     "name": "Pillar Path Cross",
@@ -525,7 +525,7 @@
     "lng": 123.48809838652895,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76810
   },
   {
     "name": "Pillar Path Waypoint",
@@ -533,7 +533,7 @@
     "lng": 121.5071079022075,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76811
   },
   {
     "name": "Rauh Ancient Ruins, East",
@@ -541,7 +541,7 @@
     "lng": 108.78543081906801,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76941
   },
   {
     "name": "Rauh Ancient Ruins, West",
@@ -549,7 +549,7 @@
     "lng": 104.22328027897095,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76942
   },
   {
     "name": "Ravine North",
@@ -557,7 +557,7 @@
     "lng": 104.46467239193018,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76914
   },
   {
     "name": "Recluses' River Downstream",
@@ -565,7 +565,7 @@
     "lng": 136.02107715119104,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76918
   },
   {
     "name": "Recluses' River Upstream",
@@ -573,7 +573,7 @@
     "lng": 133.27588936144795,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76917
   },
   {
     "name": "Rest of the Dread Dragon",
@@ -581,7 +581,7 @@
     "lng": 161.6608788098611,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76853
   },
   {
     "name": "Rivermouth Cave",
@@ -589,7 +589,7 @@
     "lng": 108.73870250525498,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74300
   },
   {
     "name": "Ruined Forge Lava Intake",
@@ -597,7 +597,7 @@
     "lng": 120.25351926635898,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74200
   },
   {
     "name": "Ruined Forge of Starfall Past",
@@ -605,7 +605,7 @@
     "lng": 123.79303158129227,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74202
   },
   {
     "name": "Scadu Atlus, West",
@@ -613,7 +613,7 @@
     "lng": 116.76999677275636,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76907
   },
   {
     "name": "Scadutree Base",
@@ -621,7 +621,7 @@
     "lng": 133.73638860384105,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76960
   },
   {
     "name": "Scaduview",
@@ -629,7 +629,7 @@
     "lng": 128.98654482155914,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76930
   },
   {
     "name": "Scaduview Cross Site of Grace",
@@ -637,7 +637,7 @@
     "lng": 134.1449653571102,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76911
   },
   {
     "name": "Scorched Ruins",
@@ -645,7 +645,7 @@
     "lng": 114.84759627467557,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76801
   },
   {
     "name": "Scorpion River Catacombs",
@@ -653,7 +653,7 @@
     "lng": 97.69877179103455,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74001
   },
   {
     "name": "Second Floor Chamber",
@@ -661,7 +661,7 @@
     "lng": 127.40253367186072,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72803
   },
   {
     "name": "Shadow Keep Main Gate",
@@ -669,7 +669,7 @@
     "lng": 125.38716285299762,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72102
   },
   {
     "name": "Shadow Keep, Back Gate",
@@ -677,7 +677,7 @@
     "lng": 129.55829958531348,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76931
   },
   {
     "name": "Small Private Altar",
@@ -685,7 +685,7 @@
     "lng": 101.08214959855486,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72002
   },
   {
     "name": "Spiral Rise",
@@ -693,7 +693,7 @@
     "lng": 94.51953553395174,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72014
   },
   {
     "name": "Stagefront",
@@ -701,7 +701,7 @@
     "lng": 99.48839425791611,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72003
   },
   {
     "name": "Stone Coffin Fissure",
@@ -709,7 +709,7 @@
     "lng": 119.39018295486774,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72201
   },
   {
     "name": "Storehouse, Back Section",
@@ -717,7 +717,7 @@
     "lng": 128.89411570668068,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72116
   },
   {
     "name": "Storehouse, First Floor",
@@ -725,7 +725,7 @@
     "lng": 128.36276860377444,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72111
   },
   {
     "name": "Storehouse, Fourth Floor",
@@ -733,7 +733,7 @@
     "lng": 127.76204004638092,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72112
   },
   {
     "name": "Storehouse, Loft",
@@ -741,7 +741,7 @@
     "lng": 128.90974356264852,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72117
   },
   {
     "name": "Storehouse, Seventh Floor",
@@ -749,7 +749,7 @@
     "lng": 127.99648358960884,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72113
   },
   {
     "name": "Sunken Chapel",
@@ -757,7 +757,7 @@
     "lng": 130.7144481984555,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72107
   },
   {
     "name": "Taylew's Ruined Forge",
@@ -765,7 +765,7 @@
     "lng": 121.80932344978066,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 74203
   },
   {
     "name": "Temple Town Ruins",
@@ -773,7 +773,7 @@
     "lng": 106.52239505392217,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76913
   },
   {
     "name": "The Fissure",
@@ -781,7 +781,7 @@
     "lng": 117.03921112995626,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76833
   },
   {
     "name": "Theatre of the Divine Beast",
@@ -789,7 +789,7 @@
     "lng": 100.1135331145238,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72000
   },
   {
     "name": "Three-Path Cross",
@@ -797,7 +797,7 @@
     "lng": 110.54207483206909,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76802
   },
   {
     "name": "Tree-Worship Passage",
@@ -805,7 +805,7 @@
     "lng": 131.24610802983915,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72108
   },
   {
     "name": "Tree-Worship Sanctum",
@@ -813,7 +813,7 @@
     "lng": 132.70597454190275,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72109
   },
   {
     "name": "Viaduct Minor Tower",
@@ -821,7 +821,7 @@
     "lng": 114.24495707480351,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76940
   },
   {
     "name": "West Rampart",
@@ -829,7 +829,7 @@
     "lng": 123.82427015742095,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 72120
   },
   {
     "name": "Woodland Trail",
@@ -837,7 +837,7 @@
     "lng": 143.14414059579127,
     "region": "dlc",
     "category": "grace",
-    "flag": null
+    "flag": 76863
   },
   {
     "name": "Auriza Hero's Grave",
@@ -872,20 +872,12 @@
     "flag": 73500
   },
   {
-    "name": "Divine Tower of East Altus",
+    "name": "Divine Tower of the East Altus",
     "lat": -110.53125,
     "lng": 134.808985,
     "region": "extra",
     "category": "grace",
-    "flag": null
-  },
-  {
-    "name": "Divine Tower of East Altus: Gates",
-    "lat": -108.609375,
-    "lng": 134.575845,
-    "region": "extra",
-    "category": "grace",
-    "flag": null
+    "flag": 73451
   },
   {
     "name": "East Capital Rampart",
@@ -896,28 +888,12 @@
     "flag": 71102
   },
   {
-    "name": "Elden Throne Site of Grace",
-    "lat": -107,
-    "lng": 120,
-    "region": "extra",
-    "category": "grace",
-    "flag": null
-  },
-  {
     "name": "Erdtree Sanctuary",
     "lat": -106.90625,
     "lng": 116.769971,
     "region": "extra",
     "category": "grace",
     "flag": 71101
-  },
-  {
-    "name": "Forbiden Lands",
-    "lat": -101,
-    "lng": 131,
-    "region": "extra",
-    "category": "grace",
-    "flag": null
   },
   {
     "name": "Fractured Marika",
@@ -1016,12 +992,12 @@
     "flag": 73106
   },
   {
-    "name": "Academy Gate Town (Sites of Grace)",
+    "name": "Academy Gate Town",
     "lat": -146.331249,
     "lng": 68.393031,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76204
   },
   {
     "name": "Aeonia Swamp Shore",
@@ -1072,20 +1048,20 @@
     "flag": 76303
   },
   {
-    "name": "Altus Plateau (Site of Grace)",
+    "name": "Altus Plateau",
     "lat": -103.093,
     "lng": 76.8,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76301
   },
   {
-    "name": "Altus Tunnel (Site of Grace)",
+    "name": "Altus Tunnel",
     "lat": -92.75,
     "lng": 93.11782,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73205
   },
   {
     "name": "Ancient Snow Valley Ruins",
@@ -1104,20 +1080,20 @@
     "flag": 76653
   },
   {
-    "name": "Artist's Shack",
-    "lat": -140.984375,
-    "lng": 77.399713,
-    "region": "surface",
-    "category": "grace",
-    "flag": null
-  },
-  {
     "name": "Artist's Shack (Limgrave)",
     "lat": -181.82,
     "lng": 114.68,
     "region": "surface",
     "category": "grace",
     "flag": 76103
+  },
+  {
+    "name": "Artist's Shack (Liurnia)",
+    "lat": -140.984375,
+    "lng": 77.399713,
+    "region": "surface",
+    "category": "grace",
+    "flag": 76217
   },
   {
     "name": "Astray from Caelid Highway North",
@@ -1173,15 +1149,15 @@
     "lng": 108.212797,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76159
   },
   {
-    "name": "Bellum Church (Site of Grace)",
+    "name": "Bellum Church",
     "lat": -116.0,
     "lng": 64.2,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76208
   },
   {
     "name": "Beside the Crater-Pocked Glade",
@@ -1424,12 +1400,12 @@
     "flag": 76150
   },
   {
-    "name": "Church of Repose (Site of Grace)",
+    "name": "Church of Repose",
     "lat": -89.67,
     "lng": 156.67,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76507
   },
   {
     "name": "Church of Vows",
@@ -1496,12 +1472,12 @@
     "flag": 73019
   },
   {
-    "name": "Converted Tower (Site of Grace)",
+    "name": "Converted Tower",
     "lat": -152.578125,
     "lng": 48.227065,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76237
   },
   {
     "name": "Craftsman's Shack",
@@ -1544,12 +1520,12 @@
     "flag": 73011
   },
   {
-    "name": "Debate Hall Site of Grace",
+    "name": "Debate Parlour",
     "lat": -138.78125,
     "lng": 58.627136,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 71401
   },
   {
     "name": "Deep Siofra Well",
@@ -1584,22 +1560,6 @@
     "flag": 73441
   },
   {
-    "name": "Divine Tower of East Altus",
-    "lat": -111.086,
-    "lng": 135.141,
-    "region": "surface",
-    "category": "grace",
-    "flag": null
-  },
-  {
-    "name": "Divine Tower of East Altus: Gate",
-    "lat": -109.0,
-    "lng": 135.0,
-    "region": "surface",
-    "category": "grace",
-    "flag": null
-  },
-  {
     "name": "Divine Tower of Limgrave",
     "lat": -167.59375,
     "lng": 114.559258,
@@ -1624,12 +1584,20 @@
     "flag": 73430
   },
   {
-    "name": "Divine Tower of West Altus Gate",
+    "name": "Divine Tower of West Altus: Gate",
     "lat": -113.65625,
     "lng": 106.174932,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73432
+  },
+  {
+    "name": "Divine Tower of the East Altus: Gate",
+    "lat": -109.0,
+    "lng": 135.0,
+    "region": "surface",
+    "category": "grace",
+    "flag": 73450
   },
   {
     "name": "Dragon Temple",
@@ -1792,12 +1760,12 @@
     "flag": 76302
   },
   {
-    "name": "Fallen Ruins of the Lakes",
+    "name": "Fallen Ruins of the Lake",
     "lat": -146.837499,
     "lng": 60.819587,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76236
   },
   {
     "name": "Farum Greatbridge",
@@ -1896,12 +1864,12 @@
     "flag": 76453
   },
   {
-    "name": "Fort Gael North Site",
+    "name": "Fort Gael North",
     "lat": -177.46875,
     "lng": 128.97619,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76402
   },
   {
     "name": "Fort Haight West",
@@ -1952,12 +1920,12 @@
     "flag": 76239
   },
   {
-    "name": "Gael Tunnel (Site of Grace)",
+    "name": "Gael Tunnel",
     "lat": -173.623438,
     "lng": 128.043241,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73207
   },
   {
     "name": "Gaol Cave",
@@ -1984,12 +1952,12 @@
     "flag": 76233
   },
   {
-    "name": "Gatefront Ruins",
+    "name": "Gatefront",
     "lat": -185.78125,
     "lng": 102.102529,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76111
   },
   {
     "name": "Gateside Chamber",
@@ -2029,7 +1997,7 @@
     "lng": 161.931,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76506
   },
   {
     "name": "Godrick the Grafted",
@@ -2048,12 +2016,12 @@
     "flag": 76209
   },
   {
-    "name": "Grand Lift of Rold (Site of Grace)",
+    "name": "Grand Lift of Rold",
     "lat": -91.631771,
     "lng": 143.785505,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76502
   },
   {
     "name": "Groveside Cave",
@@ -2136,12 +2104,12 @@
     "flag": 73020
   },
   {
-    "name": "Highroad Cave Site",
+    "name": "Highroad Cave",
     "lat": -173.759375,
     "lng": 108.714048,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73117
   },
   {
     "name": "Impaler's Catacombs",
@@ -2189,7 +2157,7 @@
     "lng": 135.690235,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76451
   },
   {
     "name": "Isolated Merchant's Shack (Weeping Peninsula)",
@@ -2197,7 +2165,7 @@
     "lng": 93.882722,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76156
   },
   {
     "name": "Jarburg",
@@ -2232,20 +2200,12 @@
     "flag": 76202
   },
   {
-    "name": "Lenne's Rise. (Site of Grace)",
+    "name": "Lenne's Rise",
     "lat": -163.03125,
     "lng": 163.91397,
     "region": "surface",
     "category": "grace",
-    "flag": null
-  },
-  {
-    "name": "Leyndell Catacomb",
-    "lat": -103.015625,
-    "lng": 116.900597,
-    "region": "surface",
-    "category": "grace",
-    "flag": null
+    "flag": 76455
   },
   {
     "name": "Liftside Chamber",
@@ -2312,12 +2272,12 @@
     "flag": 71103
   },
   {
-    "name": "Magma Wyrm Site of Grace",
+    "name": "Magma Wyrm",
     "lat": -103.93906,
     "lng": 68.1343,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73900
   },
   {
     "name": "Main Academy Gate",
@@ -2368,12 +2328,12 @@
     "flag": 76230
   },
   {
-    "name": "Margit, the Fell Omen Site",
+    "name": "Margit, the Fell Omen",
     "lat": -182.726562,
     "lng": 91.395637,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 71001
   },
   {
     "name": "Mausoleum Compound",
@@ -2440,20 +2400,20 @@
     "flag": 73004
   },
   {
+    "name": "Murkwater Cave",
+    "lat": -185.92,
+    "lng": 108.29,
+    "region": "surface",
+    "category": "grace",
+    "flag": 73100
+  },
+  {
     "name": "Murkwater Coast",
     "lat": -182.578125,
     "lng": 109.887881,
     "region": "surface",
     "category": "grace",
     "flag": 76116
-  },
-  {
-    "name": "Murkwaver Cave (Site of Grace)",
-    "lat": -185.92,
-    "lng": 108.29,
-    "region": "surface",
-    "category": "grace",
-    "flag": null
   },
   {
     "name": "Ninth Mt. Gelmir Campsite",
@@ -2648,12 +2608,12 @@
     "flag": 76213
   },
   {
-    "name": "Road's End Catacombs (Site of Grace)",
+    "name": "Road's End Catacombs",
     "lat": -150.548437,
     "lng": 45.091716,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73003
   },
   {
     "name": "Rotview Balcony",
@@ -2712,12 +2672,12 @@
     "flag": 73119
   },
   {
-    "name": "Sainted Hero's Grave (Site of Grace)",
+    "name": "Sainted Hero's Grave",
     "lat": -95.05,
     "lng": 88.7,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73008
   },
   {
     "name": "Saintsbridge",
@@ -2736,12 +2696,12 @@
     "flag": 76203
   },
   {
-    "name": "Schoolhouse Classroom Site",
+    "name": "Schoolhouse Classroom",
     "lat": -137.828125,
     "lng": 58.050843,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 71403
   },
   {
     "name": "Sealed Tunnel",
@@ -3064,12 +3024,12 @@
     "flag": 73000
   },
   {
-    "name": "Tombsward Cave (Site of Grace)",
+    "name": "Tombsward Cave",
     "lat": -213.26875,
     "lng": 98.04179,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73102
   },
   {
     "name": "Underground Roadside",
@@ -3088,12 +3048,12 @@
     "flag": 73012
   },
   {
-    "name": "Village of the Albinaurics (Site of Grace)",
+    "name": "Village of the Albinaurics",
     "lat": -159.453125,
     "lng": 51.760557,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 76220
   },
   {
     "name": "Volcano Cave",
@@ -3104,12 +3064,12 @@
     "flag": 73109
   },
   {
-    "name": "Volcano Manor (Site of Grace)",
+    "name": "Volcano Manor",
     "lat": -87.28125,
     "lng": 65.05065,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 71602
   },
   {
     "name": "War-Dead Catacombs",
@@ -3176,12 +3136,12 @@
     "flag": 73007
   },
   {
-    "name": "Yelough Anix Tunnel Site of Grace",
+    "name": "Yelough Anix Tunnel",
     "lat": -77.939063,
     "lng": 133.693052,
     "region": "surface",
     "category": "grace",
-    "flag": null
+    "flag": 73211
   },
   {
     "name": "Zamor Ruins",
@@ -3280,12 +3240,12 @@
     "flag": 71233
   },
   {
-    "name": "Dragonkin Soldier",
+    "name": "Dragonkin Soldier of Nokstella",
     "lat": -124.0625,
     "lng": 65.109314,
     "region": "underground",
     "category": "grace",
-    "flag": null
+    "flag": 71210
   },
   {
     "name": "Dynasty Mausoleum Entrance",
@@ -3416,11 +3376,11 @@
     "flag": 71234
   },
   {
-    "name": "Worshipper's Woods",
+    "name": "Worshippers' Woods",
     "lat": -178.898437,
     "lng": 138.730923,
     "region": "underground",
     "category": "grace",
-    "flag": null
+    "flag": 71223
   }
 ]

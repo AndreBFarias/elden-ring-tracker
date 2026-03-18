@@ -50,6 +50,10 @@ assets/models/
 # Ambientes virtuais alternativos
 venv_requirements-dev/
 
+# Rascunhos de pesquisa e docs internas de sprint
+DEEP_RESEARCH_PROMPT_*.md
+sprint*.md
+
 # Build artifacts
 packaging/appimage/build/
 build-flatpak/

@@ -1,15 +1,172 @@
 [
-  {"flag_id": 20, "name": "Game Clear - Age of Fracture", "type": "ending"},
-  {"flag_id": 21, "name": "Game Clear - Age of Duskborn", "type": "ending"},
-  {"flag_id": 22, "name": "Game Clear - Age of Order", "type": "ending"},
-  {"flag_id": 23, "name": "Game Clear - Lord of Frenzied Flame", "type": "ending"},
-  {"flag_id": 24, "name": "Game Clear - Age of Stars", "type": "ending"},
-  {"flag_id": 100, "name": "Arrived at the Lands Between", "type": "milestone"},
-  {"flag_id": 101, "name": "Arrived at Chapel of Anticipation", "type": "milestone"},
-  {"flag_id": 108, "name": "Acquired Frenzied Flame", "type": "milestone"},
-  {"flag_id": 120, "name": "Game Completed", "type": "milestone"},
-  {"flag_id": 128, "name": "Entered Shadow of the Erdtree", "type": "milestone"},
-  {"flag_id": 130, "name": "Entered Stormveil Castle", "type": "milestone"},
-  {"flag_id": 310, "name": "Radahn Festival Started", "type": "milestone"},
-  {"flag_id": 330, "name": "Romina Defeated (DLC progression)", "type": "milestone"}
+  {
+    "flag_id": 20,
+    "name": "Playthrough Complete: Age of Fracture",
+    "type": "ending"
+  },
+  {
+    "flag_id": 21,
+    "name": "Playthrough Complete: Age of Stars",
+    "type": "ending"
+  },
+  {
+    "flag_id": 22,
+    "name": "Playthrough Complete: Lord of the Frenzied Flame",
+    "type": "ending"
+  },
+  {
+    "flag_id": 23,
+    "name": "Playthrough Complete: Unused Ending A",
+    "type": "ending"
+  },
+  {
+    "flag_id": 24,
+    "name": "Playthrough Complete: Unused Ending B",
+    "type": "ending"
+  },
+  {
+    "flag_id": 100,
+    "name": "Story: Start",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 101,
+    "name": "Arrived at Chapel of Anticipation",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 102,
+    "name": "Story: Reached Limgrave",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 104,
+    "name": "Story: Reached Roundtable Hold",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 108,
+    "name": "Story: Received the Frenzied Flame",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 110,
+    "name": "Story: Reached Forge of the Giants",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 111,
+    "name": "Story: Forge of the Giants - Melina Variant A",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 112,
+    "name": "Story: Forge of the Giants - Melina Variant B",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 114,
+    "name": "Story: Ranni Questline Complete",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 116,
+    "name": "Story: Frenzied Flame Nullified (Miquella's Needle)",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 118,
+    "name": "Story: Erdtree on Fire",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 120,
+    "name": "Story: Game Completed",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 128,
+    "name": "Story: Entered Shadow of the Erdtree",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 130,
+    "name": "Story: Entered Stormveil Castle",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 131,
+    "name": "Story: Entered Raya Lucaria Academy",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 132,
+    "name": "Story: Entered Leyndell Royal Capital",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 133,
+    "name": "Story: Entered Volcano Manor",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 134,
+    "name": "Story: Entered Crumbling Farum Azula",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 135,
+    "name": "Story: Entered Miquella's Haligtree",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 140,
+    "name": "Story: Entered Mohgwyn Palace",
+    "type": "milestone"
+  },
+  {
+    "flag_id": 300,
+    "name": "World Event: Erdtree Burnt (Leyndell Transformation)",
+    "type": "world_event"
+  },
+  {
+    "flag_id": 301,
+    "name": "World Event: Flaming Sparks",
+    "type": "world_event"
+  },
+  {
+    "flag_id": 302,
+    "name": "World Event: Small Flames",
+    "type": "world_event"
+  },
+  {
+    "flag_id": 310,
+    "name": "World Event: Green Meteorite (Nokron Access)",
+    "type": "world_event"
+  },
+  {
+    "flag_id": 320,
+    "name": "World Event: Carian Study Hall Reversal",
+    "type": "world_event"
+  },
+  {
+    "flag_id": 330,
+    "name": "World Event: Romina Defeated (DLC Progression)",
+    "type": "world_event"
+  },
+  {
+    "flag_id": 9500,
+    "name": "Obtained Mending Rune of Perfect Order",
+    "type": "mending_rune"
+  },
+  {
+    "flag_id": 9502,
+    "name": "Obtained Mending Rune of the Death-Prince",
+    "type": "mending_rune"
+  },
+  {
+    "flag_id": 9504,
+    "name": "Obtained Mending Rune of the Fell Curse",
+    "type": "mending_rune"
+  }
 ]
