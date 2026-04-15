@@ -273,7 +273,8 @@ def _render_subcategory_header(
 
 
 def _render_category_auto(
-    slot_index: int, category: str, region: str, completion_mode: str = "a_fazer"
+    slot_index: int, category: str, region: str, completion_mode: str = "a_fazer",
+    include_dlc: bool = True, include_altered: bool = True, search_query: str = "",
 ) -> None:
     cat_config = CATEGORIES.get(category)
     if not cat_config:
@@ -281,6 +282,16 @@ def _render_category_auto(
     color = cat_config.color
     label = cat_config.display_name
     progress = get_progress(slot_index, category, region=region)
+
+    progress["items"] = _apply_filters(
+        progress["items"], include_dlc, include_altered, search_query,
+    )
+    progress["total"] = len(progress["items"])
+    progress["completed"] = sum(1 for i in progress["items"] if i["completed"])
+    progress["remaining"] = progress["total"] - progress["completed"]
+
+    if search_query and not progress["items"]:
+        return
 
     done_count = sum(1 for i in progress["items"] if i["completed"])
     pending_count = sum(1 for i in progress["items"] if not i["completed"])
@@ -366,7 +377,24 @@ def _render_category_ref(category: str, region: str) -> None:
         _render_ref_list(category, progress["items"])
 
 
-def render(slot_index: int, region: str = "", completion_mode: str = "a_fazer") -> None:
+def _apply_filters(
+    items: list[dict], include_dlc: bool, include_altered: bool, search_query: str,
+) -> list[dict]:
+    result = items
+    if not include_dlc:
+        result = [i for i in result if not i.get("is_dlc")]
+    if not include_altered:
+        result = [i for i in result if not i.get("is_altered")]
+    if search_query:
+        query_lower = search_query.lower()
+        result = [i for i in result if query_lower in i.get("name", "").lower()]
+    return result
+
+
+def render(
+    slot_index: int, region: str = "", completion_mode: str = "a_fazer",
+    include_dlc: bool = True, include_altered: bool = True,
+) -> None:
     overall = get_overall_stats(slot_index, region=region)
 
     st.markdown(
@@ -383,7 +411,12 @@ def render(slot_index: int, region: str = "", completion_mode: str = "a_fazer") 
         c3.metric("Restante", overall["remaining"])
         st.progress(min(overall["percentage"] / 100, 1.0))
 
-    st.markdown("")
+    search_query = st.text_input(
+        "Buscar itens",
+        key="progress_search",
+        placeholder="Buscar por nome...",
+        label_visibility="collapsed",
+    ).strip()
 
     for group_name, cat_keys in CATEGORY_GROUPS.items():
         st.markdown(
@@ -398,7 +431,11 @@ def render(slot_index: int, region: str = "", completion_mode: str = "a_fazer") 
             if category not in CATEGORIES:
                 continue
             if category in AUTO_DETECT_CATEGORIES:
-                _render_category_auto(slot_index, category, region, completion_mode)
+                _render_category_auto(
+                    slot_index, category, region, completion_mode,
+                    include_dlc=include_dlc, include_altered=include_altered,
+                    search_query=search_query,
+                )
             else:
                 _render_category_ref(category, region)
 

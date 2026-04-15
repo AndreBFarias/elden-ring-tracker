@@ -276,6 +276,10 @@ def get_progress(
         subcategory = entry.get("subcategory")
         if subcategory:
             item_dict["subcategory"] = subcategory
+        if entry.get("is_dlc"):
+            item_dict["is_dlc"] = True
+        if entry.get("is_altered"):
+            item_dict["is_altered"] = True
         items.append(item_dict)
 
     completed_count = sum(1 for i in items if i["completed"])
