@@ -2,6 +2,33 @@
 
 ## [Não lançado]
 
+## [1.4.0] - 2026-04-15
+
+### Adicionado
+- Subcategorização de itens: 38 tipos de arma, 4 slots de armadura (Head/Body/Arms/Legs), Sorcery/Incantation para feitiços, 13 afinidades para Ashes of War
+- Spirit Ashes como nova categoria trackeável: 84 entradas (64 base + 20 DLC) com IDs extraídos do formato BND4
+- Cards visuais na tab Progresso: thumbnails base64 inline, links para wiki Fextralife, tags de região
+- `wiki_links.json` com 2072 links determinísticos para wiki Fextralife
+- `scripts/fetch_item_images.py` para download de thumbnails .webp (fonte: CyberGiant7 GitHub)
+- `scripts/enrich_subcategories.py` para enriquecimento automatizado de items.json
+- Dropdown de subcategoria dentro de cada expander de equipamento (filtra por tipo específico)
+- Toggle "Incluir DLC" na sidebar: filtra itens com `is_dlc` em todas as categorias
+- Toggle "Incluir armaduras alteradas" na sidebar: filtra armaduras com `(Altered)` no nome
+- Busca full-text na tab Progresso: filtra por nome cross-categoria com ocultação automática de categorias vazias
+- Dropdown de ordenação (Padrão, A-Z, Região) na tab Progresso
+- `npc_quests.json` com dados skeleton de 5 NPCs principais (Ranni, Alexander, Millicent, Blaidd, Nepheli)
+- `QUEST_TRACKING_RESEARCH.md` documentando abordagens para extração de quest flags
+- `SPRINTS_FUTUROS.md` com planejamento de 6 sprints futuros (10-15)
+- Novos arquivos de referência: `weapon_types.json`, `armor_slots.json`, `spell_types.json`, `ash_of_war_types.json`
+
+### Alterado
+- `items.json` enriquecido com campos `subcategory`, `is_dlc`, `is_altered` para 3087 itens
+- `item_ids.json` expandido com categoria `spirit_ash` (84 IDs)
+- `inventory_parser.py` resolve Spirit Ashes na cadeia de goods
+- `map_config.py` inclui SPIRIT_ASH como CategoryConfig em Equipamento
+- `progress_tracker.py` propaga subcategory, is_dlc, is_altered nos dicts de progresso
+- `tabs/progress.py` refatorado com subcategory_resolver, cards visuais, filtros e busca
+
 ## [1.3.0] - 2026-03-18
 
 ### Adicionado

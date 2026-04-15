@@ -63,3 +63,8 @@ flatpak-repo/
 *.flatpak
 *.deb
 assets/item_images/
+
+# Screenshots de teste
+sprint*.png
+audit-*.png
+.playwright-mcp/
