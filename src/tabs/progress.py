@@ -275,6 +275,7 @@ def _render_subcategory_header(
 def _render_category_auto(
     slot_index: int, category: str, region: str, completion_mode: str = "a_fazer",
     include_dlc: bool = True, include_altered: bool = True, search_query: str = "",
+    sort_mode: str = "Padrão",
 ) -> None:
     cat_config = CATEGORIES.get(category)
     if not cat_config:
@@ -289,6 +290,11 @@ def _render_category_auto(
     progress["total"] = len(progress["items"])
     progress["completed"] = sum(1 for i in progress["items"] if i["completed"])
     progress["remaining"] = progress["total"] - progress["completed"]
+
+    if sort_mode == "A-Z":
+        progress["items"].sort(key=lambda i: i.get("name", "").lower())
+    elif sort_mode == "Região":
+        progress["items"].sort(key=lambda i: (i.get("region", ""), i.get("name", "").lower()))
 
     if search_query and not progress["items"]:
         return
@@ -411,12 +417,21 @@ def render(
         c3.metric("Restante", overall["remaining"])
         st.progress(min(overall["percentage"] / 100, 1.0))
 
-    search_query = st.text_input(
-        "Buscar itens",
-        key="progress_search",
-        placeholder="Buscar por nome...",
-        label_visibility="collapsed",
-    ).strip()
+    col_search, col_sort = st.columns([0.7, 0.3])
+    with col_search:
+        search_query = st.text_input(
+            "Buscar itens",
+            key="progress_search",
+            placeholder="Buscar por nome...",
+            label_visibility="collapsed",
+        ).strip()
+    with col_sort:
+        sort_mode = st.selectbox(
+            "Ordenar",
+            options=["Padrão", "A-Z", "Região"],
+            key="progress_sort",
+            label_visibility="collapsed",
+        )
 
     for group_name, cat_keys in CATEGORY_GROUPS.items():
         st.markdown(
@@ -434,7 +449,7 @@ def render(
                 _render_category_auto(
                     slot_index, category, region, completion_mode,
                     include_dlc=include_dlc, include_altered=include_altered,
-                    search_query=search_query,
+                    search_query=search_query, sort_mode=sort_mode,
                 )
             else:
                 _render_category_ref(category, region)
