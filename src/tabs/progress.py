@@ -1,3 +1,8 @@
+import base64
+import json
+import re
+from pathlib import Path
+
 import streamlit as st
 
 from log import get_logger
@@ -8,6 +13,57 @@ from subcategory_resolver import group_by_subcategory, has_subcategories
 logger = get_logger("pages.progress")
 
 ITEMS_PER_PAGE = 50
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+IMAGES_DIR = PROJECT_ROOT / "assets" / "item_images"
+REFERENCES_DIR = PROJECT_ROOT / "data" / "references"
+
+_wiki_links: dict[str, str] | None = None
+_image_cache: dict[str, str] = {}
+
+
+def _load_wiki_links() -> dict[str, str]:
+    global _wiki_links
+    if _wiki_links is not None:
+        return _wiki_links
+    path = REFERENCES_DIR / "wiki_links.json"
+    if path.exists():
+        try:
+            with open(str(path), encoding="utf-8") as f:
+                _wiki_links = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            _wiki_links = {}
+    else:
+        _wiki_links = {}
+    return _wiki_links
+
+
+def _sanitize_filename(name: str) -> str:
+    clean = re.sub(r"[^\w\s\-'.()]", "", name)
+    clean = re.sub(r"\s+", "_", clean.strip())
+    return clean[:120]
+
+
+def _get_image_b64(item_name: str, category: str) -> str:
+    cache_key = f"{category}/{item_name}"
+    if cache_key in _image_cache:
+        return _image_cache[cache_key]
+
+    filename = _sanitize_filename(item_name) + ".webp"
+    path = IMAGES_DIR / category / filename
+    if path.exists():
+        data = path.read_bytes()
+        b64 = base64.b64encode(data).decode()
+        _image_cache[cache_key] = b64
+        return b64
+
+    _image_cache[cache_key] = ""
+    return ""
+
+
+def _get_wiki_url(item_name: str) -> str:
+    links = _load_wiki_links()
+    return links.get(item_name, "")
 
 AUTO_DETECT_CATEGORIES = {
     "boss", "grace", "dungeon", "flask_upgrade", "ash_of_war", "map_fragment", "key_item",
@@ -58,26 +114,59 @@ def _render_item_list(
 
     st.caption(f"{total_items} itens | página {current_page + 1}/{total_pages}")
 
+    base_cat = category.split("_")[0] if "_" in category else category
+
     for idx, item in enumerate(page_items, start=start):
         name = item["name"]
         region = item.get("region", "")
         key = f"chk_{category}_{status_key}_{idx}_{name}"
 
+        img_b64 = _get_image_b64(name, base_cat)
+        wiki_url = _get_wiki_url(name)
+
+        img_html = ""
+        if img_b64:
+            img_html = (
+                f'<img src="data:image/webp;base64,{img_b64}" '
+                f'style="width:40px;height:40px;object-fit:contain;'
+                f'border-radius:4px;background:#44475a;margin-right:0.5rem;'
+                f'vertical-align:middle;" />'
+            )
+
         region_tag = (
-            f' <span style="color:#8be9fd;font-size:0.75rem;">({region})</span>'
+            f' <span style="color:#8be9fd;font-size:0.7rem;">({region})</span>'
             if region
             else ""
         )
-        name_html = (
-            f'<span style="font-family:monospace;">{name}{region_tag}</span>'
+
+        wiki_link = ""
+        if wiki_url:
+            wiki_link = (
+                f' <a href="{wiki_url}" target="_blank" '
+                f'style="color:#bd93f9;font-size:0.7rem;text-decoration:none;'
+                f'margin-left:0.3rem;" title="Abrir na wiki">Wiki</a>'
+            )
+
+        completed = item.get("completed", False)
+        border_color = "#50fa7b" if completed else "#44475a"
+
+        card_html = (
+            f'<div style="display:flex;align-items:center;'
+            f'background:#282a36;border:1px solid {border_color};'
+            f'border-radius:6px;padding:0.4rem 0.6rem;margin-bottom:0.3rem;">'
+            f'{img_html}'
+            f'<div style="flex:1;">'
+            f'<span style="font-family:monospace;font-size:0.85rem;color:#f8f8f2;">'
+            f'{name}</span>{region_tag}{wiki_link}'
+            f'</div></div>'
         )
 
-        col1, col2 = st.columns([0.8, 0.2])
+        col1, col2 = st.columns([0.85, 0.15])
         with col1:
-            st.markdown(name_html, unsafe_allow_html=True)
+            st.markdown(card_html, unsafe_allow_html=True)
         with col2:
             if st.button(
-                "Ver no Mapa",
+                "Mapa",
                 key=f"map_{key}",
                 use_container_width=True,
             ):
