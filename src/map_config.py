@@ -188,6 +188,16 @@ SPELL = CategoryConfig(
     reference_file="items.json",
 )
 
+SPIRIT_ASH = CategoryConfig(
+    key="spirit_ash",
+    display_name="Espíritos Invocáveis",
+    color="#5dade2",
+    symbol="\u2727",
+    icon_filename="spirit_ash.png",
+    icon_size=(28, 28),
+    reference_file="items.json",
+)
+
 CONSUMABLE = CategoryConfig(
     key="consumable",
     display_name="Consumíveis",
@@ -298,6 +308,7 @@ CATEGORIES: dict[str, CategoryConfig] = {
     "shield": SHIELD,
     "talisman": TALISMAN,
     "ash_of_war": ASH_OF_WAR,
+    "spirit_ash": SPIRIT_ASH,
     "spell": SPELL,
     "consumable": CONSUMABLE,
     "material": MATERIAL,
@@ -313,14 +324,14 @@ CATEGORIES: dict[str, CategoryConfig] = {
 
 ITEM_CATEGORIES = {
     "weapon", "armor", "shield", "talisman", "ash_of_war",
-    "spell", "consumable", "material", "upgrade_material",
+    "spirit_ash", "spell", "consumable", "material", "upgrade_material",
     "flask_upgrade", "key_item", "map_fragment",
 }
 
 CATEGORY_GROUPS: dict[str, list[str]] = {
     "Locais": ["boss", "grace", "dungeon", "waygate"],
     "Personagens": ["npc", "npc_invader"],
-    "Equipamento": ["weapon", "armor", "shield", "talisman", "ash_of_war"],
+    "Equipamento": ["weapon", "armor", "shield", "talisman", "ash_of_war", "spirit_ash"],
     "Magias e Consumíveis": ["spell", "consumable", "flask_upgrade"],
     "Materiais": ["material", "upgrade_material", "key_item", "map_fragment"],
 }

@@ -26,6 +26,7 @@ CATEGORY_FILES = {
     "shield": "items.json",
     "talisman": "items.json",
     "ash_of_war": "items.json",
+    "spirit_ash": "items.json",
     "spell": "items.json",
     "consumable": "items.json",
     "material": "items.json",
@@ -70,12 +71,12 @@ AUTO_TRACKED = {
     "flask_upgrade", "ash_of_war", "map_fragment", "key_item",
     "weapon", "armor", "shield", "talisman", "spell",
     "consumable", "material", "upgrade_material",
-    "npc",
+    "spirit_ash", "npc",
 }
 
 ITEM_CATEGORIES_WITH_NORMALIZATION = {
     "weapon", "armor", "shield", "talisman", "spell",
-    "consumable", "material", "upgrade_material",
+    "consumable", "material", "upgrade_material", "spirit_ash",
 }
 
 _RE_QTY_SUFFIX = re.compile(r"\s+x\d+$")
@@ -266,12 +267,20 @@ def get_progress(
             is_auto = name in auto_completed
         is_manual = name in manual_completed
         is_done = is_auto or is_manual
-        items.append({
+        item_dict: dict[str, Any] = {
             "name": name,
             "region": entry.get("region", ""),
             "completed": is_done,
             "source": "auto" if is_auto else ("manual" if is_manual else "none"),
-        })
+        }
+        subcategory = entry.get("subcategory")
+        if subcategory:
+            item_dict["subcategory"] = subcategory
+        if entry.get("is_dlc"):
+            item_dict["is_dlc"] = True
+        if entry.get("is_altered"):
+            item_dict["is_altered"] = True
+        items.append(item_dict)
 
     completed_count = sum(1 for i in items if i["completed"])
     remaining = total - completed_count

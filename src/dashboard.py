@@ -243,7 +243,7 @@ def _format_slot(slot_names: dict[int, str], index: int) -> str:
     return f"Slot {index} - {name}"
 
 
-def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str, str]:
+def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str, str, bool, bool]:
     with st.sidebar:
         icon_path = ICONS_DIR / "icon.png"
         if icon_path.exists():
@@ -294,7 +294,7 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str, str]:
                         logger.exception("Erro ao sincronizar slot %d", slot_index)
                         st.error(f"Erro na sincronização: {exc}")
                         st.session_state["_syncing"] = False
-                        return slot_index, "surface", "", {}, ""
+                        return slot_index, "surface", "", {}, "", "", True, True
                 st.session_state.pop("slot_names", None)
                 st.session_state["_syncing"] = False
                 st.session_state["_sync_success"] = True
@@ -364,6 +364,11 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str, str]:
             label_visibility="collapsed",
         )
 
+        include_dlc = st.checkbox("Incluir DLC", value=True, key="include_dlc")
+        include_altered = st.checkbox(
+            "Incluir armaduras alteradas", value=True, key="include_altered",
+        )
+
         st.markdown("### CAMADAS")
 
         col_sel, col_desel = st.columns(2)
@@ -406,7 +411,7 @@ def _render_sidebar() -> tuple[int, str, str, dict[str, bool], str, str]:
         )
 
     completion_mode = st.session_state.get("completion_mode", "a_fazer")
-    return slot_index, map_region, filter_region, layer_visibility, search_query, completion_mode
+    return slot_index, map_region, filter_region, layer_visibility, search_query, completion_mode, include_dlc, include_altered
 
 
 def _render_metrics(slot_index: int, region: str = "") -> None:
@@ -538,7 +543,7 @@ def main() -> None:
 
     initialize_db()
 
-    slot_index, map_region, filter_region, layer_visibility, search_query, completion_mode = _render_sidebar()
+    slot_index, map_region, filter_region, layer_visibility, search_query, completion_mode, include_dlc, include_altered = _render_sidebar()
 
     _auto_sync_if_needed(slot_index)
 
@@ -561,7 +566,10 @@ def main() -> None:
 
     with tab_progress:
         from tabs import progress as page_progress
-        page_progress.render(slot_index, region=filter_region, completion_mode=completion_mode)
+        page_progress.render(
+            slot_index, region=filter_region, completion_mode=completion_mode,
+            include_dlc=include_dlc, include_altered=include_altered,
+        )
 
     with tab_missable:
         from tabs import missable as page_missable

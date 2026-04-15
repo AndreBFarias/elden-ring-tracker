@@ -1,0 +1,88 @@
+[
+  {
+    "npc": "Ranni the Witch",
+    "questline": "Age of the Stars",
+    "region": "underground",
+    "steps": [
+      {"step": "Encontrar Ranni em Ranni's Rise", "flag_id": null},
+      {"step": "Falar com Blaidd, Iji e Seluvis", "flag_id": null},
+      {"step": "Derrotar Starscourge Radahn", "flag_id": null},
+      {"step": "Explorar Nokron e obter Fingerslayer Blade", "flag_id": null},
+      {"step": "Entregar blade para Ranni", "flag_id": null},
+      {"step": "Obter inverted statue e explorar Carian Study Hall", "flag_id": null},
+      {"step": "Obter Cursemark of Death na Divine Tower of Liurnia", "flag_id": null},
+      {"step": "Explorar Ainsel River e Lake of Rot", "flag_id": null},
+      {"step": "Derrotar Astel, Naturalborn of the Void", "flag_id": null},
+      {"step": "Encontrar Ranni na Moonlight Altar e obter Dark Moon Ring", "flag_id": null}
+    ],
+    "reward": "Age of the Stars ending",
+    "missable": true,
+    "loss_condition": "Queimar a Erdtree antes de completar"
+  },
+  {
+    "npc": "Iron Fist Alexander",
+    "questline": "Alexander's Journey",
+    "region": "surface",
+    "steps": [
+      {"step": "Encontrar Alexander preso em Stormhill", "flag_id": null},
+      {"step": "Ajudar Alexander em Gael Tunnel", "flag_id": null},
+      {"step": "Encontrar Alexander em Mt. Gelmir (lava)", "flag_id": null},
+      {"step": "Invocar Alexander contra Fire Giant", "flag_id": null},
+      {"step": "Encontrar Alexander em Crumbling Farum Azula", "flag_id": null},
+      {"step": "Derrotar Alexander em duelo", "flag_id": 7606}
+    ],
+    "reward": "Alexander's Innards, Shard of Alexander",
+    "missable": false,
+    "loss_condition": null
+  },
+  {
+    "npc": "Millicent",
+    "questline": "Millicent's Prosthesis",
+    "region": "surface",
+    "steps": [
+      {"step": "Obter Unalloyed Gold Needle de Commander O'Neil", "flag_id": null},
+      {"step": "Entregar needle para Millicent em Church of the Plague", "flag_id": null},
+      {"step": "Encontrar Millicent em Erdtree-Gazing Hill", "flag_id": null},
+      {"step": "Entregar Valkyrie's Prosthesis", "flag_id": null},
+      {"step": "Encontrar Millicent em Windmill Heights", "flag_id": null},
+      {"step": "Encontrar Millicent em Mountaintops of the Giants", "flag_id": null},
+      {"step": "Encontrar Millicent em Prayer Room (Haligtree)", "flag_id": null},
+      {"step": "Ajudar ou trair Millicent no Haligtree", "flag_id": 7611}
+    ],
+    "reward": "Rotten Winged Sword Insignia / Millicent's Prosthesis",
+    "missable": true,
+    "loss_condition": "Nao entregar Gold Needle ou perder janela de invocacao"
+  },
+  {
+    "npc": "Blaidd",
+    "questline": "Blaidd's Loyalty",
+    "region": "surface",
+    "steps": [
+      {"step": "Encontrar Blaidd em Mistwood (howl)", "flag_id": null},
+      {"step": "Obter Snap Gesture de Kale", "flag_id": null},
+      {"step": "Falar com Blaidd sobre Radahn Festival", "flag_id": null},
+      {"step": "Invocar Blaidd contra Radahn", "flag_id": null},
+      {"step": "Encontrar Blaidd em Nokron", "flag_id": null},
+      {"step": "Encontrar Blaidd hostil em Ranni's Rise (pos-quest Ranni)", "flag_id": null}
+    ],
+    "reward": "Royal Greatsword, Blaidd's Armor Set",
+    "missable": false,
+    "loss_condition": null
+  },
+  {
+    "npc": "Nepheli Loux",
+    "questline": "Nepheli's Ascension",
+    "region": "surface",
+    "steps": [
+      {"step": "Encontrar Nepheli em Stormveil Castle", "flag_id": null},
+      {"step": "Invocar Nepheli contra Godrick", "flag_id": null},
+      {"step": "Falar com Nepheli em Roundtable Hold", "flag_id": null},
+      {"step": "Entregar Stormhawk King", "flag_id": null},
+      {"step": "Completar quest de Kenneth Haight", "flag_id": null},
+      {"step": "Derrotar Morgott para trigger Nepheli em throne", "flag_id": null}
+    ],
+    "reward": "Ancient Dragon Smithing Stone",
+    "missable": true,
+    "loss_condition": "Derrotar Morgott antes de completar passos"
+  }
+]
