@@ -3,6 +3,7 @@ import streamlit as st
 from log import get_logger
 from map_config import CATEGORIES, CATEGORY_GROUPS
 from progress_tracker import get_overall_stats, get_progress
+from subcategory_resolver import group_by_subcategory, has_subcategories
 
 logger = get_logger("pages.progress")
 
@@ -166,6 +167,22 @@ def _render_ref_list(category: str, items: list[dict]) -> None:
                 st.rerun()
 
 
+def _render_subcategory_header(
+    sub_name: str, done: int, total: int, color: str,
+) -> None:
+    pct = (done / total * 100) if total > 0 else 0
+    st.markdown(
+        f'<div style="margin-top:0.8rem;margin-bottom:0.3rem;'
+        f'padding:0.3rem 0.5rem;border-left:3px solid {color};'
+        f'background:rgba(68,71,90,0.3);border-radius:0 4px 4px 0;">'
+        f'<span style="color:#f8f8f2;font-family:monospace;font-weight:bold;'
+        f'font-size:0.85rem;">{sub_name}</span>'
+        f' <span style="color:#6272a4;font-family:monospace;font-size:0.8rem;">'
+        f'{done}/{total} ({pct:.0f}%)</span></div>',
+        unsafe_allow_html=True,
+    )
+
+
 def _render_category_auto(
     slot_index: int, category: str, region: str, completion_mode: str = "a_fazer"
 ) -> None:
@@ -180,14 +197,62 @@ def _render_category_auto(
     pending_count = sum(1 for i in progress["items"] if not i["completed"])
 
     if completion_mode == "feito":
-        expander_label = f"{label} — {done_count} concluídos"
+        expander_label = f"{label} — {done_count}/{progress['total']} concluídos"
     else:
-        expander_label = f"{label} — {pending_count} pendentes"
+        expander_label = f"{label} — {pending_count}/{progress['total']} pendentes"
 
-    with st.expander(expander_label, expanded=False):
-        _render_progress_bar(label, progress["completed"], progress["total"], color)
-        show_completed = completion_mode == "feito"
-        _render_item_list(slot_index, category, progress["items"], show_completed=show_completed)
+    show_completed = completion_mode == "feito"
+
+    if has_subcategories(category):
+        grouped = group_by_subcategory(progress["items"], category)
+        with st.expander(expander_label, expanded=False):
+            _render_progress_bar(label, progress["completed"], progress["total"], color)
+
+            sub_options = ["Todas"] + list(grouped.keys())
+            filter_key = f"sub_filter_{category}"
+            selected_sub = st.selectbox(
+                "Subcategoria",
+                options=sub_options,
+                index=0,
+                key=filter_key,
+                label_visibility="collapsed",
+            )
+
+            if selected_sub == "Todas":
+                for sub_name, sub_items in grouped.items():
+                    done = sum(1 for i in sub_items if i["completed"])
+                    _render_subcategory_header(sub_name, done, len(sub_items), color)
+                    filtered = [i for i in sub_items if i["completed"] == show_completed]
+                    if filtered:
+                        for item in filtered[:5]:
+                            region_tag = (
+                                f' <span style="color:#8be9fd;font-size:0.7rem;">'
+                                f'({item.get("region", "")})</span>'
+                                if item.get("region")
+                                else ""
+                            )
+                            st.markdown(
+                                f'<span style="font-family:monospace;font-size:0.8rem;'
+                                f'color:#f8f8f2;padding-left:0.5rem;">'
+                                f'{item["name"]}{region_tag}</span>',
+                                unsafe_allow_html=True,
+                            )
+                        if len(filtered) > 5:
+                            st.caption(f"... +{len(filtered) - 5} itens")
+            else:
+                sub_items = grouped.get(selected_sub, [])
+                done = sum(1 for i in sub_items if i["completed"])
+                _render_subcategory_header(selected_sub, done, len(sub_items), color)
+                _render_item_list(
+                    slot_index, f"{category}_{selected_sub}",
+                    sub_items, show_completed,
+                )
+    else:
+        with st.expander(expander_label, expanded=False):
+            _render_progress_bar(label, progress["completed"], progress["total"], color)
+            _render_item_list(
+                slot_index, category, progress["items"], show_completed=show_completed,
+            )
 
 
 def _render_category_ref(category: str, region: str) -> None:

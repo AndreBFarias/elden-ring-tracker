@@ -267,12 +267,16 @@ def get_progress(
             is_auto = name in auto_completed
         is_manual = name in manual_completed
         is_done = is_auto or is_manual
-        items.append({
+        item_dict: dict[str, Any] = {
             "name": name,
             "region": entry.get("region", ""),
             "completed": is_done,
             "source": "auto" if is_auto else ("manual" if is_manual else "none"),
-        })
+        }
+        subcategory = entry.get("subcategory")
+        if subcategory:
+            item_dict["subcategory"] = subcategory
+        items.append(item_dict)
 
     completed_count = sum(1 for i in items if i["completed"])
     remaining = total - completed_count
