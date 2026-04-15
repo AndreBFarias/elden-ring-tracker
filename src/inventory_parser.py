@@ -26,7 +26,7 @@ TYPE_NAMES = {
 
 TRACKED_CATEGORIES = {
     "weapon", "armor", "shield", "talisman", "spell",
-    "consumable", "material", "upgrade_material",
+    "consumable", "material", "upgrade_material", "spirit_ash",
 }
 
 WEAPON_REINFORCE_STEP = 10000
@@ -83,7 +83,7 @@ def _resolve_name(
     type_name: str, item_id: int, db: dict[str, dict[int, str]],
 ) -> str:
     if type_name == "goods":
-        for lookup in ("upgrade_material", "spell", "consumable", "material"):
+        for lookup in ("spirit_ash", "upgrade_material", "spell", "consumable", "material"):
             name = db.get(lookup, {}).get(item_id)
             if name:
                 return name
@@ -204,7 +204,7 @@ def parse_inventory(
                 continue
 
             if type_name == "goods":
-                for actual_cat in ("upgrade_material", "spell", "consumable", "material"):
+                for actual_cat in ("spirit_ash", "upgrade_material", "spell", "consumable", "material"):
                     if actual_cat not in result:
                         continue
                     name = db.get(actual_cat, {}).get(item_id)

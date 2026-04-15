@@ -1,0 +1,5 @@
+{
+  "_comment": "Classificação de feitiços: range do ID (id // 1000) determina o tipo",
+  "sorcery_ranges": [4, 5, 2004, 2005],
+  "incantation_ranges": [6, 7, 2006, 2007]
+}

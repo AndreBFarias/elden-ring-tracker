@@ -1,0 +1,7 @@
+{
+  "_comment": "Mapeamento de slot de armadura via sufixo do ID: (id % 10000) % 1000",
+  "0": "Head",
+  "100": "Body",
+  "200": "Arms",
+  "300": "Legs"
+}

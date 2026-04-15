@@ -26,6 +26,7 @@ CATEGORY_FILES = {
     "shield": "items.json",
     "talisman": "items.json",
     "ash_of_war": "items.json",
+    "spirit_ash": "items.json",
     "spell": "items.json",
     "consumable": "items.json",
     "material": "items.json",
@@ -70,12 +71,12 @@ AUTO_TRACKED = {
     "flask_upgrade", "ash_of_war", "map_fragment", "key_item",
     "weapon", "armor", "shield", "talisman", "spell",
     "consumable", "material", "upgrade_material",
-    "npc",
+    "spirit_ash", "npc",
 }
 
 ITEM_CATEGORIES_WITH_NORMALIZATION = {
     "weapon", "armor", "shield", "talisman", "spell",
-    "consumable", "material", "upgrade_material",
+    "consumable", "material", "upgrade_material", "spirit_ash",
 }
 
 _RE_QTY_SUFFIX = re.compile(r"\s+x\d+$")
