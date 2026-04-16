@@ -163,7 +163,7 @@ Há dois tipos de flag relevantes:
 
 ### Banco SQLite (`data/tracker.db`)
 
-Localização em produção: `~/.local/share/elden-ring-tracker/tracker.db`
+Localização em produção: `~/.local/share/GraceMap/tracker.db`
 Localização em desenvolvimento: `data/tracker.db`
 
 Tabelas principais:
@@ -299,7 +299,7 @@ Configuração em `pyproject.toml`: target Python 3.10, linha máxima 100, regra
 Todos os módulos usam `log.get_logger(nome)`. Os logs são rotacionados (`RotatingFileHandler`) e salvos em:
 
 - Desenvolvimento: `logs/`
-- Instalado em `/opt`: `~/.local/share/elden-ring-tracker/logs/`
+- Instalado em `/opt`: `~/.local/share/GraceMap/logs/`
 
 Nunca usar `print()` em código de produção — usar sempre o logger.
 

@@ -21,7 +21,7 @@ jobs:
         run: dpkg-buildpackage -us -uc -b
 
       - name: Mover artefato
-        run: mv ../elden-ring-tracker_*.deb .
+        run: mv ../GraceMap_*.deb .
 
       - uses: actions/upload-artifact@v4
         with:
@@ -62,7 +62,7 @@ jobs:
       - name: Build Flatpak
         run: |
           flatpak-builder --user --force-clean --repo=flatpak-repo build-flatpak packaging/flatpak/com.github.andrefarias.EldenRingTracker.yml
-          flatpak build-bundle flatpak-repo elden-ring-tracker.flatpak com.github.andrefarias.EldenRingTracker
+          flatpak build-bundle flatpak-repo GraceMap.flatpak com.github.andrefarias.EldenRingTracker
 
       - uses: actions/upload-artifact@v4
         with:
